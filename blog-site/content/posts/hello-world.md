@@ -2,6 +2,8 @@
 title: "Hello, World!"
 date: 2021-01-02T22:00:00Z
 draft: false
+tags: ["coding", "retro"]
+categories: ["coding"]
 ---
 
 I learned to code on a computer called the BBC Micro, released by the BBC in 1981 - the year I was born.
