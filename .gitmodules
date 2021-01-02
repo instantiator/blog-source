@@ -1,7 +1,3 @@
 [submodule "blog-site/themes/uBlogger"]
 	path = blog-site/themes/uBlogger
 	url = https://github.com/uPagge/uBlogger.git
-[submodule "blog-site/public"]
-	path = blog-site/public
-	url = https://github.com/instantiator/instantiator.github.io.git
-	branch = main
