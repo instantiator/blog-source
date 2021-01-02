@@ -1,0 +1,3 @@
+[submodule "blog-site/themes/uBlogger"]
+	path = blog-site/themes/uBlogger
+	url = https://github.com/uPagge/uBlogger.git
