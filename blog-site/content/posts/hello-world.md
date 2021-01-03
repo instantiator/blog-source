@@ -1,13 +1,14 @@
 ---
 title: "Hello, World!"
-date: 2021-01-02T22:00:00Z
+date: 2021-01-01T22:00:00Z
 draft: false
 tags: ["coding", "retro"]
 categories: ["coding"]
 ---
 
-I learned to code on a computer called the BBC Micro, released by the BBC in 1981 - the year I was born.
-Coding is a joyous experience, and anyone can learn to do it.
+I learned to code on a computer called the BBC Micro, released by the BBC in 1981. I was also released
+in 1981, and I have a bit of a bond with these 8-bit wonders. Coding is a joyous experience, and anyone
+can learn to do it. This is a post about retro-coding, and my first written post for this blog.
 
 {{< tweet 1233996696721465344 >}}
 
@@ -37,3 +38,6 @@ Hello, World!
 If you'd like to have a play around with BBC BASIC today, or relive the glory days of 8-bit computing, you can try out the [@BBCMicroBot](https://twitter.com/bbcmicrobot) tutorial [Coding like it's 1985](https://www.bbcmicrobot.com/learn/index.html), from [Dominic Pajak](https://twitter.com/DominicPajak).
 
 {{< tweet 1343809084407967745 >}}
+
+If you want to learn to code from scratch with modern technologies, watch this space.
+I'll be posting some thoughts about how to get started for yourself.

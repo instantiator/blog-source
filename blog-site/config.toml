@@ -4,8 +4,31 @@ title = "Lewis Westbury"
 theme = "uBlogger"
 
 [params]
-  # uBlogger theme version
   version = "1.2.X"
+
+  [params.social]
+    Twitter = "instantiator"
+    Linkedin = "lewiswestbury"
+    GitHub = "instantiator"
+    Medium = "@instantiator"
+    Devto = "instantiator"
+    Email = "lewis@cantab.net"
+    RSS = true
+
+  [params.home.profile]
+    social = true
+
+  [params.page]
+     [params.page.share]
+      enable = true
+      Twitter = true
+      Facebook = true
+      Linkedin = false
+      Whatsapp = true
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      Evernote = true
 
 [menu]
   [[menu.main]]
