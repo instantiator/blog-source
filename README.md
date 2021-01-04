@@ -16,3 +16,8 @@ cd blog-site
 hugo
 ```
 
+## images
+
+Place images in the `static/` folder.
+
+Refer to them at `/static/...`

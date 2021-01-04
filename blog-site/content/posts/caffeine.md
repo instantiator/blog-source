@@ -1,7 +1,7 @@
 ---
 title: "Keeping jobs alive with caffeine"
 date: 2021-01-02T19:00:00Z
-draft: true
+draft: false
 tags: ["linux", "os x", "tool"]
 categories: ["tools"]
 ---
@@ -18,8 +18,12 @@ with `caffeine`. Its job is to keep the computer awake until the command exits.
 eg.
 
 ```bash
+caffeine ./my-long-running-script.sh
 caffeine python ./my-long-running-script.py
+caffeine docker run <image>
 ```
 
-It's really that simple. Take a look at the manual pages for it on your system to see what other
+It's really that simple.
+
+Take a look at the manual pages for it on your system to see what other
 options there are: `man caffeine`

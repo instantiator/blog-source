@@ -1,7 +1,7 @@
 ---
-title: "What language should I learn?"
+title: "Choosing your first coding language"
 date: 2021-01-03T15:00:00Z
-draft: true
+draft: false
 tags: ["coding", "beginner"]
 categories: ["coding"]
 ---
