@@ -6,7 +6,7 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
-At first glance, Amazon Web Services (AWS) can seem impenetrably complex. It's not so bad once you've found your way around it...
+At first glance, Amazon Web Services (AWS) can seem impenetrably complex, but it's not so bad once you've found your way around it...
 
 # Let's build an AWS Lambda in C#
 
@@ -27,7 +27,7 @@ Don't worry if a lot of that sounds like technobabble. Together we'll build a si
 * AWS S3 buckets
 * Permissions and polices in AWS
 
-## Lambdas in the wild
+## A Lambda in the wild
 
 ![Police Rewired poster](/police-rewired/police-rewired-poster.png)
 
@@ -43,7 +43,7 @@ Distributing news and material, for and about our community, on social media tak
 
 ## Our sample code
 
-This tutorial is going to build something with slightly fewer moving parts.
+This tutorial is going to build something with slightly fewer moving parts, but we'll cover a lot of the same ground.
 
 * Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
 
