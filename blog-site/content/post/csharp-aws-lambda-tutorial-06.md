@@ -6,11 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
+In part 5, we amended our Lambda to write to an S3 bucket; and in this part, we'll explore triggers to run it regularly.
+
 # Let's build an AWS Lambda in C#
-
-In part 5, we amended our Lambda to be able to write the results it found to an object in an S3 bucket.
-
-In this part, we'll explore triggers and arrange for our Lambda to run regularly.
 
 ## Part 6: Scheduling your Lambda
 

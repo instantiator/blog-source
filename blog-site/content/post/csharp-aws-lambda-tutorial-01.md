@@ -6,9 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
-# Let's build an AWS Lambda in C#
-
 At first glance, Amazon Web Services (AWS) can seem impenetrably complex. It's not so bad once you've found your way around it...
+
+# Let's build an AWS Lambda in C#
 
 **A Lambda** is a lightweight, short-lived, event-triggered process that can run reliably whenever it is needed. AWS Lambdas are perfect for small tasks.
 

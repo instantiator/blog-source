@@ -6,11 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
+In part 2, we build a Lambda function, deployed and invoked it; and in this part, we'll extend it to communicate with an API using a secret key.
+
 # Let's build an AWS Lambda in C#
-
-In part 2, we build a Lambda function, deployed it to AWS, and invoked it with some input.
-
-In this part, we'll extend it to communicate with an API using a secret key.
 
 ## Part 3: Accessing an API with a secret API key
 

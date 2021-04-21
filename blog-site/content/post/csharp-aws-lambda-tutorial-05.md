@@ -6,11 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
+In previous parts, we've built a Lambda that can query the OpenWeather API, using a secret key; and in this part we'll extend it to write that data to S3.
+
 # Let's build an AWS Lambda in C#
-
-Congratulations on your progress!
-
-Together, we've built a Lambda that can query the OpenWeather API, using a secret key. It's time to do something with that data.
 
 ## Part 5: Writing to an S3 object
 

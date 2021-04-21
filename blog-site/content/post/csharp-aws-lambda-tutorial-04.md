@@ -6,11 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
+In part 3, we extended our Lambda to communicate with an API, using a secret key; and in this part, we'll explore the logs created when the Lambda runs.
+
 # Let's build an AWS Lambda in C#
-
-In part 3, we extended our Lambda to communicate with an API, using a secret key.
-
-In this part, we'll explore the logs created when the Lambda runs.
 
 ## Part 4: Viewing the logs
 

@@ -6,9 +6,9 @@ tags: ["coding", "retro"]
 categories: ["coding"]
 ---
 
-I learned to code on a computer called the BBC Micro, released by the BBC in 1981. I was also released
-in 1981, and I have a bit of a bond with these 8-bit wonders. Coding is a joyous experience, and anyone
-can learn to do it. This is a post about retro-coding, and my first written post for this blog.
+I learned to code on a computer called the BBC Micro, released by the BBC in 1981. I was also released in 1981, and I have a bit of a bond with these 8-bit wonders.
+
+Coding is a joyous experience, and anyone can learn to do it. This is a post about retro-coding, and my first written post for this blog.
 
 {{< tweet 1233996696721465344 >}}
 

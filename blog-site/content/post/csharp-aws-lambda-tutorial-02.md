@@ -6,11 +6,9 @@ tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 ---
 
+In part 1, we set up the basic infrastructure to support a new Lambda function on AWS; and n this part, we'll build a Lambda function, deploy it to AWS, and invoke it with some input.
+
 # Let's build an AWS Lambda in C#
-
-In part 1, we set up the basic infrastructure to support a new Lambda function on AWS.
-
-In this part, we'll build a Lambda function, deploy it to AWS, and invoke it with some input.
 
 ## Part 2: Building your Lambda
 
