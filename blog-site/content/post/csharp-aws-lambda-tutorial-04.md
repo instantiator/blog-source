@@ -1,5 +1,5 @@
 ---
-title: "Tutorial - Building an AWS Lambda in C#, part 4: Logs"
+title: "Building an AWS Lambda in C#, part 4: Logs"
 date: 2021-04-18T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]

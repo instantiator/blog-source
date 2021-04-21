@@ -1,5 +1,5 @@
 ---
-title: "Tutorial - Building an AWS Lambda in C#, part 3: APIs and secrets"
+title: "Building an AWS Lambda in C#, part 3: APIs and secrets"
 date: 2021-04-17T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]

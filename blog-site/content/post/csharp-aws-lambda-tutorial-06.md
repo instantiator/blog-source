@@ -1,5 +1,5 @@
 ---
-title: "Tutorial - Building an AWS Lambda in C#, part 6: Triggers"
+title: "Building an AWS Lambda in C#, part 6: Triggers"
 date: 2021-04-20T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]

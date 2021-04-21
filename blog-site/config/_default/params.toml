@@ -57,3 +57,8 @@ url = "https://github.com/instantiator"
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/lewiswestbury"
+
+[[socialIcons]]
+icon = "fas fa-globe"
+title = "Police Rewired"
+url = "https://policerewired.org"

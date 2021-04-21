@@ -1,5 +1,5 @@
 ---
-title: "Tutorial - Building an AWS Lambda in C#, part 2: Build, deploy and invoke"
+title: "Building an AWS Lambda in C#, part 2: Build, deploy and invoke"
 date: 2021-04-16T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
