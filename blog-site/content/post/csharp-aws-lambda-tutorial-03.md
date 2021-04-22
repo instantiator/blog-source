@@ -4,6 +4,7 @@ date: 2021-04-17T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
+images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
 ---
 
 In part 2, we build a Lambda function, deployed and invoked it; and in this part, we'll extend it to communicate with an API using a secret key.
