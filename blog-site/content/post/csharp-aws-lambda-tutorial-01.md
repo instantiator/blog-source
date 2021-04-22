@@ -112,7 +112,9 @@ The two services we'll be using:
 
 ### ARNs
 
-Everything you create and use on AWS has an [ARN](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) (Amazon Resource Name) which is a unique identity for the object. You can use an ARN to refer to things when you're granting permissions or passing information back and forth. They come in a few variant formats, and can be recognised by the prefix: `arn`
+Everything you create and use on AWS has an [ARN](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) (Amazon Resource Name) which is a unique identity for the object. You can use an ARN to refer to things when you're granting permissions or passing information back and forth.
+
+ARNs come in a few variant formats, and can be recognised by the prefix: `arn`
 
 ```text
 arn:partition:service:region:account-id:resource-id
