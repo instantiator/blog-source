@@ -13,6 +13,8 @@ Through this tutorial, we'll build something a little more ambitious than the tr
 
 # Let's build an AWS Lambda in C#
 
+![A 6 part tutorial](/csharp-aws-lambda-tutorial/000-heading-img.png)
+
 **A Lambda** is a lightweight, short-lived, event-triggered process that can run reliably whenever it is needed. AWS Lambdas are perfect for small tasks.
 
 **C#** is a language, with strong typing, for .NET Core. That's one of the runtimes that AWS Lambdas supports. The .NET framework also has some pretty good support for interacting with the AWS Lambda service, which will help us later on in this tutorial.
