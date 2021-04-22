@@ -97,9 +97,9 @@ Here are the services we'll be looking at for this project:
 * **Lambda** - This is the service where you can define Lambdas, short pieces of code that are triggered by events.
 * **CloudWatch** - This contains a number of services including CloudWatch Logs (where your Lambda and other services can log to), and CloudWatch Events (now moved to Amazon EventBridge) which can be used to trigger your Lambda.
 
-### What's free?
+### Is it free?
 
-This tutorial shouldn't have a knock on effect on your wallet. What we're building is lightweight and ought to fit into the free tier at AWS. You can find out more about the free tier offerings, here:
+This tutorial shouldn't cost you any money, provided you stay below the usage limits for the free tier at AWS. What we're building is lightweight. You can find out more about the free tier offerings, here:
 
 * [AWS free tier](https://aws.amazon.com/free/?all-free-tier)
 
