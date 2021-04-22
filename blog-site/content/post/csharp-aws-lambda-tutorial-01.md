@@ -76,7 +76,7 @@ Lambdas are transient and aren't expected to run for long. (They have a maximum 
 
 You could also use lambdas to represent many small tasks that can run sequentially or in parallel. For instance, to read items from a queue, or to store data from another service.
 
-Our Lambda stores its plan in AWS S3 (Simple Storage Service) - which is a simple way to store and retrieve files.
+The Police Rewired social library Lambda stores its plan in AWS S3 (Simple Storage Service) - which is a simple way to store and retrieve files.
 
 Before we get to the code, it's helpful to understand a few things about how AWS and the services there fit together. Some services have some rather idiosyncratic names, and it can all seem a bit overwhelming at first.
 
