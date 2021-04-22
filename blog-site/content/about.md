@@ -2,7 +2,7 @@
 title = "About"
 description = "About the author"
 date = "2021-04-21"
-aliases = ["about-us"]
+aliases = ["about-us", "about-me"]
 author = "Lewis Westbury"
 +++
 
