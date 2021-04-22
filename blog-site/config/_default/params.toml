@@ -2,7 +2,7 @@
 title = "instantiator.dev"
 author = "Lewis Westbury" # goes in page titles
 description = "tech, volunteers, public safety, articles and ideas"
-profilePicture = "lewis/profile.jpg"
+profilePicture = "/lewis/profile.jpg"
 favicon = "favicons/"
 keywords = ""
 # copyright = "2020-2021"
