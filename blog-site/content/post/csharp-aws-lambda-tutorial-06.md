@@ -11,6 +11,8 @@ In part 5, we amended our Lambda to write to an S3 bucket; and in this part, we'
 
 # Let's build an AWS Lambda in C#
 
+* Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
+
 ## Part 6: Scheduling your Lambda
 
 Most Lambdas aren't invoked the way we're testing ours... Instead, triggers cause them to run when certain events happen (perhaps a new file in an S3 bucket with data to work on, a timer, or some other input).

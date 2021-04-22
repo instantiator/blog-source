@@ -11,6 +11,8 @@ In part 2, we build a Lambda function, deployed and invoked it; and in this part
 
 # Let's build an AWS Lambda in C#
 
+* Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
+
 ## Part 3: Accessing an API with a secret API key
 
 Let's build something a little more sophisticated than the default "string upper-casing" function. Lambdas often need to work with information elsewhere - perhaps data that's accessible through an API.

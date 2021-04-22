@@ -13,6 +13,8 @@ In part 1, we set up the basic infrastructure to support a new Lambda function o
 
 ## Part 2: Building your Lambda
 
+* Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
+
 ### Prerequisite tools
 
 You'll need to install:

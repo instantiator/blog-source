@@ -11,6 +11,8 @@ In previous parts, we've built a Lambda that can query the OpenWeather API, usin
 
 # Let's build an AWS Lambda in C#
 
+* Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
+
 ## Part 5: Writing to an S3 object
 
 As an example, we'll write the data our Lambda retrieves into an object (ie. a file) in an S3 bucket, so it can be analysed later. We could just as easily store it in an RDS or DynamoDB database instance.

@@ -11,6 +11,8 @@ In part 3, we extended our Lambda to communicate with an API, using a secret key
 
 # Let's build an AWS Lambda in C#
 
+* Source code for the final project is available on GitHub: [instantiator/sample-lambda-function](https://github.com/instantiator/sample-lambda-function)
+
 ## Part 4: Viewing the logs
 
 > This is going to be a short section - logs are easy to find and analyse in AWS.
