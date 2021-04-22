@@ -178,9 +178,20 @@ Here's a quick layout of the setup we're aiming for:
 
 The role we'll create for the Lambda will allow it to access just the things it needs. In this way, it's not possible for a process to overstep its bounds. This is particularly helpful when you're building complex systems and need to reason about the privacy of your data.
 
+#### Sign up to AWS
+
+If you haven't already, create yourself an account at AWS.
+
+Think of your account as an 'organisation' - it can contain users and services.
+
+* Visit: https://aws.amazon.com/free
+* Tap `Create a free account`
+
+This will be your **root** account, and we'll try to use it directly as little as possible. It's much safer to create some IAM users inside it and use them for day to day administration...
+
 #### Creating an administrator account
 
-The first thing you should do is create an IAM account with enough permissions to allow you to do work on AWS.
+The first thing you should do, once you've signed up to AWS, is create an IAM account with enough permissions to allow you to do work on AWS without using your root account.
 
 * Make your way to the **IAM service**
 * Choose **Users**
