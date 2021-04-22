@@ -59,6 +59,6 @@ title = "Linkedin"
 url = "https://www.linkedin.com/in/lewiswestbury"
 
 [[socialIcons]]
-icon = "fas fa-globe"
-title = "Police Rewired"
-url = "https://policerewired.org"
+icon = "fas fa-rss"
+title = "RSS"
+url = "https://instantiator.dev/index.xml"
