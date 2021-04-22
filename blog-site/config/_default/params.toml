@@ -11,7 +11,7 @@ customCss = [] # example ["css/custom.css"]
 customJs = [] # example ["js/custom.js"]
 
 mainSections = ["post"]
-images = ["images/site-feature-image.png"]
+images = ["/lewis/default-image.png"]
 doNotLoadAnimations = false
 
 # Form Spree Contact Form

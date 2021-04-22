@@ -4,9 +4,12 @@ date: 2021-04-15T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
+images: ["/000-heading-img.png"]
 ---
 
 At first glance, Amazon Web Services (AWS) can seem impenetrably complex, but it's not so bad once you've found your way around it...
+
+Through this tutorial, we'll build something a little more ambitious than the traditional "Hello world!" application, and work through some of the concepts you'll need to know to work in AWS.
 
 # Let's build an AWS Lambda in C#
 
