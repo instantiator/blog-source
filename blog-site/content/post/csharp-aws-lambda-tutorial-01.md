@@ -56,8 +56,9 @@ This tutorial is going to build something with slightly fewer moving parts, but 
 
 This tutorial assumes you have knowledge of a few things:
 
-* **C#** - We'll use simple C# code to build our examples.
-* **APIs** - The tutorial refers to use of an API to retrieve some data.
+* **C#** - We'll use simple C# code to build our examples. It'll help if you're a little familiar with it to follow along.
+* **APIs** - The tutorial refers to use of an API to retrieve some data. Don't worry if you haven't used one before - you can probably figure out what's going on.
+* **JSON** - JSON is a popular data format for exchanging structured information. A little familiarity with it will help you understand what you're looking at, but it's not completely necessary.
 * **Git** - The tutorial refers to code repositories in a few places. You don't *need* this to complete the examples, but it'll help if you are familiar with some of the ideas.
 
 **A significant portion of this tutorial is not coding!** That's because the supporting infrastructure is a really important part of building a reliable, public-facing service.
