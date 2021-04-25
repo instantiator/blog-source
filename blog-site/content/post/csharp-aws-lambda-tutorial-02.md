@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+series: ["csharp-aws-lambda-tutorial"]
 ---
 
 In part 1, we set up the basic infrastructure to support a new Lambda function on AWS; and n this part, we'll build a Lambda function, deploy it to AWS, and invoke it with some input.

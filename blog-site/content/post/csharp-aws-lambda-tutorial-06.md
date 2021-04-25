@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+series: ["csharp-aws-lambda-tutorial"]
 ---
 
 In part 5, we amended our Lambda to write to an S3 bucket; and in this part, we'll explore triggers to run it regularly.

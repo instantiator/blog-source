@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+series: ["csharp-aws-lambda-tutorial"]
 ---
 
 In part 3, we extended our Lambda to communicate with an API, using a secret key; and in this part, we'll explore the logs created when the Lambda runs.

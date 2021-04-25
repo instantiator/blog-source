@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+series: ["csharp-aws-lambda-tutorial"]
 ---
 
 At first glance, Amazon Web Services (AWS) can seem impenetrably complex, but it's not so bad once you've found your way around it...

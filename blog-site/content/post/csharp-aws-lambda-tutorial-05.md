@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["coding", "tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+series: ["csharp-aws-lambda-tutorial"]
 ---
 
 In previous parts, we've built a Lambda that can query the OpenWeather API, using a secret key; and in this part we'll extend it to write that data to S3.
