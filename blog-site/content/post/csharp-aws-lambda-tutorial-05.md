@@ -62,7 +62,7 @@ AWS does provide a policy generator, but in this case it's much easier to unders
             "Sid": "statement-1",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::747647019788:role/sample-lambda-role"
+                "AWS": "arn:aws:iam::<YOUR ACCOUNT NUMBER>:role/sample-lambda-role"
             },
             "Action": "s3:ListBucket",
             "Resource": "arn:aws:s3:::sample-lambda-storage"
@@ -71,7 +71,7 @@ AWS does provide a policy generator, but in this case it's much easier to unders
             "Sid": "statement-2",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::747647019788:role/sample-lambda-role"
+                "AWS": "arn:aws:iam::<YOUR ACCOUNT NUMBER>:role/sample-lambda-role"
             },
             "Action": [
                 "s3:GetObject",
@@ -82,6 +82,8 @@ AWS does provide a policy generator, but in this case it's much easier to unders
     ]
 }
 ```
+
+* Substitute `<YOUR ACCOUNT NUMBER>` with your numeric 12-digit AWS account number.
 
 ![Bucket policy (set)](/csharp-aws-lambda-tutorial/013-s3-bucket-policy-set.png)
 
