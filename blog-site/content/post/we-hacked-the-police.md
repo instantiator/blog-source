@@ -2,7 +2,7 @@
 title: "We hacked the Police!"
 date: 2013-05-05T00:00:00Z
 Tags: [ "Necropost", "policing", "crime", "technology", "civic tech", "Hack the Police", "Metropolitan Police", "hackathon" ]
-Categories: [ "Necropost", "Article" ]
+Categories: [ "Necropost", "Article", "Police Rewired" ]
 Series: [ "htp-1" ]
 ---
 

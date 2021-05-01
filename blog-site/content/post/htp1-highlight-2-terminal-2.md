@@ -2,7 +2,7 @@
 title: "Hack Highlight #2: Terminal 2.0"
 date: 2013-05-29T00:00:00Z
 Tags: [ "Necropost", "policing", "crime", "technology", "civic tech", "Hack the Police", "Metropolitan Police", "hackathon", "hack", "terminal", "CAD", "dispatch", "MDT", "tablet" ]
-Categories: [ "Necropost", "Article" ]
+Categories: [ "Necropost", "Article", "Police Rewired" ]
 Series: [ "htp-1" ]
 ---
 

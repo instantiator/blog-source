@@ -3,7 +3,7 @@ title: "Making the best possible referrals"
 date: 2021-04-28T16:00:00Z
 tags: ["PublicSafety", "referrals", "DataStandards", "DSA", "OpenReferral", "CharityBase", "PoliceRewired"]
 images: ["/referrals/referrals-dsa-post-graphic-All.png"]
-categories: ["challenge"]
+categories: ["challenge", "Police Rewired"]
 ---
 
 The Data Standards Authority are holding an [open challenge](https://dataingovernment.blog.gov.uk/2021/04/28/vulnerable-people-services-data-standard/) to discover and set a new data standard for vulnerable people services.

@@ -2,7 +2,7 @@
 title: "Software Self Defence 101"
 date: 2018-04-12T00:00:00Z
 Tags: [ "Software Self Defence", "security", "infosec", "talk" ]
-Categories: [ "Talk" ]
+Categories: [ "Talk", "Police Rewired" ]
 Images: [ "/police-rewired/software-self-defence.png" ]
 ---
 
