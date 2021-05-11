@@ -67,6 +67,8 @@ We’re all volunteers.
 
 ~~If you’d like to join the team that brings this bot all the way to production, we’d love to hear from you. We’ll be holding a meet-up on Tuesday 12th, at Newspeak House in London, so let us know if you’re coming!~~
 
+**This post was written in 2019, and a lot of Police Rewired projects were paused or deprioritised during the pandemic. If you’d like to get involved and help us to revive this project, let us know by filling out this short form: [Police Rewired teams 2021](https://bit.ly/PoliceRewired-teams-2021)**
+
 If you meet any of these criteria, then you’re perfect for this project:
 
 * Creative problem solvers who’d like to give a little back.
