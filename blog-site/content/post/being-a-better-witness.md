@@ -51,7 +51,7 @@ Almost. I’m looking for volunteers to become a part of the team that delivers 
 
 **This project needs a campaign.** If we want people to discover this app and install it speculatively, we’ll need to reach people across all walks of life. Social media savants, this is your time to shine! Join the team to help us figure out how we’ll reach people.
 
-If you’d like to help with testing, copywriting, building a website, designing a campaign, or adding to the app let us know: team@policerewired.org
+**If you’d like to help with testing, copywriting, building a website, designing a campaign, or adding to the app let us know by filling out this short form: [Police Rewired teams 2021](https://bit.ly/PoliceRewired-teams-2021)**
 
 ## Q&A
 
@@ -59,6 +59,6 @@ If you’d like to help with testing, copywriting, building a website, designing
 
 * **Can I see the code?** Yes, it’s really important that people can trust this project. All the source code is on GitHub: https://github.com/PoliceRewired/emergency-recorder
 
-* **What’s Police Rewired?** We are a group of volunteer developers, designers, academics, data scientists and creative problem solvers who want to make everybody a bit safer by building new tools. We fight crime with code. All our projects are open source. You can find out more about us at our site: [policerewired.org](https://policerewired.org)
+* **What’s Police Rewired?** We are a group of volunteer professionals - developers, designers, students, academics, data scientists and creative problem solvers who want to make everybody safer by building new tools. All our projects are open source. You can find out more about us at our site: [policerewired.org](https://policerewired.org)
 
 * **Will there be a version for iPhones?** Sorry, I doubt it. From my limited understanding it’s not possible to overlay an app on top of a call on iOS. There may be other ways to achieve this, though. I’d love to talk it through with an experienced iOS developer.
