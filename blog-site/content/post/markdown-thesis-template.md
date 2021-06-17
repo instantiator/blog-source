@@ -4,7 +4,7 @@ description: "The things I'll do to avoid learning LaTeX..."
 date: 2021-06-17T00:00:00Z
 tags: ["research", "paper", "thesis", "writeup", "masters", "MSc", "markdown", "LaTeX", "" ]
 images: [ "/thesis/sample-cover-page.png" ]
-categories: ["Tool"]
+categories: ["tools"]
 ---
 
 > The things I'll do to avoid learning LaTeX...

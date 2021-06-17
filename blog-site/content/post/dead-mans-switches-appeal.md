@@ -3,7 +3,7 @@ title: "Dead Person Switches - with or without trust"
 date: 2021-05-21T00:00:00Z
 tags: ["research", "MSc", "ComputerScience", "journalism", "InvestigativeJournalism", "DMS", "DeadManSwitch" ]
 images: [ "/dms/dms-ad.png" ]
-categories: ["Article"]
+categories: ["article"]
 ---
 
 I am hoping to interview some investigative journalists for my masters thesis at the University of Oxford.
