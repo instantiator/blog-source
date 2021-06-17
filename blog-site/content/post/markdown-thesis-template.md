@@ -1,8 +1,8 @@
 ---
-title: "A template thesis to make writing up a little easier"
+title: "A template thesis to simplify your write-up"
 description: "The things I'll do to avoid learning LaTeX..."
 date: 2021-06-17T00:00:00Z
-tags: ["research", "paper", "thesis", "writeup", "masters", "MSc", "markdown", "LaTeX", "" ]
+tags: ["research", "paper", "thesis", "writing", "masters", "MSc", "markdown", "LaTeX", "formulae", "contents", "TOC", "figures", "cover" ]
 images: [ "/thesis/sample-cover-page.png" ]
 categories: ["tools"]
 ---
@@ -50,7 +50,7 @@ The whole document is built from source markdown files using a Docker container 
   Output document: source/build/Sample-Project_Your-Name.pdf
   ```
 
-## It's free and open template
+## It's a free and open template
 
 You're welcome to use this tool for any of your project writing needs.
 
