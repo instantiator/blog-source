@@ -49,3 +49,13 @@ The whole document is built from source markdown files using a Docker container 
   ```text
   Output document: source/build/Sample-Project_Your-Name.pdf
   ```
+
+## It's free and open template
+
+You're welcome to use this tool for any of your project writing needs.
+
+If you've an improvement or modification, please submit a pull request.
+
+If you have any issues or suggestions, please create an issue.
+
+Feel free to fork, improve, modify, or do whatever you please with this repository.
