@@ -19,10 +19,6 @@ I've written a small tool and template to help you write papers in Markdown. The
 
 [This is a template for building a thesis](https://github.com/instantiator/markdown-thesis-builder) PDF that's written in markdown, using features and styles from LaTeX. I'm using it for my MSc thesis, and I've spent a little time cleaning it up so it's easy to share and use.
 
-![sample cover page](/thesis/sample-cover-page.png)
-
-Check out the [sample document](https://github.com/instantiator/markdown-thesis-builder/releases/tag/1.0) in release 1.0. 
-
 * Runs in a Docker container for portability.
 * Allows you to write primarily in Markdown for simplicity.
 
@@ -35,6 +31,24 @@ Markdown is easy to write, and will help you to write the bulk of your document.
 * Includes support for citations, and a BibTex bibliography.
 
 The whole document is built from source markdown files using a Docker container that contains everything it needs. The output is a PDF document.
+
+## Sample output
+
+* See: [Sample project PDF](https://github.com/instantiator/markdown-thesis-builder/raw/main/sample/Sample-Project_Your-Name.pdf)
+
+### Cover page and table of contents
+
+Illustrating cover page and automated table of contents.
+
+{{< figure src="https://github.com/instantiator/markdown-thesis-builder/raw/main/screenshots/page001.png.shadow.png" alt="cover page" width="300px" class="inline-image" caption="cover page" >}}
+{{< figure src="https://github.com/instantiator/markdown-thesis-builder/raw/main/screenshots/page002.png.shadow.png" alt="table of contents" width="300px" class="inline-image" caption="table of contents" >}}
+
+### Methodology and bibliography
+
+Illustrating footnotes, citations, formulae, figures, and automated bibliography.
+
+{{< figure src="https://github.com/instantiator/markdown-thesis-builder/raw/main/screenshots/page006.png.shadow.png" alt="methodology" width="300px" class="inline-image" caption="methodology" >}}
+{{< figure src="https://github.com/instantiator/markdown-thesis-builder/raw/main/screenshots/page010.png.shadow.png" alt="bibliography" width="300px" class="inline-image" caption="bibliography" >}}
 
 ## How to use it
 
