@@ -9,6 +9,10 @@ categories: ["tools"]
 
 > The things I'll do to avoid learning LaTeX...
 
+Do you prefer Markdown to LaTeX?
+
+Do you still want the benefits of LaTeX, such as bibliography, formulae, figures, contents, and cover page?
+
 I've written a small tool and template to help you write papers in Markdown. The output is a PDF in the style of a LaTeX document.
 
 # A template thesis
