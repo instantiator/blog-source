@@ -1,25 +1,35 @@
 ---
 title: "Dead Person Switches - with or without trust"
-date: 2021-05-21T00:00:00Z
+date: 2021-06-18T00:00:00Z
 tags: ["research", "MSc", "ComputerScience", "journalism", "InvestigativeJournalism", "DMS", "DeadManSwitch" ]
-images: [ "/dms/dms-ad.png" ]
-categories: ["article"]
+images: [ "/dps/dps-ad-1.1.png" ]
+categories: ["appeal"]
 ---
 
 I am hoping to interview some investigative journalists for my masters thesis at the University of Oxford.
 
-# Dead ~~Man~~ Person Switches - with or without trust
+# FAO Investigative Journalists
 
-![Advert graphic containing the same text as this article](/dms/dms-ad.png)
+## Updated 2021-06-18
 
-**FAO investigative journalists:** If you’re willing to contribute, please let me know, and I can either send you an online survey or we can arrange for a short call. Your anonymity will be protected.
+* Now far easier to participate: [JISC Online Survey](https://oxford.onlinesurveys.ac.uk/dps-interview)
+* Participants do not need to provide a name.
+* Revised ethical approval number.
+
+## Dead Person Switches
+
+![Advert graphic containing the same text as this article](/dps/dps-ad-1.1.png)
 
 I’ll be asking a series of questions relating to physical risk to investigative journalists or whistleblowers, and how their safety and security is managed.
 
-Please see the Participant Information Sheet at: [https://bit.ly/DMS-survey-docs](https://bit.ly/DMS-survey-docs)
+**Your anonymity will be protected.**
 
-Please respond to: lewis.westbury@kellogg.ox.ac.uk
+* Participant information: [https://bit.ly/DMS-survey-docs](https://bit.ly/DMS-survey-docs) (Google Drive folder)
+* Survey link: [https://oxford.onlinesurveys.ac.uk/dps-interview](https://oxford.onlinesurveys.ac.uk/dps-interview) (JISC Online Survey)
 
-This study has been reviewed by, and received ethics clearance through the Computer Science Departmental Research Ethics Committee at the University of Oxford. They can be contacted at: ethics@cs.ox.ac.uk
+If you'd prefer a phone interview, please respond to the researcher: lewis.westbury@kellogg.ox.ac.uk
 
-Please quote approval number: `CS_C1A_21_011`
+This study has been reviewed by, and received ethics clearance through the Computer Science Departmental Research Ethics Committee at the University of Oxford.
+
+* They can be contacted at: ethics@cs.ox.ac.uk
+* Please quote approval number: `CS_C1A_21_011_01` (revised 2021-06-11)
