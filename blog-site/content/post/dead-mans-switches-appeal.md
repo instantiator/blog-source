@@ -1,7 +1,7 @@
 ---
 title: "Dead Person Switches - with or without trust"
 date: 2021-06-18T00:00:00Z
-tags: ["research", "MSc", "ComputerScience", "journalism", "InvestigativeJournalism", "DMS", "DeadManSwitch" ]
+tags: ["Research", "MSc", "ComputerScience", "Journalism", "Academia", "InvestigativeJournalism", "DMS", "DeadManSwitch", "DPS", "DeadPersonSwitch" ]
 images: [ "/dps/dps-ad-1.1.png" ]
 categories: ["appeal"]
 ---
