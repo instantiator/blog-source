@@ -75,7 +75,7 @@ The data shows an early burst of activity, starting on the 14th March and traili
 
 As we’ll see, by this time many people had moved towards working together in groups and so their activity is better reflected in the data we have about volunteer groups.
 
-### LocalHelpers
+### LocalHelpers
 
 [LocalHelpers](https://localhelpers.org/) started during the initial phase of the crisis, before volunteer groups had become established and while individuals who wanted assistance could find local people to help them.
 
