@@ -24,7 +24,7 @@ The constraints are what makes this a fun challenge. The computer itself has jus
 
 You can see [see the whole design draw itself](https://bbcmic.ro/#%7B%22v%22%3A1%2C%22program%22%3A%22MO.2%3AT%25%3D150%5CnD.0%2C0%2C30%2C-23%2C-10%2C20%2C-20%2C60%2C15%2C-45%2C30%2C13%5CnF.Y%3D-300TO1024S.300%5CnV.29%2C640-T%25%3BY%3B%3APROCb%280.3%29%5CnV.29%2C640%2BT%25%3BY%2BT%25%3B%3APROCb%28-0.3%29%5CnN.%3AV.5%5CnEND%5CnDEFPROCb%28a%29%3AGC.0%2CC%25MOD7%2B1%3APROCc%28a%2C-1%29%3APROCc%28a%2C1%29%3AC%25%3DC%25%2B1%3AE.%5CnDEFPROCc%28a%2Cf%29%5CnRES.%3AF.I%3D1TO4%3APROCp%28a%2Cf%29%3AV.25%2C4%2CX%25%3BY%25%3B25%2C%2699%2CFNr%3B0%3B%3AN.%5CnE.%5CnDEFPROCp%28a%2Cf%29%5CnREADx%2Cy%3Ax%3Df*x*2%3Ay%3Dy*2%5CnX%25%3Dx*COS%28a%29-y*SIN%28a%29%5CnY%25%3Dx*SIN%28a%29%2By*COS%28a%29%5CnE.%5CnDEFFNr%3AREADn%3A%3Dn*2%22%7D) by launching it on a BBC Micro in your browser.
 
-BASIC is a pretty verbose language, although lots of the commands have abbreviations. Lots of the instructions are English words, and so to help fit as much as possible into a single tweet, people do something called [Code Golfing](https://blog.mousefingers.com/post/bbc/bbc_golf/) (h/t [@P_Malin](https://twitter.com/P_Malin)) - it's artful, trying to squeeze as much meaning as possible into as little text as possible.
+BASIC is a pretty verbose language, although lots of the commands have abbreviations. Lots of the instructions are English words, and so to help fit as much as possible into a single tweet, people do something called [Code Golfing](https://blog.mousefingers.com/post/bbc/bbc_golf/) (hat tip [@P_Malin](https://twitter.com/P_Malin)) - it's artful, trying to squeeze as much meaning as possible into as little text as possible.
 
 So what am I doing here? Rainbow Paws barely scratches the surface of code golfing, but it does illustrate some fun techniques in graphics.
 
@@ -144,3 +144,9 @@ It's really important to note that doing this sort of thing (changing global var
 Back in procedure `p` the `V.25,4` (`VDU 25,4`) moves the origin - this time relatively by `X%` and `Y%`, so that the centre of each circle is where the next pad should be. Finally `V.25,&99` draws a filled circle, with radius calculated by `FNr` (function `r`).
 
 _**And that's it!** I made a cute little picture, squeezed the instructions into a tweet, and even if the fine detail isn't very important to you, hopefully the idea of the challenge is fun._
+
+## Epilogue
+
+The internet is a fun place where people can iterate on each others' work. I would be remiss not to point out the cool improvements [@rheolism](https://twitter.com/rheolism) made to the original tweet. Here:
+
+{{< tweet 1409734588348436480 >}}
