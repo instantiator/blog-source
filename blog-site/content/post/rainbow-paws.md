@@ -39,11 +39,11 @@ And each paw is drawn at a slight angle. So how do you rotate things? This is ~~
 The steps are pretty straightforward:
 
 1. Calculate the SIN and COS of the rotation angle, you'll need both twice.
-1. Subtract the pivot point, so that the rotation happens around the origin (0,0).
-1. Calculate new X and new Y values, with this formula:
+2. Subtract the pivot point, so that the rotation happens around the origin (0,0).
+3. Calculate new X and new Y values, with this formula:
   * `X = (X * COS(radians)) - (Y * SIN(radians))`
-  * `Y = (X * SIN(radians)) + (y * COS(radians))`
-1. Add back the pivot point, so that rotation took place around the pivot.
+  * `Y = (X * SIN(radians)) + (Y * COS(radians))`
+4. Add back the pivot point, so that rotation took place around the pivot.
 
 It's absolutely ok to treat those formulae for new `X` and new `Y` as magic.
 
