@@ -12,7 +12,7 @@ I still like to pretend I don't really know art when I see it, but I think I app
 
 This is sometimes very clear when visiting escape room venues. If you're fortunate enough to meet the owner of a venue, and they choose to walk you through the game afterwards - telling you how it works, how it was made, and what they were thinking of when they designed the puzzles - you'll know that the game you've just played was special, a labour of love.
 
-## The Cat with the Rainbow Paws
+## The Cat with Rainbow Coloured Paws
 
 Since it was first launched, I've made a few little bits and pieces with the [@BBCMicroBot](https://twitter.com/bbcmicrobot). It's a Twitter bot that runs the programs you send to it on an emulated BBC Micro computer from 1981. (I'm also from 1981, and that tickles me pink!)
 
