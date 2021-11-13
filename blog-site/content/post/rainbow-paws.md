@@ -6,9 +6,9 @@ categories: ["Article"]
 images: [ "/bbcmicrobot/rainbow-paws.png" ]
 ---
 
-_Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created sprinkled with a few jokers out to make a quick buck._
+_Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created (sprinkled with [a few jokers](https://en.wikipedia.org/wiki/Take_the_Money_and_Run_(artwork)))._
 
-I still like to pretend I don't really know art when I see it, but I think I appreciate the effort people put into their work. There are ways to recognise that. You could know a little about their field, or you could ask them to talk about it and see if passion for their work shines through.
+I still like to pretend I don't really know art when I see it, but I think I appreciate the effort people put into their work. There are ways to recognise that. You could know a little about the medium, or you could ask the creator to talk about their work and listen for the passion to shine through.
 
 This is sometimes very clear when visiting escape room venues. If you're fortunate enough to meet the owner of a venue, and they choose to walk you through the game afterwards - telling you how it works, how it was made, and what they were thinking of when they designed the puzzles - you'll know that the game you've just played was special, a labour of love.
 
