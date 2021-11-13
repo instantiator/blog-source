@@ -88,6 +88,8 @@ This example assumes that there's a `class` or `struct` called `PointD`, which h
 
 ## Squeezing it all in
 
+* [See the code](https://bbcmic.ro/#%7B%22v%22%3A1%2C%22program%22%3A%22MO.2%3AT%25%3D150%5CnD.0%2C0%2C30%2C-23%2C-10%2C20%2C-20%2C60%2C15%2C-45%2C30%2C13%5CnF.Y%3D-300TO1024S.300%5CnV.29%2C640-T%25%3BY%3B%3APROCb%280.3%29%5CnV.29%2C640%2BT%25%3BY%2BT%25%3B%3APROCb%28-0.3%29%5CnN.%3AV.5%5CnEND%5CnDEFPROCb%28a%29%3AGC.0%2CC%25MOD7%2B1%3APROCc%28a%2C-1%29%3APROCc%28a%2C1%29%3AC%25%3DC%25%2B1%3AE.%5CnDEFPROCc%28a%2Cf%29%5CnRES.%3AF.I%3D1TO4%3APROCp%28a%2Cf%29%3AV.25%2C4%2CX%25%3BY%25%3B25%2C%2699%2CFNr%3B0%3B%3AN.%5CnE.%5CnDEFPROCp%28a%2Cf%29%5CnREADx%2Cy%3Ax%3Df*x*2%3Ay%3Dy*2%5CnX%25%3Dx*COS%28a%29-y*SIN%28a%29%5CnY%25%3Dx*SIN%28a%29%2By*COS%28a%29%5CnE.%5CnDEFFNr%3AREADn%3A%3Dn*2%22%7D)
+
 Providing coordinates, colours, and instructions to draw every paw in the picture wouldn't fit into a tweet. So I'm doing some work to fit it all in.
 
 I've represented the sizes and locations of all the circles as simple integers, and between 0 and 99. That way I'm using as few characters as I can to represent each point. I then rescale them later when I need them.
