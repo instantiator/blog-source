@@ -4,4 +4,6 @@
 	branch = main
 [submodule "blog-site/themes/anatole"]
 	path = blog-site/themes/anatole
-	url = https://github.com/lxndrblz/anatole.git
+	url = https://github.com/instantiator/blog-theme.git
+	branch = main
+
