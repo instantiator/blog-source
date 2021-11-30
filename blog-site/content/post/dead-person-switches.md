@@ -2,7 +2,7 @@
 title: "Dead Person Switches - secrets from beyond the grave"
 date: 2021-11-30T00:00:00Z
 tags: ["Research", "MSc", "ComputerScience", "Journalism", "Academia", "InvestigativeJournalism", "DMS", "DeadManSwitch", "DPS", "DeadPersonSwitch", "Cryptography", "WitnessEncryption", "TimeLockEncryption", "SmartContract", "SecretContract", "Secret", "SSSS", "TrustNetworks" ]
-images: [ "/dps/dps-threat-model-scoping.png" ]
+images: [ "/dps/stone.jpg" ]
 categories: ["publication"]
 ---
 
