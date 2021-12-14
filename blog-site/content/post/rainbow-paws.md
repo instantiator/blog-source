@@ -1,8 +1,8 @@
 ---
 title: "Rainbow paws"
 date: 2021-11-13T00:00:00Z
-tags: ["retro-computing", "graphics", "BASIC", "BBC Micro", "geometry"]
-categories: ["Article"]
+tags: ["Retro Computing", "Graphics", "BASIC", "BBC Micro", "Geometry", "Rotation", "Point", "Vector", "Sample Code"]
+categories: ["article"]
 images: [ "/bbcmicrobot/rainbow-paws.png" ]
 ---
 
