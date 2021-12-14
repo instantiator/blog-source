@@ -2,7 +2,7 @@
 title: "Secrets With Friends"
 date: 2021-12-14T00:00:00Z
 tags: ["Cryptography", "Fun", "Secrets", "Sharing", "Trust", "SSSS", "Polynomial" ]
-images: [ "/dps/key-splitting.jpg" ]
+images: [ "/dps/key-splitting.png" ]
 categories: ["article"]
 ---
 
