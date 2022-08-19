@@ -6,6 +6,7 @@ theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+ignoreErrors = ["error-remote-getjson"]
 
 # Enable Disqus
 #disqusShortname = ""

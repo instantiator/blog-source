@@ -4,7 +4,7 @@ date: 2019-03-28T00:00:00Z
 draft: false
 tags: ["policing", "witness", "video", "crime", "phone", "android", "999", "emergency", "civic tech" ]
 images: ["/police-rewired/emergency-recorder.png"]
-categories: ["Article", "Police Rewired"]
+categories: [ "article", "police rewired" ]
 ---
 
 _A couple of weeks ago I witnessed a stabbing..._

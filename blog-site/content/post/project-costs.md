@@ -2,7 +2,7 @@
 title: "Why are some projects so expensive?"
 date: 2017-09-22T00:00:00Z
 Tags: [ "costs", "estimates", "expenses", "ANPR", "app", "developer" ]
-Categories: [ "Article" ]
+Categories: [ "necropost", "article" ]
 Images: [ "/necro-images/project-costs-anpr-1.jpeg" ]
 ---
 

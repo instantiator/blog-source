@@ -2,7 +2,7 @@
 title: "Text adventures in 3D"
 date: 2013-10-29T00:00:00Z
 Tags: [ "Necropost", "inform", "3D", "Frotz", "GLUT" ]
-Categories: [ "Necropost", "Article" ]
+Categories: [ "necropost", "article" ]
 ---
 
 *This is a necropost, resurrected from an old blog.*

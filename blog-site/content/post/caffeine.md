@@ -3,7 +3,7 @@ title: "Keeping jobs alive with caffeine"
 date: 2021-01-02T19:00:00Z
 draft: false
 tags: ["linux", "os x", "tool"]
-categories: ["tools"]
+categories: ["tutorial", "tool"]
 ---
 
 My Mac likes to go to sleep to save power, and that means any long-running processes

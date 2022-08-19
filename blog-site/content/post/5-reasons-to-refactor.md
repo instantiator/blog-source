@@ -2,7 +2,7 @@
 title: "5 reasons refactoring your project can give you back your competitive edge"
 date: 2017-10-05T00:00:00Z
 Tags: [ "refactoring", "technical debt", "agility", "software development", "requirements" ]
-Categories: [ "Article", "Listicle" ]
+Categories: [ "article" ]
 Images: [ "/necro-images/bonkers-world-software.jpg", "/necro-images/xkcd-good-code.png", "/necro-images/the-refactoring.png" ]
 ---
 

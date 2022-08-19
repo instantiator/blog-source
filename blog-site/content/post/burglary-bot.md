@@ -4,7 +4,7 @@ date: 2019-02-23T00:00:00Z
 draft: false
 tags: ["policing", "burglary", "crime", "reporting", "bot", "technology", "c#", "developer", "project", "Police Rewired" ]
 images: ["/police-rewired/friendly-police-bot.png"]
-categories: ["Article", "Police Rewired"]
+categories: ["article", "police rewired"]
 ---
 
 *This is a necropost, resurrected from an old blog. To find out more about Hack the Police events, civic tech, and policing technology, visit: [Police Rewired](https://policerewired.org)*

@@ -2,7 +2,7 @@
 title: "Hacking up Parliament"
 date: 2012-12-08T00:00:00Z
 Tags: [ "Necropost", "Parliament", "hackathon", "hack", "Hansard", "analysis", "LDA" ]
-Categories: [ "Necropost", "Article" ]
+Categories: [ "necropost", "article" ]
 ---
 
 *This is a necropost, resurrected from an old blog.*

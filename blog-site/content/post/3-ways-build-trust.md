@@ -2,7 +2,7 @@
 title: "3 excellent ways to build trust with your users"
 date: 2017-10-11T00:00:00Z
 Tags: [ "trust" ]
-Categories: [ "Article", "Listicle" ]
+Categories: [ "article" ]
 Images: [ "/necro-images/game-of-dice.jpg", "/necro-images/up-goer-five.png", "/necro-images/something-happened-click-ok.jpg" ]
 ---
 

@@ -3,7 +3,7 @@ title: "Policing data interventions"
 date: 2019-03-05T00:00:00Z
 Tags: [ "data", "c#", "policing" ]
 Images: ["/police-rewired/ipscj.png"]
-Categories: [ "Necropost", "Article", "Police Rewired" ]
+Categories: [ "necropost", "article", "police rewired" ]
 ---
 
 *This is a necropost, resurrected from an old blog. To find out more about Hack the Police events, civic tech, and policing technology, visit: [Police Rewired](https://policerewired.org)*

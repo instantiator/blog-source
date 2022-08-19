@@ -2,8 +2,8 @@
 title: "Hack Highlight #4: How did we do?"
 date: 2013-06-14T00:00:00Z
 Tags: [ "Necropost", "policing", "crime", "technology", "civic tech", "Hack the Police", "Metropolitan Police", "QOS", "survey", "feedback", "app", "victim care", "service" ]
-Categories: [ "Necropost", "Article", "Police Rewired" ]
-Series: [ "htp-1" ]
+Categories: [ "necropost", "article", "police rewired" ]
+Series: [ "hack the police 1" ]
 ---
 
 *This is a necropost, resurrected from an old blog. To find out more about Hack the Police events, civic tech, and policing technology, visit: [Police Rewired](https://policerewired.org)*

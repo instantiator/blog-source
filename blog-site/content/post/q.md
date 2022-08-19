@@ -3,7 +3,7 @@ title: "Querying data files with terminal tools"
 date: 2021-01-04T17:30:00Z
 draft: false
 tags: ["linux", "os x", "tool", "data", "json", "yaml", "csv"]
-categories: ["tools"]
+categories: ["tutorial", "tool"]
 ---
 
 There are a many ways to peek inside a data file and reason about its contents.

@@ -2,7 +2,7 @@
 title: "Drive Stamper"
 date: 2015-05-29T00:00:00Z
 Tags: [ "Necropost", "tool", "C#", "Source" ]
-Categories: [ "Necropost", "Tool" ]
+Categories: [ "necropost", "article", "tool" ]
 ---
 
 *This is a necropost, resurrected from an old blog.*

@@ -2,7 +2,7 @@
 title: "We're only human"
 date: 2020-04-24T00:00:00Z
 tags: ["covid-19", "volunteering", "community", "aid", "mutual aid", "open data", "research"]
-categories: ["Article"]
+categories: ["article"]
 images: [ "/covid-19/covid-groups-map.png" ]
 series: [ "covid-19" ]
 ---

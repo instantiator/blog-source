@@ -2,8 +2,8 @@
 title: "Choosing your first coding language"
 date: 2021-01-03T15:00:00Z
 draft: false
-tags: ["coding", "beginner"]
-categories: ["coding"]
+tags: ["coding", "programming", "beginner", "101"]
+categories: ["tutorial"]
 ---
 
 # Anyone can code.

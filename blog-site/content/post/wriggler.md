@@ -4,7 +4,7 @@ date: 2018-04-23T00:00:00Z
 draft: false
 tags: ["coding", "qbasic", "game", "wriggler", "1998", "amstrad", "nostalgia", "retro" ]
 images: ["/necro-images/qbasic-wriggler-01.png", "/necro-images/qbasic-wriggler-02.png", "/necro-images/qbasic-wriggler-03.png"]
-categories: ["coding"]
+categories: ["artciel", "necropost"]
 ---
 
 *This is a necropost, resurrected from an old blog.*

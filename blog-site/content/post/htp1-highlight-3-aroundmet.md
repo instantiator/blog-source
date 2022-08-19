@@ -2,8 +2,8 @@
 title: "Hack Highlight #3: AroundMET"
 date: 2013-06-07T00:00:00Z
 Tags: [ "Necropost", "policing", "crime", "technology", "civic tech", "Hack the Police", "Metropolitan Police", "mapping", "POI", "geodata", "defibrillators", "apps", "LAS", "ambulance" ]
-Categories: [ "Necropost", "Article", "Police Rewired" ]
-Series: [ "htp-1" ]
+Categories: [ "necropost", "article", "police rewired" ]
+Series: [ "hack the police 1" ]
 ---
 
 *This is a necropost, resurrected from an old blog. To find out more about Hack the Police events, civic tech, and policing technology, visit: [Police Rewired](https://policerewired.org)*

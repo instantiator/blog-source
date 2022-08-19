@@ -2,7 +2,7 @@
 title: "TIL - shell environment variables aren't available to OS X apps"
 date: 2021-11-12T00:00:00Z
 tags: ["TIL", "OS X", "environment", "shell", "applications"]
-categories: ["Article"]
+categories: ["tutorial"]
 images: [ "/TIL/shellexecute-docs.jpeg" ]
 ---
 

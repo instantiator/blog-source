@@ -3,7 +3,7 @@ title: "Building an AWS Lambda in C#, part 1: AWS"
 date: 2021-04-15T18:00:00Z
 draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
-categories: ["coding", "tutorial"]
+categories: ["tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
 series: ["csharp-aws-lambda-tutorial"]
 ---
