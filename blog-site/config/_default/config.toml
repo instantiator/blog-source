@@ -21,4 +21,6 @@ pygmentsCodefencesGuessSyntax = true
 
 # Taxonomies
 [taxonomies]
-  series = "series"
+  series = 'series'
+  category = 'categories'
+  tag = 'tags'
