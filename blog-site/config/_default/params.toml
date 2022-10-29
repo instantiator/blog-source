@@ -47,6 +47,11 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
+icon = "fab fa-mastodon"
+title = "Mastodon"
+url = "https://mastodon.social/@instantiator"
+
+[[socialIcons]]
 icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/instantiator"
