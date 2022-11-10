@@ -111,7 +111,7 @@ All services currently share a single database - a handy shortcut for managing s
 
 When ready, I expect to be able to run the whole thing on a [Raspberry Pi](https://www.raspberrypi.com/) from home.
 
-This is Colossus, my Raspberry Pi stack... Its namesake was a World War II computer designed for cryptanalysis of German ciphers. It was the size of your living room, and weighed 5 tonnes.
+This is Colossus, my Raspberry Pi stack... [Its namesake](https://en.wikipedia.org/wiki/Colossus_computer) was a World War II computer designed for cryptanalysis of German ciphers. It was the size of your living room, and weighed 5 tonnes.
 
 ![This is colossus](/consensus/colossus.jpg "This is colossus - 4 Raspberry Pi computers, stacked one atop the other.")
 
