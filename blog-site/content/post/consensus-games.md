@@ -1,7 +1,7 @@
 ---
 title: "International Consensus Games"
 date: 2022-11-10T00:00:00Z
-tags: ["game", "consensus", "voting", "social", "twitter", "mastodon", "chess", "games", "project" ]
+tags: ["game", "consensus", "distributed", "voting", "social", "twitter", "mastodon", "fediverse", "chess", "games", "project", "chess.com", "microservice", "serverless", "docker", "compose", ".NET", "worker" ]
 images: [ "/consensus/pieces_dream.png" ]
 categories: ["article"]
 ---
@@ -128,3 +128,11 @@ I came up with this idea in the olden days of `.asp` and Visual Basic. It must h
 I owned the domain I wanted to use for this for a long time - and only gave it up recently. I'm on the cusp of claiming it again.
 
 In the original plan, people could vote by SMS. We'd put the board in a national newspaper each week. You could play off the readership of different papers, or you could even play off different countries! It feels like a fun new kind of sporting rivalry.
+
+# Follow my progress
+
+Follow along if you're interested!
+
+* [@instantiator@mastodon.social](https://mastodon.social/@instantiator) (I'm on Mastodon)
+* [Consensus Chess 2022](https://trello.com/b/r0OX2iCq/consensus-chess-2022) (Trello board)
+* [instantiator/consensus-chess-engine](https://github.com/instantiator/consensus-chess-engine) (GitHub repository)
