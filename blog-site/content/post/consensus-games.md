@@ -6,7 +6,9 @@ images: [ "/consensus/pieces_dream.png" ]
 categories: ["article"]
 ---
 
-I've been working on a pet project recently: Consensus games are a fun new way to play together through social media... While we wait for some more accounts to be approved across the fediverse, here's a little intro to the idea and an update on progress...
+I've been working on a pet project recently: Consensus games are a fun new way to play together through social media... 
+
+_While we wait for some more accounts to be approved across the fediverse, here's a little intro to the idea and an update on progress..._
 
 # What are consensus games?
 
