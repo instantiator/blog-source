@@ -47,6 +47,16 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
+icon = "fas fa-chess-knight"
+title = "icgames.net"
+url = "https://icgames.net"
+
+[[socialIcons]]
+icon = "fas fa-chess-pawn"
+title = "icgames.net"
+url = "https://www.chess.com/member/instantiator"
+
+[[socialIcons]]
 icon = "fab fa-mastodon"
 title = "Mastodon"
 url = "https://mastodon.social/@instantiator"
