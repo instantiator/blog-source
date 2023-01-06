@@ -63,7 +63,7 @@ I needed a way to do arithmetic with numbers of any size. Remembering that I'd r
 I kept searching... and I did come across a couple of interesting hits:
 
 1. The `bigint.bbc` library that's bundled with R. T. Russell's [BBC BASIC for SDL 2.0](https://www.bbcbasic.co.uk/bbcsdl/index.html)
-2. An article by David Tall, found in MICROMATH, Autumn 1985 edition: [Arithmetic with large numbers](/advent-2022/ot1985e-large-numbers.pdf)
+2. An article by David Tall, found in MICROMATH, Autumn 1985 edition: [Arithmetic with large numbers](/advent-2022/dot1985e-large-numbers.pdf)
 
 Unfortunately, the `bigint.bbc` library doesn't really fit the need here: It assumes the availability of 64-bit integers - and this means it's only really going to work for more recent/modern editions of BASIC.
 
