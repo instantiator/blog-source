@@ -14,7 +14,7 @@ _Hopefully this will accelerate some early prototyping for some of my projects, 
 
 I've been giving some thought to building a number of prototype projects for some friends. They need to reflect the realities of hosting on a cloud service provider, exploit the benefits of serverless design, and offer some frequently needed services: serverless lambdas with database support, behind an API gateway protected by an authentication service.
 
-What I came up with is probably not too surprising given the brief:
+What I came up with is probably not too surprising, given the brief...
 
 ![A diagram illustrating several services, each with access to a database; behind an API gateway, which has access to an auth service. A web app and mobile app both have access to the API Gateway and auth service, too.](https://raw.githubusercontent.com/instantiator/mvp-rocketship-template/main/documentation/images/rocket-mvp.png "A diagram illustrating several services, each with access to a database; behind an API gateway, which has access to an auth service. A web app and mobile app both have access to the API Gateway and auth service, too.")
 
