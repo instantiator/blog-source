@@ -6,7 +6,7 @@ images: [ "/rocketship/rocket-mvp.png" ]
 categories: ["article"]
 ---
 
-Presenting a simple template to develop, publish, and test a simple .NET service backend on AWS, with serverless Lambda functions, supported by DynamoDb, behind an API Gateway, and protected by Cognito auth.
+Presenting a simple template to develop, publish, and test a simple C# service backend on AWS, with serverless Lambda functions, supported by DynamoDb, behind an API Gateway, and protected by Cognito auth.
 
 _Hopefully this will accelerate some early prototyping for some of my projects, and perhaps you'll find it useful as a reference too._
 
