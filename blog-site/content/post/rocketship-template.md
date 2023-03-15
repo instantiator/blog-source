@@ -10,6 +10,15 @@ Presenting a simple template to develop, publish, and test a simple C# service b
 
 _Hopefully this will accelerate some early prototyping for some of my projects, and perhaps you'll find it useful as a reference too._
 
+## UPDATE: errata
+
+There are a number of fixes I'll be backporting into the template:
+
+* The APIs currently require the user's _identity token_. It's preferable to use an _access token_.
+* Instead of activating the first use / password reset process, AWS permits us to directly set the test user password.
+* Cross-origin requests are rejected by browsers because CORS headers aren't available.
+* CORS headers are also required for 4XX errors from the Cognito authorizer, and 5XX from lambda execution.
+
 # The rocketship template
 
 I've been giving some thought to building a number of prototype projects for some friends. They need to reflect the realities of hosting on a cloud service provider, exploit the benefits of serverless design, and offer some frequently needed services: serverless lambdas with database support, behind an API gateway protected by an authentication service.
