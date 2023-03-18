@@ -1,7 +1,7 @@
 ---
-title: "3D puzzle prints: crosswords"
+title: "3D puzzle print: crosswords"
 date: 2023-01-18T00:00:00Z
-tags: [ "scad", "open-scad", "3D", "3D-printing", "SnapMaker", "Luban", "puzzle", "crossword", "print", "design", "STL", "gcode" ]
+tags: [ "SCAD", "STL", "3D", "3D-printing", "design", "SnapMaker", "Luban", "puzzle", "crossword", "print", "gcode", "DotNet", "Docker", "OpenSCAD", "M600" ]
 images: [ "/crossword-prints/sample-print-clarbert.jpeg" ]
 categories: ["tool"]
 ---
