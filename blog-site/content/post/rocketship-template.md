@@ -12,7 +12,7 @@ _Hopefully this will accelerate some early prototyping for some of my projects, 
 
 ## UPDATE: errata
 
-There are a number of fixes I'll be backporting into the template:
+**2023-03-18.** I've recently backported a few fixes into the template:
 
 * The APIs currently require the user's _identity token_. It's preferable to use an _access token_.
 * Instead of activating the first use / password reset process, AWS permits us to directly set the test user password.
