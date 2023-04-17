@@ -2,8 +2,8 @@
 title: "You, too, can LLM"
 date: 2023-04-17T21:00:00Z
 draft: false
-tags: ["gpt", "llm", "semantic-kernel", "sdk", "c#", ".net", "text-completion", "ai", "ml", "openai", "microsoft", "software-development", "dev", "csharp", "coding"]
-categories: ["article"]
+tags: ["gpt", "large-language-models", "llm", "semantic-kernel", "sdk", "c#", ".net", "text-completion", "artificial-intelligence", "ai", "machine-learning", "ml", "openai", "microsoft", "software-development", "dev", "csharp", "coding", "api"]
+categories: ["tutorial"]
 images: ["/sk/sk-logo.png"]
 ---
 
