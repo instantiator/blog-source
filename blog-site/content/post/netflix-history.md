@@ -1,6 +1,6 @@
 ---
 title: "A Netflixstory"
-date: 2023-04-20T12:30:00Z
+date: 2023-04-20T17:30:00Z
 draft: false
 tags: ["netflix","data","dump","download","csv","visualisation"]
 categories: ["tutorial"]
