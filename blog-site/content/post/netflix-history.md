@@ -2,7 +2,7 @@
 title: "A Netflixstory"
 date: 2023-04-20T17:30:00Z
 draft: false
-tags: ["netflix","data","dump","download","csv","visualisation"]
+tags: ["netflix", "tv", "watch", "data","dump","download","csv","visualisation", "jupyter", "python", "pandas"]
 categories: ["tutorial"]
 images: ["/netflix/netflix-wallpaper.jpg"]
 ---
