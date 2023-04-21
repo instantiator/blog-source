@@ -83,7 +83,7 @@ The various `Import*` methods are defined as extension methods for `IKernel` in 
 
 #### Semantic functions
 
-Semantic Functions are imported from their Skill's directory. Each Skill has its own directory, and each function has a directory within there.
+Semantic Functions are imported from their position in the skills directory tree. Each Skill has its own directory, and each function has a directory within there.
 
 In this solution, all Skills are grouped inside the `Skills` directory:
 

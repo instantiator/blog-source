@@ -29,11 +29,10 @@ if [ -n "$*" ]; then
 fi
 git commit -m "$msg"
 git push
-popd # public
 
+popd # public
 popd # blog-site
 printf "\033[0;32mDone updating public submodule.\033[0m\n"
-
 
 git add --all
 msg="updated submodules: ${date}"
