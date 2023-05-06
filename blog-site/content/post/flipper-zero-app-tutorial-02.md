@@ -34,7 +34,13 @@ _NB. Without header files, as here, references must come after that particular r
 
 A lot of the code I'll be sharing here is derived from the work I did building the [resistance calculator](https://github.com/instantiator/flipper-zero-experimental-apps/tree/main/resistors) app, and you're welcome to sift through that code and plunder what you need for your own projects.
 
-In turn, that app relies heavily on the patterns provided in Derek Jamison's [basic scenes](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/plugins/basic_scenes) tutorial. Derek has been kindly supporting and debugging my work in the background, and has produced a vast library of valuable learning resources. Check out his YouTube channel: [@MrDerekJamison](https://www.youtube.com/@MrDerekJamison)
+In turn, that app relies heavily on the patterns provided in Derek Jamison's [basic scenes](https://github.com/jamisonderek/flipper-zero-tutorials/tree/main/plugins/basic_scenes) tutorial. Derek has been kindly supporting and debugging my work in the background, and has produced a vast library of valuable learning resources. Check out his YouTube channel:
+
+* [@MrDerekJamison](https://www.youtube.com/@MrDerekJamison)
+
+Derek also maintains a wiki, full of information for new coders:
+
+* [jamisonderek/flipper-zero-tutorials/wiki/User-Interface](https://github.com/jamisonderek/flipper-zero-tutorials/wiki/User-Interface)
 
 ### With thanks
 
