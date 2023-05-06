@@ -16,17 +16,29 @@ Flipper Zero features several apps built directly into the firmware, but you can
 
 ## Resistance is futile
 
-I recently built [an app to calculate the value of resistors](https://flipc.org/instantiator/flipper-zero-experimental-apps?branch=main&root=resistors) by decoding the coloured bands on them. In this tutorial, we'll walk through the process of setting up an app, and building a simple user interface step-by-step, using the same techniques.
+With the help of several folks from the Flipper dev community, I recently built [an app to calculate the value of resistors](https://flipc.org/instantiator/flipper-zero-experimental-apps?branch=main&root=resistors) by decoding the coloured bands on them. More detail and source code at:
+
+* [instantiator/flipper-zero-experimental-apps](https://github.com/instantiator/flipper-zero-experimental-apps)
+
+Thanks to
+
+* [Derek Jamison](https://github.com/jamisonderek) for helping to debug a thorny issue or two, and
+* [Kuronons](https://github.com/Kuronons) for the graphics in the app.
+
+In this tutorial, we'll walk through the process of setting up an app, and building a simple user interface, using the same techniques.
 
 ## Community
 
-Before getting started, it's helpful to know that there's a thriving and welcoming FlipperZero community on a public Discord server, called: [Flipper Devices](https://discord.gg/flipper)
+Before getting started, it's helpful to know that there's a thriving and welcoming FlipperZero community on a public Discord server:
+
+* [Flipper Devices](https://discord.gg/flipper)
 
 ## With thanks
 
 This part of the tutorial series would not have been possible without the help and support of various people in the Flipper Zero community. Many thanks to:
 
-* FlipperZero folks for the [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) tool.
+* Derek Jamison for his [plugin tutorials](https://github.com/jamisonderek/flipper-zero-tutorials),
+* FlipperZero folks for the [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) tool, and
 * [Aleksey Korolev](https://github.com/playmean) for the [flipc.org](https://flipc.org/) Flipper app catalogue.
 
 ## The toolchain
@@ -37,7 +49,7 @@ I'm using a few tools:
 * [Visual Studio Code](https://code.visualstudio.com/) - an editor and IDE from Microsoft
 * [Pinta](https://www.pinta-project.com/) - a Mac clone of [paint.net](https://www.getpaint.net/index.html) (but any graphics tool that allows you to edit 1-bit PNGs will do)
 
-I can't recommend working with Visual Studio Code highly enough. It provides project management features, C syntax awareness and highlighting, and integrates very nicely with `ufbt`.
+The experience working with Visual Studio Code is brilliant. It provides project management features, C syntax awareness and highlighting, and `ufbt` provides a nice integration to support build and debug options from the IDE.
 
 ## Versions and firmwares
 
