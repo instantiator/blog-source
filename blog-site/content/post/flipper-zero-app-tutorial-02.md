@@ -336,6 +336,45 @@ There are a few images in the directory:
 
 Adding more 1-bit png files to this directory will result in their being compiled into the app and available to the code as `Icon` resources.
 
+## Build and deploy
+
+If you haven't already, get a copy of the code from:
+
+* [instantiator/flipper-zero-tutorial-app](https://github.com/instantiator/flipper-zero-tutorial-app)
+
+Now, you can build the application:
+
+```bash
+$ ufbt
+scons: Entering directory `/Users/lewiswestbury/.ufbt/current/scripts/ufbt'
+        CC      /Users/lewiswestbury/src/personal/test_app/test_app.c
+        CDB     /Users/lewiswestbury/src/personal/test_app/.vscode/compile_commands.json
+        LINK    /Users/lewiswestbury/.ufbt/build/test_app_d.elf
+        INSTALL /Users/lewiswestbury/src/personal/test_app/dist/debug/test_app_d.elf
+        APPMETA /Users/lewiswestbury/.ufbt/build/test_app.fap
+        FAP     /Users/lewiswestbury/.ufbt/build/test_app.fap
+        INSTALL /Users/lewiswestbury/src/personal/test_app/dist/test_app.fap
+        APPCHK  /Users/lewiswestbury/.ufbt/build/test_app.fap
+                Target: 7, API: 26.0
+```
+
+Provided `ufbt` and your Flipper agree on the firmware version, you can deploy it to your Flipper to try it out:
+
+```bash
+$ ufbt launch
+scons: Entering directory `/Users/lewiswestbury/.ufbt/current/scripts/ufbt'
+python3 "/Users/lewiswestbury/.ufbt/current/scripts/runfap.py" -s /Users/lewiswestbury/.ufbt/build/test_app.fap -t /ext/apps/Examples/test_app.fap
+        APPCHK  /Users/lewiswestbury/.ufbt/build/test_app.fap
+                Target: 7, API: 26.0
+2023-05-06 23:38:36,824 [INFO] Using flip_Akurisau on /dev/cu.usbmodemflip_Akurisau1
+2023-05-06 23:38:36,877 [INFO] Installing "/Users/lewiswestbury/.ufbt/build/test_app.fap" to /ext/apps/Examples/test_app.fap
+2023-05-06 23:38:36,916 [INFO] Sending "/Users/lewiswestbury/.ufbt/build/test_app.fap" to "/ext/apps/Examples/test_app.fap"
+100%, chunk 1 of 1
+2023-05-06 23:38:37,108 [INFO] Launching app: "Applications" /ext/apps/Examples/test_app.fap
+```
+
+{{< youtube Lkau7hTrkLE >}}
+
 ## Putting it all together
 
 This walk-through has hopefully covered everything required to initiate and launch a simple UI for a Flipper Zero app.

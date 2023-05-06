@@ -16,7 +16,11 @@ Flipper Zero features several apps built directly into the firmware, but you can
 
 ## Resistance is futile
 
-With the help of several folks from the Flipper dev community, I recently built [an app to calculate the value of resistors](https://flipc.org/instantiator/flipper-zero-experimental-apps?branch=main&root=resistors) by decoding the coloured bands on them. More detail and source code at:
+With the help of several folks from the Flipper dev community, I recently built [an app to calculate the value of resistors](https://flipc.org/instantiator/flipper-zero-experimental-apps?branch=main&root=resistors) by decoding the coloured bands on them.
+
+{{< youtube mCpjn93I1Sw >}}
+
+More detail and source code at:
 
 * [instantiator/flipper-zero-experimental-apps](https://github.com/instantiator/flipper-zero-experimental-apps)
 
