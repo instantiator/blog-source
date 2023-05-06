@@ -10,9 +10,11 @@ series: ["flipper-zero-app-tutorial"]
 
 In this part, we'll build a simple user interface for a Flipper Zero app.
 
+The Flipper Zero is a digital signals multi-tool device, with some fun applications. It has an infrared module, a sub-GHz radio, RFID and NFC capability, iButton, USB, a screen, input controls, and GPIO pins. It's small enough to fit in your hand, and it can communicate with your home appliances, or help you to learn about the signals that fly around our world. It's also extremely customisable.
+
 # Let's build a UI for Flipper Zero
 
-The Flipper Zero firmware provides a range of library functions and structures to support user interfaces. There are some simple options, but anything more complex than the simplest apps will need to display a variety of views grouped into scenes.
+The Flipper's firmware provides a range of library functions and structures to support user interfaces. There are some simple options, but anything more complex than the simplest apps will need to display a variety of views grouped into scenes.
 
 The UI for this tutorial will have 3 scenes:
 
