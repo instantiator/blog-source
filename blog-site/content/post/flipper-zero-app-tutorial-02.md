@@ -375,6 +375,14 @@ python3 "/Users/lewiswestbury/.ufbt/current/scripts/runfap.py" -s /Users/lewiswe
 
 {{< youtube Lkau7hTrkLE >}}
 
+If your firmware and `ufbt` don't agree, your Flipper will tell you about it. You can update the SDK you're building against with:
+
+```bash
+ufbt update --channel=[dev|rc|release]
+```
+
+You can change the firmware on your device using the qFlipper app.
+
 ## Putting it all together
 
 This walk-through has hopefully covered everything required to initiate and launch a simple UI for a Flipper Zero app.
