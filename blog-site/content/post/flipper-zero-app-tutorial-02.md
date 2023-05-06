@@ -50,8 +50,6 @@ This part of the tutorial series would not have been possible without the help a
 * [DroomOne](https://github.com/DroomOne) for the [Flipper Plugin tutorial](https://github.com/DroomOne/Flipper-Plugin-Tutorial).
 * [Chris Hranj](https://brodan.biz/) (Brodan) for the [guide to Flipper Zero components](https://brodan.biz/blog/a-visual-guide-to-flipper-zero-gui-components/).
 
-If you're interested in developing apps for the Flipper, you should really check out Derek's YouTube channel: [@MrDerekJamison](https://www.youtube.com/@MrDerekJamison)
-
 ## Approaches
 
 Flipper Zero provides a few of ways to build an app interface. The simplest is to create and register a `ViewPort`, and register a function for redrawing it which will be called each time `view_port_update` is called.
