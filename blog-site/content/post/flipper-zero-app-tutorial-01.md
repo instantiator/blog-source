@@ -164,10 +164,8 @@ I often open a terminal in Visual Studio Code, as it's easiest to work in a sing
 
 Update `ufbt` to collect the Software Development Kit (SDK) for the current firmware. You can specify the firmware channel using the `--channel=[dev|rc|release]` option.
 
-_NB. I recommend working against the `dev` channel firmware. It enables quite a lot of safeguards to help catch certain kinds of mistakes early (you'll see theses as `furi_assert` assertions in code)._
-
 ```bash
-$ ufbt update
+$ ufbt update --channel=dev
 13:36:51.062 [I] Deploying SDK for f7
 13:36:51.062 [I] Fetching version info for UpdateChannel.DEV from https://update.flipperzero.one/firmware/directory.json
 13:36:51.201 [I] Using version: a7d1ec03
@@ -176,7 +174,23 @@ $ ufbt update
 13:36:53.556 [I] SDK deployed.
 ```
 
-Your Flipper's firmware should match the firmware you're working against, or the app won't launch. You can ensure that by updating the firmware on your Flipper through the **qFlipper** application on your computer.
+_NB. I recommend working against the `dev` channel firmware. It enables quite a lot of safeguards to help catch certain kinds of mistakes early (you'll see theses as `furi_assert` assertions in firmware code, and you can use them yourself)._
+
+_NNB. If a `furi_assert` fails (ie. the assertion isn't true), it will hang your program. It can sometimes be quite difficult to identify or locate the problem, particularly if you haven't tried to debug your code yet, but at least you'll know there's an issue. I'll cover debugging in a future tutorial (once I have the supporting hardware). In the meantime, you could check out [Derek Jamison](https://www.youtube.com/@MrDerekJamison)'s guide on YouTube: [Flipper Zero: Debugging FURI_ASSERT failures](https://youtu.be/CLsLZO15S44)_
+
+Your Flipper's firmware should match the firmware you're working against, or the app won't launch. You can use `ufbt` to flash the firmware on your Flipper:
+
+```bash
+ufbt flash_usb
+```
+
+`ufbt` will also flash through an ST-link if you have that available:
+
+```bash
+ufbt flash
+```
+
+The **qFlipper** application also supports this:
 
 ![the qFlipper app showing the firmware view and the big green update button](/f0-tutorial/qflipper-update.png)
 
