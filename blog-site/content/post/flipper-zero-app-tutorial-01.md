@@ -49,7 +49,7 @@ This part of the tutorial series would not have been possible without the help a
 
 I'm using a few tools:
 
-* [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) ("micro Flipper Build Tool") - a cut down version of [fbt](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/fbt.md) (the Flipper Built Tool)
+* [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) ("micro Flipper Build Tool") - a version of [fbt](https://github.com/flipperdevices/flipperzero-firmware/blob/dev/documentation/fbt.md) (the Flipper Built Tool) that supports everything you need for app development
 * [Visual Studio Code](https://code.visualstudio.com/) - an editor and IDE from Microsoft
 * [Pinta](https://www.pinta-project.com/) - a Mac clone of [paint.net](https://www.getpaint.net/index.html) (but any graphics tool that allows you to edit 1-bit PNGs will do)
 
