@@ -147,7 +147,27 @@ In this simple scenario, it's probably easier just to reorder your functions.
 
 As soon as you want to start defining a group or library of functions and structures that are all linked, you'll want to place them into a separate `.c` file and then create a header file you can use to define the interface (the methods you're sharing with other `.c` files).
 
-The good news is that `ufbt` will find all your files, and compile them in a sensible order.
+As a rule of thumb, if you want to include a header file from your own code, use inverted commas:
+
+```c
+#include "my_lib.h"
+```
+
+If you want to include a library header (eg. from the firmware), use angle brackets:
+
+```c
+#include <gui/gui.h>
+```
+
+The good news is that `ufbt` is smart. It will find all your `.c` code files, and compile them in a sensible order. (The days of having to list all your code files for `gcc` are a long distant nightmare...)
+
+### Firmware headers
+
+A lot of this tutorial will use the [gui libraries](https://github.com/flipperdevices/flipperzero-firmware/tree/dev/applications/services/gui) made available through the [official firmware](https://github.com/flipperdevices/flipperzero-firmware). If you ever need to figure out how something works, it's definitely worth taking a look.
+
+If you do poke around you'll see plenty of `.c` code files and `.h` header files. Those header files define exactly which functions, structs, enums, global variables, and macros you'll be able to use to develop your app.
+
+You'll also see some header files that end with the suffix `_i.h`. These are _internal_ headers. This means that their content is not made available to app developers. You _shouldn't_ need anything in them, although occasionally you may see something in there you'd like to use. Try searching to see if it's called as a part of another function. There's often a good reason why a function has not been exposed to app developers. If you still think you need it, you can always raise the question on Discord.
 
 ## Setting up your environment
 
