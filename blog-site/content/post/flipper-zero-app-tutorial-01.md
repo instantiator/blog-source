@@ -10,6 +10,8 @@ series: ["flipper-zero-app-tutorial"]
 
 FlipperZero is a digital signals multi-tool. Here's a short guide to the basics of building an app for it...
 
+The Flipper Zero is a digital signals multi-tool device, with some fun applications. It has an infrared module, a sub-GHz radio, RFID and NFC capability, iButton, USB, a screen, input controls, and GPIO pins. It's small enough to fit in your hand, and it can communicate with your home appliances, or help you to learn about the signals that fly around our world. It's also extremely customisable.
+
 # Let's build an app for Flipper Zero
 
 Flipper Zero features several apps built directly into the firmware, but you can also create and install external apps onto the SD card which are then available through the Applications menu.
