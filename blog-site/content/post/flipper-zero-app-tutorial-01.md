@@ -43,7 +43,7 @@ Before getting started, it's helpful to know that there's a thriving and welcomi
 
 This part of the tutorial series would not have been possible without the help and support of various people in the Flipper Zero community. Many thanks to:
 
-* Derek Jamison for his [plugin tutorials](https://github.com/jamisonderek/flipper-zero-tutorials),
+* Derek Jamison for his [plugin tutorials](https://github.com/jamisonderek/flipper-zero-tutorials), and accompanying [wiki](https://github.com/jamisonderek/flipper-zero-tutorials/wiki)
 * FlipperZero folks for the [ufbt](https://github.com/flipperdevices/flipperzero-ufbt) tool, and
 * [Aleksey Korolev](https://github.com/playmean) for the [flipc.org](https://flipc.org/) Flipper app catalogue.
 
