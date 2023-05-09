@@ -418,7 +418,7 @@ ufbt flash_usb
 This walk-through has hopefully covered everything required to initiate and launch a simple UI for a Flipper Zero app.
 
 **The code for this tutorial is available at: [instantiator/flipper-zero-tutorial-app](https://github.com/instantiator/flipper-zero-tutorial-app)**
-
+ 
 Feel free to plunder it for your own app. I highly recommend reading it through, and then taking a look at some other tutorials too to ensure you get a fully rounded view of the patterns for UI development on the Flipper.
 
 In future parts, we'll cover:
