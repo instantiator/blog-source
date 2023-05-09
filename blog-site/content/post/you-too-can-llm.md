@@ -1,5 +1,5 @@
 ---
-title: "You, too, can LLM"
+title: "Building AI into your application with Semantic Kernel"
 date: 2023-04-17T21:00:00Z
 draft: false
 tags: ["gpt", "large-language-models", "llm", "semantic-kernel", "sdk", "c#", ".net", "text-completion", "artificial-intelligence", "ai", "machine-learning", "ml", "openai", "microsoft", "software-development", "dev", "csharp", "coding", "api"]
@@ -14,6 +14,8 @@ This is a quick guide to some of the features of the Semantic Kernel, a Software
 The Semantic Kernel is in pre-release, and that means it's not complete, and has plenty of improvements coming. Nevertheless, it's a nice tool for interacting with the Large Language Models (LLMs) available from OpenAI, and Azure OpenAI. You can add it to your .NET projects as a library through NuGet, and once installed it makes the complex business of interacting with these APIs simple.
 
 ![A flow representing the Semantic Kernel's process. An Ask is fed into the Kernel, which then uses the Planner to conduct a number of steps marked S, M, and C. These, then lead to a Get request which is passed off to an LLM API.](/sk/sk-flow.png)
+
+I work in C# but Semantic Kernel has support for several languages: C#, Python, and I'm given to understand Java (soon!)
 
 ## Concepts
 
