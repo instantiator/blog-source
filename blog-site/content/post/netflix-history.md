@@ -1,5 +1,5 @@
 ---
-title: "A Netflixstory"
+title: "A Netflixstory - analyse your Netflix watch history"
 date: 2023-04-20T17:30:00Z
 draft: false
 tags: ["netflix", "tv", "watch", "data","dump","download","csv","visualisation", "jupyter", "python", "pandas"]
