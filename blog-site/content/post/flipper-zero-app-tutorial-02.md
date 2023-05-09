@@ -411,7 +411,7 @@ You can change the firmware on your device using the qFlipper app, or:
 ufbt flash_usb
 ```
 
-(Swap for just `ufbt flash` if you're using an ST link.)
+(Swap for `ufbt flash` if you're using an ST link.)
 
 ## Putting it all together
 
