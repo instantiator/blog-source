@@ -5,6 +5,7 @@ draft: false
 tags: ["netflix", "tv", "watch", "data","dump","download","csv","visualisation", "jupyter", "python", "pandas"]
 categories: ["tutorial"]
 images: ["/netflix/netflix-wallpaper.jpg"]
+thumbnail: "/netflix/netflix-wallpaper.jpg"
 ---
 
 _Exploring your personal Netflix viewing history..._

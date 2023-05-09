@@ -4,6 +4,7 @@ date: 2019-03-28T00:00:00Z
 draft: false
 tags: ["policing", "witness", "video", "crime", "phone", "android", "999", "emergency", "civic tech" ]
 images: ["/police-rewired/emergency-recorder.png"]
+thumbnail: "/police-rewired/emergency-recorder.png"
 categories: [ "article", "police rewired" ]
 ---
 

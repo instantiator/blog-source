@@ -3,6 +3,7 @@ title: "8-bit Supercomputer"
 date: 2023-01-04T00:00:00Z
 tags: ["BBCMicro", "8-bit", "Retro", "RetroComputing", "AdventOfCode", "Arithemetic", "BigNumbers", "Emulator", "1981", "Supercomputer", "beebjit", "Docker", "Container" ]
 images: [ "/advent-2022/deep-thought.png" ]
+thumbnail: "/advent-2022/deep-thought.png"
 categories: ["article"]
 ---
 

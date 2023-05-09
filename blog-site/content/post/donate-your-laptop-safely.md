@@ -3,6 +3,7 @@ title: "How to donate your laptop safely"
 date: 2020-02-01T00:00:00Z
 tags: ["laptop", "recycling", "reuse", "ubuntu", "wipe", "nwipe" ]
 images: [ "/necro-images/donate-laptop-finished.jpeg" ]
+thumbnail: "/necro-images/donate-laptop-finished.jpeg"
 categories: ["article", "tutorial"]
 ---
 

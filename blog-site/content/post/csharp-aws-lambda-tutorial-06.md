@@ -5,6 +5,7 @@ draft: false
 tags: ["coding", "c#", ".net", "aws", "lambda"]
 categories: ["tutorial"]
 images: ["/csharp-aws-lambda-tutorial/000-heading-img.png"]
+thumbnail: "/csharp-aws-lambda-tutorial/000-heading-img.png"
 series: ["csharp-aws-lambda-tutorial"]
 ---
 

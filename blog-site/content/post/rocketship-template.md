@@ -3,6 +3,7 @@ title: "The rocketship template 🚀"
 date: 2023-01-08T00:00:00Z
 tags: ["AWS", "SAM", "template", "rocketship", "serverless", "api", "gateway", "lambda", "dynamodb", "database", "cognito", "auth", "dotnet", "csharp" ]
 images: [ "/rocketship/rocket-mvp.png" ]
+thumbnail: "/rocketship/rocket-mvp.png"
 categories: ["article"]
 ---
 

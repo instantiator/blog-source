@@ -4,6 +4,7 @@ date: 2021-11-13T00:00:00Z
 tags: ["Retro Computing", "Graphics", "BASIC", "BBC Micro", "Geometry", "Rotation", "Point", "Vector", "Sample Code"]
 categories: ["article"]
 images: [ "/bbcmicrobot/rainbow-paws.png" ]
+thumbnail: "/bbcmicrobot/rainbow-paws.png"
 ---
 
 _Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created (sprinkled with [a few jokers](https://en.wikipedia.org/wiki/Take_the_Money_and_Run_(artwork)))._

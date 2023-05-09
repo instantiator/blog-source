@@ -4,6 +4,7 @@ date: 2023-05-05T09:00:00Z
 draft: false
 tags: [ "FlipperZero", "flipper", "app", "plugin", "coding", "c", "clang", "ufbt", "community", "project", "electronics", "resistance" ]
 images: [ "https://github.com/instantiator/flipper-zero-experimental-apps/raw/main/resistors/.flipcorg/banner.png" ]
+thumbnail: "https://github.com/instantiator/flipper-zero-experimental-apps/raw/main/resistors/.flipcorg/banner.png"
 categories: ["tutorial"]
 series: ["flipper-zero-app-tutorial"]
 ---

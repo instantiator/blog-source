@@ -3,6 +3,7 @@ title: "Dead Person Switches - appeal for journalists"
 date: 2021-06-18T00:00:00Z
 tags: ["Research", "MSc", "ComputerScience", "Journalism", "Academia", "InvestigativeJournalism", "DMS", "DeadManSwitch", "DPS", "DeadPersonSwitch", "appeal" ]
 images: [ "/dps/dps-ad-1.1.png" ]
+thumbnail: "/dps/dps-ad-1.1.png"
 categories: ["appeal"]
 ---
 

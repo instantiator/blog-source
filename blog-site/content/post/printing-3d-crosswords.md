@@ -3,6 +3,7 @@ title: "3D puzzle print: a crossword generation tool"
 date: 2023-01-18T00:00:00Z
 tags: [ "SCAD", "STL", "3D", "3D-printing", "design", "SnapMaker", "Luban", "puzzle", "crossword", "print", "gcode", "DotNet", "Docker", "OpenSCAD", "M600" ]
 images: [ "/crossword-prints/sample-print-clarbert.jpeg" ]
+thumbnail: "/crossword-prints/sample-print-clarbert.jpeg"
 categories: ["tool"]
 ---
 

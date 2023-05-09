@@ -3,6 +3,7 @@ title: "A rather so-phish-ticated scam"
 date: 2022-04-18T00:00:00Z
 tags: ["Scam", "Phishing", "Con", "Apple Pay", "Theft", "Monzo", "Banking" ]
 images: [ "/banking/banking-scams.png" ]
+thumbnail: "/banking/banking-scams.png"
 categories: ["article"]
 ---
 

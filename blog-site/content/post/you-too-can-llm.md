@@ -5,6 +5,7 @@ draft: false
 tags: ["gpt", "large-language-models", "llm", "semantic-kernel", "sdk", "c#", ".net", "text-completion", "artificial-intelligence", "ai", "machine-learning", "ml", "openai", "microsoft", "software-development", "dev", "csharp", "coding", "api"]
 categories: ["tutorial"]
 images: ["/sk/sk-logo.png"]
+thumbnail: "/sk/sk-logo.png"
 ---
 
 This is a quick guide to some of the features of the Semantic Kernel, a Software Development Kit that simplifies integration of language models into your own applications.

@@ -3,6 +3,7 @@ title: "Making the best possible referrals"
 date: 2021-04-28T16:00:00Z
 tags: ["PublicSafety", "referrals", "DataStandards", "DSA", "OpenReferral", "CharityBase", "PoliceRewired"]
 images: ["/referrals/referrals-dsa-post-graphic-All.png"]
+thumbnail: "/referrals/referrals-dsa-post-graphic-All.png"
 categories: ["article", "appeal", "police rewired"]
 ---
 

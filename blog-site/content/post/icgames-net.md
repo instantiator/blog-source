@@ -3,6 +3,7 @@ title: "International Consensus Chess is in public beta!"
 date: 2022-12-08T00:00:00Z
 tags: ["game", "consensus", "distributed", "voting", "social", "mastodon", "fediverse", "chess", "games", "project", "microservice", "serverless", "docker", "compose", ".NET" ]
 images: [ "/consensus/neon-king.png" ]
+thumbnail: "/consensus/neon-king.png"
 categories: ["article"]
 ---
 

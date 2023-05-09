@@ -4,6 +4,7 @@ date: 2021-11-12T00:00:00Z
 tags: ["TIL", "OS X", "environment", "shell", "applications"]
 categories: ["tutorial"]
 images: [ "/TIL/shellexecute-docs.jpeg" ]
+thumbnail: "/TIL/shellexecute-docs.jpeg"
 ---
 
 _Just recently I have been exploring a very strange issue: My application couldn't find a tool that was right where it should be..._
