@@ -244,6 +244,12 @@ menu_add_item(
     app);
 ```
 
+The last 3 values passed into the menu indicate what action to take:
+
+* `test_app_menu_callback_main_menu`  - this is the callback function to invoke if the user selects this item
+* `TestAppMenuSelection_One|_Two` - this is an enum value (effectively an `int32_t`) which is provided to the callback function as `index` - indicating which item the user selected
+* `app` - this is the context to provide to the callback function
+
 Finally the view dispatcher is instructed to switch to this view:
 
 ```c
