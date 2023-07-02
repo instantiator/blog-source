@@ -24,7 +24,7 @@ The code is in a GitHub repository, and there's also a quick guide there to gett
 
 ## Technologies
 
-As the purpose of this project is to simplify running and connecting a variety of existing tools, the choice of technologies was guided by how simplicity of containerisation. We're using:
+As the purpose of this project is to simplify running and connecting a variety of existing tools, the choice of technologies was guided by simplicity of containerisation. We're using:
 
 - [Docker](https://www.docker.com/products/docker-desktop/) - to run containers for individual applications.
 - [Lua](https://www.lua.org/) - a simple scripting language.
@@ -34,13 +34,13 @@ As the purpose of this project is to simplify running and connecting a variety o
 
 ## Data
 
-Data comes from [OpenStreetMap](https://www.openstreetmap.org/) (OSM). [GEOFABRIK](https://download.geofabrik.de/) host mirrors of OSM data as downloads, broken down by region. The data is provided in `.pbf` ([Protocolbuffer binary format](https://wiki.openstreetmap.org/wiki/PBF_Format)).
+Data comes from [OpenStreetMap](https://www.openstreetmap.org/) (OSM). [GEOFABRIK](https://download.geofabrik.de/) host mirrors of OSM data as downloads, broken down by region. The data is provided as `pbf` files ([Protocolbuffer binary format](https://wiki.openstreetmap.org/wiki/PBF_Format)).
 
 For this project, we'll use data from [Great Britain](https://download.geofabrik.de/europe/great-britain.html).
 
 ## Getting started
 
-First, clone the code for this project to your machine:
+First, clone the project code to your machine:
 
 ```shell
 $ git clone https://github.com/instantiator/world-server.git
