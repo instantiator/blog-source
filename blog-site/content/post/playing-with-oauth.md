@@ -1,7 +1,7 @@
 ---
-title: "Playing with OAuth"
+title: "Exploring OAuth"
 date: 2023-07-18T17:00:00Z
-tags: ["OAuth", "authorisation", "authorization", "access token", "authorization code", "redirect url", "scope" ]
+tags: ["OAuth", "authentication", "sign in", "federated", "authorisation", "authorization", "access token", "authorization code", "redirect url", "scope", "social network", "explore", "tool" ]
 categories: ["tool"]
 images: [ "/oauth/oauth.png" ]
 thumbnail: "/oauth/oauth.png"
