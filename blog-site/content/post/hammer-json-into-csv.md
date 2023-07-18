@@ -8,7 +8,7 @@ images: [ "/hammer/hammer.png" ]
 thumbnail: "/hammer/hammer.png"
 ---
 
-_A tool to help build CSV records from arbitrary JSON..._
+_json-to-smart-csv is a tool to help build CSV records from arbitrary JSON..._
 
 # Hammering JSON into CSV
 
