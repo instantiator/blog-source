@@ -17,7 +17,7 @@ I built [OAuth Token Explorer](https://instantiator.dev/oauth-token-explorer/) t
 
 It's not immediately obvious how to work with OAuth.
 
-To test an implementation, you'll need to
+To test an implementation, you'll need to...
 
 * Register an application with an OAuth provider (LinkedIn, Facebook, Google, etc.)
 * Create and host an application
