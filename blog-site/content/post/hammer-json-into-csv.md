@@ -18,11 +18,9 @@ I've built a simple tool to help hammer arbitrary JSON into CSV records.
 
 You're welcome to pilfer it, use it, and adapt it to your needs. If you make any modifications, do please upstream your improvements.
 
-At the moment, you can launch it through the `json-to-smart-csv.sh` bash script.
+Download the latest binaries from:
 
-## Prerequisites
-
-You'll need [bash](https://www.gnu.org/software/bash/) on your system (available by default on Mac OS), and the [.NET 7.0 SDK](https://dotnet.microsoft.com/en-us/download).
+* [instantiator/json-to-smart-csv/releases/latest](https://github.com/instantiator/json-to-smart-csv/releases/latest)
 
 ## Getting started
 
@@ -34,9 +32,9 @@ Take a look in the [sample-data](https://github.com/instantiator/json-to-smart-c
 
 ![sample output](/hammer/sample-out.csv.png "Sample output CSV file showing a record for each fruit-or-vegetable")
 
-You can regenerate the test output by running the [test-sample.sh](https://github.com/instantiator/json-to-smart-csv/blob/main/test-sample.sh) script.
+**(Mac OS)** You can regenerate the test output by running the [test-sample-osx-x64.sh](https://github.com/instantiator/json-to-smart-csv/blob/main/test-sample-osx-x64.sh) script.
 
-As you can see from the script, it provides these arguments to `json-to-smart-csv.sh`:
+As you can see from the script, it provides these arguments to `JsonToSmartCsv`:
 
 * `-c sample-data/sample-rules.csv` - indicating the CSV file to find column definitions in
 * `-s sample-data/sample-list.json` - indicating the source data JSON file
@@ -46,6 +44,4 @@ By default it runs in `Create` mode - but you can switch it to append to the tar
 
 ## Future work
 
-At the moment, this tool relies on the presence of the .NET SDK and bash. It would be nice to bundle it up into a binary and distribute through the standard package managers. I'll look into that.
-
-Other than that, it's about as feature-complete as I need it to be. If you want to improve on it, you're very welcome to do so - and do please upstream your changes.
+It's about as feature-complete as I need it to be. If you want to improve on it, or publish to a package manager of your choice, you're very welcome to do so - and do please upstream your changes.
