@@ -11,8 +11,14 @@
   url = "/post/"
 
   [[main]]
-  name = "About"
+  name = "Tools"
   weight = 300
+  identifier = "tools"
+  url = "/categories/tool/"
+
+  [[main]]
+  name = "About"
+  weight = 400
   identifier = "about"
   url = "/about/"
 
