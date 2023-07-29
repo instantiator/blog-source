@@ -5,7 +5,7 @@
   url = "/"
 
   [[main]]
-  name = "Posts"
+  name = "All posts"
   weight = 200
   identifier = "posts"
   url = "/post/"
@@ -15,6 +15,18 @@
   weight = 300
   identifier = "tools"
   url = "/categories/tool/"
+
+  [[main]]
+  name = "Tutorials"
+  weight = 300
+  identifier = "tutorial"
+  url = "/categories/tutorial/"
+
+  [[main]]
+  name = "Articles"
+  weight = 300
+  identifier = "article"
+  url = "/categories/article/"
 
   [[main]]
   name = "About"
