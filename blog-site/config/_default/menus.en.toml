@@ -18,19 +18,19 @@
 
   [[main]]
   name = "Tutorials"
-  weight = 300
+  weight = 400
   identifier = "tutorial"
   url = "/categories/tutorial/"
 
   [[main]]
   name = "Articles"
-  weight = 300
+  weight = 500
   identifier = "article"
   url = "/categories/article/"
 
   [[main]]
   name = "About"
-  weight = 400
+  weight = 600
   identifier = "about"
   url = "/about/"
 
