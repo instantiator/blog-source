@@ -138,7 +138,25 @@ body {
 * [`app/slides/controller/page.tsx`](https://github.com/instantiator/reveal-on-next/blob/main/app/slides/controller/page.tsx)
 * [`app/slides/client/page.tsx`](https://github.com/instantiator/reveal-on-next/blob/main/app/slides/client/page.tsx)
 
-`dynamic` is used to import the `Presentation` element dynamically, with `ssr: false` to prevent server-side rendering.
+As shown in both `page.tsx` files, `dynamic` can be used to import the `Presentation` element dynamically, with `ssr: false` to prevent server-side rendering:
+
+```tsx
+const Presentation = dynamic(() => import('../../../components/Presentation'), { ssr: false });
+```
+
+Both of these pages are simple, returning a component that renders the `Presentation`:
+
+```tsx
+export default function Controller() {
+    return (
+        <Presentation 
+            role="controller" 
+            secret={SECRET} 
+            id={SOCKET_ID} 
+            src="/presentation-tsx.html" />
+    );
+}
+```
 
 ## Remote content
 
