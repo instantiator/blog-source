@@ -1,7 +1,7 @@
 ---
 title: "Text adventures in 3D"
 date: 2013-10-29T00:00:00Z
-Tags: [ "Necropost", "inform", "3D", "Frotz", "GLUT" ]
+Tags: [ "Necropost", "inform", "3D", "Frotz", "GLUT", "clang", "c language", "cpp", "c++" ]
 Categories: [ "necropost", "article" ]
 ---
 

@@ -4,7 +4,7 @@ date: 2022-12-08T00:00:00Z
 tags: ["game", "consensus", "distributed", "voting", "social", "mastodon", "fediverse", "chess", "games", "project", "microservice", "serverless", "docker", "compose", ".NET" ]
 images: [ "/consensus/neon-king.png" ]
 thumbnail: "/consensus/neon-king.png"
-categories: ["article"]
+categories: [ "article", "tool", "game" ]
 ---
 
 Consensus Chess is going through some beta testing on Mastodon, and you can play today!

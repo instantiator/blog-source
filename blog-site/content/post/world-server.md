@@ -3,7 +3,7 @@ title: "Your own map server"
 date: 2023-07-02T13:00:00Z
 draft: false
 tags: [ "map", "server", "docker", "container", "docker compose", "PostGIS", "pg_tileserv", "OSM", "OpenStreetMap", "GIS" ]
-categories: ["tutorial", "tool"]
+categories: ["tutorial", "tool", "template", "hack" ]
 images: [ "https://github.com/instantiator/world-server/blob/main/screenshots/public.campsites_all.png?raw=true" ]
 thumbnail: "https://github.com/instantiator/world-server/blob/main/screenshots/public.campsites_all.png?raw=true"
 ---

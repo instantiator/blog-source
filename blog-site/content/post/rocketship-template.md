@@ -4,7 +4,7 @@ date: 2023-01-08T00:00:00Z
 tags: ["AWS", "SAM", "template", "rocketship", "serverless", "api", "gateway", "lambda", "dynamodb", "database", "cognito", "auth", "dotnet", "csharp" ]
 images: [ "/rocketship/rocket-mvp.png" ]
 thumbnail: "/rocketship/rocket-mvp.png"
-categories: ["article", "tool", "tutorial"]
+categories: ["article", "tool", "tutorial", "template" ]
 ---
 
 Presenting a simple template to develop, publish, and test a simple C# service backend on AWS, with serverless Lambda functions, supported by DynamoDb, behind an API Gateway, and protected by Cognito auth.

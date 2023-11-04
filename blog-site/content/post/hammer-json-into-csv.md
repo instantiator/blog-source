@@ -2,8 +2,8 @@
 title: "Hammering JSON into CSV"
 date: 2023-07-16T10:00:00Z
 draft: false
-tags: [ "json", "csv", "tool", "DotNet", "csharp" ]
-categories: [ "tool" ]
+tags: [ "json", "csv", "tool", "DotNet", "csharp", "hammer", "convert", "data", "DataScience", "formatting", "reformat" ]
+categories: [ "tool", "hack" ]
 images: [ "/hammer/hammer.png" ]
 thumbnail: "/hammer/hammer.png"
 ---

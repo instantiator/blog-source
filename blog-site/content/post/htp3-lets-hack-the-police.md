@@ -2,7 +2,7 @@
 title: "Let's hack the police, part 3"
 date: 2018-11-07T00:00:00Z
 Tags: [ "Hack the Police", "hackathon", "policing", "civic tech" ]
-Categories: [ "article", "police rewired" ]
+Categories: [ "article", "police rewired", "hack" ]
 Images: [ "/police-rewired/police-rewired-poster.png", "/police-rewired/last-night-a-dj.jpg" ]
 ---
 

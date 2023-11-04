@@ -4,7 +4,7 @@ date: 2023-09-12T00:00:00Z
 tags: ["RevealJS", "reveal", "React", "NextJS", "presentation", "SlideShow", "javascript", "TypeScript", "template", "repository", "UI", "UX" ]
 images: [ "/reveal/multiplexing-slides-1-and-2.gif" ]
 thumbnail:  "/reveal/multiplexing-slides-1-and-2.gif"
-categories: [ "tutorial"]
+categories: [ "tutorial", "tool", "hack", "template" ]
 ---
 
 What if your UI was a slide show?

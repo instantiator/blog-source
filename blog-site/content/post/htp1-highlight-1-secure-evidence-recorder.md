@@ -2,7 +2,7 @@
 title: "Hack Highlight #1: Secure evidence recording"
 date: 2013-05-25T00:00:00Z
 Tags: [ "Necropost", "policing", "crime", "technology", "civic tech", "Hack the Police", "Metropolitan Police", "evidence", "recording", "hackathon", "hack", "app", "infrastructure", "photography" ]
-Categories: [ "necropost", "article", "police rewired" ]
+Categories: [ "necropost", "article", "police rewired", "hack" ]
 Series: [ "hack the police 1" ]
 ---
 

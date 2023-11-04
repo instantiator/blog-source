@@ -4,7 +4,7 @@ date: 2022-11-10T00:00:00Z
 tags: ["game", "consensus", "distributed", "voting", "social", "twitter", "mastodon", "fediverse", "chess", "games", "project", "chess.com", "microservice", "serverless", "docker", "compose", ".NET", "worker" ]
 images: [ "/consensus/pieces_dream.png" ]
 thumbnail: "/consensus/pieces_dream.png"
-categories: ["article"]
+categories: [ "article", "game" ]
 ---
 
 I've been working on a pet project recently: Consensus games are a fun new way to play together through social media... 

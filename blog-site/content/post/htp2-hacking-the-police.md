@@ -2,7 +2,7 @@
 title: "Hacking the Police, part 2"
 date: 2017-11-20T00:00:00Z
 Tags: [ "Hack the Police", "policing", "hackathon", "crime", "innovation", "civic tech" ]
-Categories: [ "article", "police rewired" ]
+Categories: [ "article", "police rewired", "hack" ]
 Images: [ "/police-rewired/2017-poster-htp2.jpg" ]
 ---
 

@@ -2,7 +2,7 @@
 title: "Building AI into your application with Semantic Kernel"
 date: 2023-04-17T21:00:00Z
 draft: false
-tags: ["gpt", "large-language-models", "llm", "semantic-kernel", "sdk", "c#", ".net", "text-completion", "artificial-intelligence", "ai", "machine-learning", "ml", "openai", "microsoft", "software-development", "dev", "csharp", "coding", "api"]
+tags: ["GPT", "LargeLanguageModel", "LLM", "semantic-kernel", "sdk", "c#", ".net", "TextCompletion", "ArtificialIntelligence", "AI", "machine-learning", "ML", "OpenAI", "microsoft", "software-development", "dev", "CSharp", "coding", "API"]
 categories: ["tutorial"]
 images: ["/sk/sk-logo.png"]
 thumbnail: "/sk/sk-logo.png"

@@ -1,8 +1,8 @@
 ---
 title: "Look for the helpers"
 date: 2020-04-23T00:00:00Z
-tags: ["covid-19", "volunteering", "community", "aid", "mutual aid", "open data", "research"]
-categories: ["article"]
+tags: ["covid-19", "volunteering", "community", "aid", "MutualAid", "OpenData", "DataScience", "research"]
+categories: ["article", "research" ]
 images: [ "/covid-19/map-1.png", "/covid-19/map-2.png", "/covid-19/map-3.png" ]
 thumbnail: "/covid-19/map-1.png"
 series: [ "covid-19" ]
