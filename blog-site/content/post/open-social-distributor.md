@@ -11,7 +11,7 @@ _How to use Open Social Distributor to post threads and messages across multiple
 
 # Open Social Distributor
 
-The Open Social Distributor is a simple tool that to format and post your message across any number of social networks.
+The Open Social Distributor is a simple tool to format and post your message across any number of social networks.
 
 It's free and open source.
 
