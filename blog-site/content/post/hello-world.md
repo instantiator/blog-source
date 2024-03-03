@@ -10,7 +10,7 @@ I learned to code on a computer called the BBC Micro, released by the BBC in 198
 
 Coding is a joyous experience, and anyone can learn to do it. This is a post about retro-coding, and my first written post for this blog.
 
-{{< tweet 1233996696721465344 >}}
+{{< tweet id="1233996696721465344" user="BBCMicroBot" >}}
 
 `Hello, World!` is most likely to be the first program you'll write.
 It's a simple way to start, and an easy way to make sure your coding environment works for you.
@@ -37,7 +37,7 @@ Hello, World!
 
 If you'd like to have a play around with BBC BASIC today, or relive the glory days of 8-bit computing, you can try out the [@BBCMicroBot](https://twitter.com/bbcmicrobot) tutorial [Coding like it's 1985](https://www.bbcmicrobot.com/learn/index.html), from [Dominic Pajak](https://twitter.com/DominicPajak).
 
-{{< tweet 1343809084407967745 >}}
+{{< tweet id="1343809084407967745" user="BBCMicroBot" >}}
 
 If you want to learn to code from scratch with modern technologies, watch this space.
 I'll be posting some thoughts about how to get started for yourself.

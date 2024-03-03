@@ -3,7 +3,7 @@ title: "TIL - shell environment variables aren't available to OS X apps"
 date: 2021-11-12T00:00:00Z
 tags: ["TIL", "OS X", "environment", "shell", "applications"]
 categories: ["tutorial"]
-images: [ "/TIL/shellexecute-docs.jpeg" ]
+images: ["/TIL/shellexecute-docs.jpeg"]
 thumbnail: "/TIL/shellexecute-docs.jpeg"
 ---
 
@@ -29,7 +29,7 @@ What was going on?
 
 I created a solution where I could test out a variety of different scenarios.
 
-* [instantiator/process-start-info-testing](https://github.com/instantiator/process-start-info-testing) (GitHub repository)
+- [instantiator/process-start-info-testing](https://github.com/instantiator/process-start-info-testing) (GitHub repository)
 
 I tried setting `UseShellExecute` to both `true` and `false` - and tested with `ffmpeg` and `docker` (the control - known to work). Here's what I saw:
 
@@ -58,5 +58,3 @@ It is also possible to launch Visual Studio from the terminal, using the `open` 
 ```shell
 open -n /Applications/Visual\ Studio.app
 ```
-
-{{< tweet 1457683593074028546 >}}

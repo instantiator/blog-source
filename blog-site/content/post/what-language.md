@@ -15,8 +15,6 @@ no reason to believe that your gender, age, or any other characteristic is going
 to hold you back. Anyone who tells you differently is gatekeeping, and that's
 not kind. If you want to get started, read on...
 
-{{< tweet 1340295719492739074 >}}
-
 Choosing a language or framework to learn might seem daunting, but hopefully this will help.
 
 Communities form around frameworks and languages, and those communities build libraries you can
@@ -94,10 +92,10 @@ which supports Java and Kotlin in Android projects.
 
 I wrote a number of posts and comments on reddit about developing for Android over the past few years:
 
-* [Good libraries and getting started with Android.](https://www.reddit.com/r/androiddev/comments/8t2pvw/i_might_be_able_to_help_you_with_your_android/e14i3lh?utm_source=share&utm_medium=web2x&context=3)
-* [I might be able to help you with your Android development questions.](https://www.reddit.com/r/androiddev/comments/8t2pvw/i_might_be_able_to_help_you_with_your_android/)
-* [I might be able to help you with your Android development questions, again.](https://www.reddit.com/r/androiddev/comments/9vz7nx/i_might_be_able_to_help_you_with_your_android/?utm_source=share&utm_medium=web2x&context=3)
-* [Questions you might ask in interview to establish experience of Android.](https://www.reddit.com/r/androiddev/comments/73i7mh/relevant_android_dev_interview_questions/dnqk1nz?utm_source=share&utm_medium=web2x&context=3)
+- [Good libraries and getting started with Android.](https://www.reddit.com/r/androiddev/comments/8t2pvw/i_might_be_able_to_help_you_with_your_android/e14i3lh?utm_source=share&utm_medium=web2x&context=3)
+- [I might be able to help you with your Android development questions.](https://www.reddit.com/r/androiddev/comments/8t2pvw/i_might_be_able_to_help_you_with_your_android/)
+- [I might be able to help you with your Android development questions, again.](https://www.reddit.com/r/androiddev/comments/9vz7nx/i_might_be_able_to_help_you_with_your_android/?utm_source=share&utm_medium=web2x&context=3)
+- [Questions you might ask in interview to establish experience of Android.](https://www.reddit.com/r/androiddev/comments/73i7mh/relevant_android_dev_interview_questions/dnqk1nz?utm_source=share&utm_medium=web2x&context=3)
 
 If you'd like to build for both Android and iOS at the same time, you might consider picking up
 [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) and
@@ -202,9 +200,9 @@ a Docker container, and usually a bit linux-like).
 
 You get some guarantees from running your code inside a container, such as:
 
-* You can control the versions of everything inside the machine. (This helps to prevent accidental upgrades that
-affect the behaviour of your code, or introduce breaking changes.)
-* If the container runs on your machine, it'll run everywhere.
+- You can control the versions of everything inside the machine. (This helps to prevent accidental upgrades that
+  affect the behaviour of your code, or introduce breaking changes.)
+- If the container runs on your machine, it'll run everywhere.
 
 There are plenty of pre-built Docker containers to choose from to build your service. Many of which
 are full applications in the own right, others are environments for running your code in.
@@ -221,11 +219,9 @@ with each other in a miniature virtual network of their own.
 Docker containers are the basic unit of a number of bigger frameworks such as [Cloudfoundry](https://www.cloudfoundry.org/)
 and [Kubernetes](https://kubernetes.io/).
 
-{{< tweet 1345811867587981312 >}}
-
 These frameworks are often used in enterprise environments to ensure that code is running reliably, and
 they make guarantees of their own, like:
 
-* Your container will always be running, and automatically restarted if it fails.
-* You can build groups of the same container, so that there are always 3 of them running (for example).
-* You can have fine-grained control of which containers can communicate and how.
+- Your container will always be running, and automatically restarted if it fails.
+- You can build groups of the same container, so that there are always 3 of them running (for example).
+- You can have fine-grained control of which containers can communicate and how.

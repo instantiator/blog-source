@@ -3,11 +3,11 @@ title: "Rainbow paws"
 date: 2021-11-13T00:00:00Z
 tags: ["Retro Computing", "Graphics", "BASIC", "BBC Micro", "Geometry", "Rotation", "Point", "Vector", "Sample Code"]
 categories: ["article"]
-images: [ "/bbcmicrobot/rainbow-paws.png" ]
+images: ["/bbcmicrobot/rainbow-paws.png"]
 thumbnail: "/bbcmicrobot/rainbow-paws.png"
 ---
 
-_Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created (sprinkled with [a few jokers](https://en.wikipedia.org/wiki/Take_the_Money_and_Run_(artwork)))._
+_Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created (sprinkled with [a few jokers](https://en.wikipedia.org/wiki/Take_the_Money_and_Run_(artwork))).\_
 
 I still like to pretend I don't really know art when I see it, but I think I appreciate the effort people put into their work. There are ways to recognise that. You could know a little about the medium, or you could ask the creator to talk about their work and listen for the passion to shine through.
 
@@ -19,7 +19,7 @@ Since it was first launched, I've made a few little bits and pieces with the [@B
 
 Here's one I created called **Rainbow Paws**, inspired by a childrens book I loved once - [The Cat with Rainbow Coloured Paws](https://www.amazon.co.uk/Rainbow-Coloured-Paws-Maggie-Scott/dp/0859850099). (Apologies for the Amazon link - I couldn't find it on [bookshop.org](bookshop.org).)
 
-{{< tweet 1409566005861441536 >}}
+{{< tweet id="1409566005861441536" user="BBCMicroBot" >}}
 
 The constraints are what makes this a fun challenge. The computer itself has just 32k of RAM (1/32 of a Mb) to work with (although you'd never fill it up with just a Tweet's worth of code), and runs incredibly slowly by modern standards. The default language is BBC BASIC. It's an interpreted language (so it runs even slower). The bot starts your program, runs for 30 seconds, and then records a short clip. (If nothing moves, it makes a PNG, otherwise an animated GIF.)
 
@@ -42,8 +42,10 @@ The steps are pretty straightforward:
 1. Calculate the SIN and COS of the rotation angle, you'll need both twice.
 2. Subtract the pivot point, so that the rotation happens around the origin (0,0).
 3. Calculate new X and new Y values, with this formula:
-  * `X = (X * COS(radians)) - (Y * SIN(radians))`
-  * `Y = (X * SIN(radians)) + (Y * COS(radians))`
+
+- `X = (X * COS(radians)) - (Y * SIN(radians))`
+- `Y = (X * SIN(radians)) + (Y * COS(radians))`
+
 4. Add back the pivot point, so that rotation took place around the pivot.
 
 It's absolutely ok to treat those formulae for new `X` and new `Y` as magic.
@@ -85,11 +87,11 @@ private static PointD Rotate(PointD start, PointD pivot, double radians)
 }
 ```
 
-This example assumes that there's a `class` or `struct` called `PointD`, which has `X` and `Y` properties. You could just as easily implement it with the commonly available `PointF`. 
+This example assumes that there's a `class` or `struct` called `PointD`, which has `X` and `Y` properties. You could just as easily implement it with the commonly available `PointF`.
 
 ## Squeezing it all in
 
-* [See the code](https://bbcmic.ro/#%7B%22v%22%3A1%2C%22program%22%3A%22MO.2%3AT%25%3D150%5CnD.0%2C0%2C30%2C-23%2C-10%2C20%2C-20%2C60%2C15%2C-45%2C30%2C13%5CnF.Y%3D-300TO1024S.300%5CnV.29%2C640-T%25%3BY%3B%3APROCb%280.3%29%5CnV.29%2C640%2BT%25%3BY%2BT%25%3B%3APROCb%28-0.3%29%5CnN.%3AV.5%5CnEND%5CnDEFPROCb%28a%29%3AGC.0%2CC%25MOD7%2B1%3APROCc%28a%2C-1%29%3APROCc%28a%2C1%29%3AC%25%3DC%25%2B1%3AE.%5CnDEFPROCc%28a%2Cf%29%5CnRES.%3AF.I%3D1TO4%3APROCp%28a%2Cf%29%3AV.25%2C4%2CX%25%3BY%25%3B25%2C%2699%2CFNr%3B0%3B%3AN.%5CnE.%5CnDEFPROCp%28a%2Cf%29%5CnREADx%2Cy%3Ax%3Df*x*2%3Ay%3Dy*2%5CnX%25%3Dx*COS%28a%29-y*SIN%28a%29%5CnY%25%3Dx*SIN%28a%29%2By*COS%28a%29%5CnE.%5CnDEFFNr%3AREADn%3A%3Dn*2%22%7D)
+- [See the code](https://bbcmic.ro/#%7B%22v%22%3A1%2C%22program%22%3A%22MO.2%3AT%25%3D150%5CnD.0%2C0%2C30%2C-23%2C-10%2C20%2C-20%2C60%2C15%2C-45%2C30%2C13%5CnF.Y%3D-300TO1024S.300%5CnV.29%2C640-T%25%3BY%3B%3APROCb%280.3%29%5CnV.29%2C640%2BT%25%3BY%2BT%25%3B%3APROCb%28-0.3%29%5CnN.%3AV.5%5CnEND%5CnDEFPROCb%28a%29%3AGC.0%2CC%25MOD7%2B1%3APROCc%28a%2C-1%29%3APROCc%28a%2C1%29%3AC%25%3DC%25%2B1%3AE.%5CnDEFPROCc%28a%2Cf%29%5CnRES.%3AF.I%3D1TO4%3APROCp%28a%2Cf%29%3AV.25%2C4%2CX%25%3BY%25%3B25%2C%2699%2CFNr%3B0%3B%3AN.%5CnE.%5CnDEFPROCp%28a%2Cf%29%5CnREADx%2Cy%3Ax%3Df*x*2%3Ay%3Dy*2%5CnX%25%3Dx*COS%28a%29-y*SIN%28a%29%5CnY%25%3Dx*SIN%28a%29%2By*COS%28a%29%5CnE.%5CnDEFFNr%3AREADn%3A%3Dn*2%22%7D)
 
 Providing coordinates, colours, and instructions to draw every paw in the picture wouldn't fit into a tweet. So I'm doing some work to fit it all in.
 
@@ -120,7 +122,7 @@ N.
 
 In procedure `b` the code first picks a colour as `C% MOD 7` (the difference after dividing global variable `C%` by `7`) `+ 1` (so that the colour is always in the range 1-7, not 0-6):
 
-``` BASIC
+```BASIC
 GC.0,C%MOD7+1: ... :C%=C%+1
 ```
 
@@ -128,7 +130,7 @@ Here `GC.` stands for `GCOL` - a command to pick the graphics colour. `GCOL 0,co
 
 In between those colour operations are two calls to `PROCc`. Procedure `c` actually draws the paw.
 
-First, it resets reading of all data to the start of the program. (`RES.` is short for `RESTORE`.) Then it draws each of 4 circles. 
+First, it resets reading of all data to the start of the program. (`RES.` is short for `RESTORE`.) Then it draws each of 4 circles.
 
 ```BASIC
 PROCp(a,f):V.25,4,X%;Y%;25,&99,FNr;0;
@@ -152,4 +154,4 @@ _**And that's it!** I made a cute little picture, squeezed the instructions into
 
 The internet is a fun place where people can iterate on each others' work. I would be remiss not to point out the cool improvements [@rheolism](https://twitter.com/rheolism) made to the original tweet. Here:
 
-{{< tweet 1409734588348436480 >}}
+{{< tweet id="1409734588348436480" user="BBCMicroBot" >}}
