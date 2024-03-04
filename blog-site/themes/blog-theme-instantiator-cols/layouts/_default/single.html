@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<div class="row align-items-start">
+    <div class="col col-lg-3 d-none d-lg-block">
+      {{ partial "persona.html" . }}
+    </div>
+    <div class="col-lg" style="overflow-x: hidden;">
+        <div id="post-content">
+            <h2>{{ .Title }}</h1>
+            {{ partial "metadata.html" . }}
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+{{ end }}

@@ -3,39 +3,45 @@
   identifier = "home"
   weight = 100
   url = "/"
+  pre = "home"
+  pageRef = "/"
 
   [[main]]
   name = "All posts"
   weight = 200
   identifier = "posts"
   url = "/post/"
+  pre = "pen-tool"
+  pageRef = "post"
 
   [[main]]
   name = "Tools"
   weight = 300
   identifier = "tools"
   url = "/categories/tool/"
+  pre = "tool"
+  pageRef = "categories/tool"
 
   [[main]]
   name = "Tutorials"
   weight = 400
   identifier = "tutorial"
   url = "/categories/tutorial/"
+  pre = "fast-forward"
+  pageRef = "categories/tutorial"
 
   [[main]]
   name = "Articles"
   weight = 500
   identifier = "article"
   url = "/categories/article/"
+  pre = "file-text"
+  pageRef = "categories/article"
 
   [[main]]
   name = "About"
   weight = 600
   identifier = "about"
   url = "/about/"
-
-#  [[main]]
-#  name = "Contact"
-#  weight = 400
-#  identifier = "contact"
-#  url = "/contact/"
+  pre = "info"
+  pageRef = "about"

@@ -1,0 +1,33 @@
+{{ $dateTime := .PublishDate.Format "2006-01-02" }} {{ $hrDateFormat := "Jan 2, 2006" }}
+
+<div class="card mb-4">
+    <div class="card-header">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </div>
+    <div class="card-body">
+        <div class="row g-0">
+            {{ if ( isset .Params "thumbnail" ) }}
+            <div class="col-4 mb-3">
+                <a href="{{ .RelPermalink }}">
+                    <img class="img-fluid img-thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
+                </a>
+            </div>
+            {{ end }}
+            <div class="col" style="padding-left: 16px;">
+                    <p class="card-text"><small class="text-muted">
+                        <!-- <i data-feather="calendar"></i> -->
+                        <time datetime="{{ $dateTime }}">{{ $dateTime }}</time></small></p>
+                    <p class="card-text">{{ .Summary }}</p>
+            </div>
+        </div>
+    </div>
+    {{ with .Params.categories }}
+    <div class="card-footer">
+        <!-- <i data-feather="tag"></i> -->
+        {{ range . }}
+            {{ $href := print (absURL "tags/") (urlize .) }}
+            <a class="badge bg-secondary" href="{{ $href }}">{{ . }}</a>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>

@@ -2,17 +2,14 @@ baseURL = "https://instantiator.dev"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "instantiator.dev"
-theme = "blog-theme-anatole-instantiator"
+theme = "blog-theme-instantiator-cols"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
 ignoreErrors = ["error-remote-getjson"]
 
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-# googleAnalytics = "G-SHE42ZWKEN"
+[author]
+name = "Lewis Westbury"
 
 # Syntax highlighting
 pygmentsUseClasses = true

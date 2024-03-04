@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="row align-items-start">
+  <div class="col-lg-3">
+    {{ partial "persona.html" . }}
+  </div>
+  <div class="col-lg">
+    <div class="d-flex flex-column">
+      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+      {{ range $paginator.Pages }}
+      <div>
+        {{ partial "card.html" . }}
+      </div>
+      {{ end }}
+      {{ partial "pagination-footer.html" . }}
+    </div>
+  </div>
+  <div class="col-lg-4">
+    {{ partial "mastodon.html" . }}
+  </div>
+</div>
+{{ end }}

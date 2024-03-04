@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div class="row align-items-start">
+  <div class="col col-lg-3 d-none d-lg-block">
+    {{ partial "persona.html" . }}
+  </div>
+  <div class="col-lg" style="overflow-x: hidden;">
+    {{ range .Data.Pages.GroupByDate "2006" }}
+      <h2>{{ .Key }}</h2>
+      <ul class="list-group mb-4">
+      {{ range .Pages }}
+      <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+        <span class="badge bg-secondary rounded-pill">{{ $dateTime }}</span>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

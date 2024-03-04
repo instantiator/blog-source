@@ -1,0 +1,32 @@
+<nav id="nav" class="navbar sticky-top justify-content-start navbar-expand-md frosted-white shadow mb-4">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="nav-item">
+          <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}nav-link-active{{ end }}" href="{{ .URL }}">
+            <!-- {{ if .Pre }}
+                        {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                        {{ $icon }}
+                        {{ end }} -->
+            {{ $text := print .Name | safeHTML }} {{ $text }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</nav>

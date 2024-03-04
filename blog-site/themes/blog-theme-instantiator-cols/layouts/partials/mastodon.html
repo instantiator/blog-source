@@ -1,0 +1,27 @@
+<div class="card mb-2">
+    <div class="card-header">
+            <a href="https://mastodon.social/@instantiator" target="_blank">instantiator@mastodon.social</a>
+    </div>
+    <div class="card-body">
+        <div id="mt-container" class="mt-container">
+            <div class="mt-body" role="feed">
+                <div class="mt-loading-spinner"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ with .Param "mastodon"}}
+<script>
+window.addEventListener("load", () => {
+  const myTimeline = new MastodonTimeline.Init({
+      timelineType: "profile",
+    instanceUrl: '{{ .instanceUrl }}',
+    userId: '{{ .userId}}',
+    profileName: '{{ .profileName }}',
+    hidePinnedPosts: true,
+    hideReplies: true
+  });
+});
+</script>
+{{ end }}

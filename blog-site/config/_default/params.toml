@@ -1,11 +1,10 @@
 # left bar
 title = "instantiator.dev"
-author = "Lewis Westbury" # goes in page titles
-description = "tech, volunteers, public safety, articles and ideas"
+author = "Lewis Westbury"
+description = "tech, volunteers, public safety, collective intelligence, articles, tools, code and ideas"
 profilePicture = "/lewis/profile.jpg"
-favicon = "favicons/"
+favicon = "/favicon.ico"
 keywords = ""
-# copyright = "2020-2021"
 
 customCss = [] # example ["css/custom.css"]
 customJs = [] # example ["js/custom.js"]
@@ -14,14 +13,16 @@ mainSections = ["post"]
 images = ["/lewis/default-image.png"]
 doNotLoadAnimations = false
 
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
-
 # Google Site Verify
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-SHE42ZWKEN'
 
 # Google Analytics gtag
 gtagId = "G-SHE42ZWKEN"
+googleAnalytics = "G-SHE42ZWKEN"
 
 singleDateFormat = "2006-01-02"
 indexDateFormat = "2006-01-02"
@@ -33,6 +34,10 @@ listDateFormat = "2006-01-02"
 # readMore = true
 # postSectionName = "blog"
 
+[mastodon]
+instanceUrl = 'https://mastodon.social'
+userId = '109251512180800842'
+profileName = '@instantiator'
 
 [simpleAnalytics]
 # enable = true
@@ -47,41 +52,31 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
-icon = "fab fa-mastodon"
+icon = "user"
 title = "Mastodon"
 url = "https://mastodon.social/@instantiator"
 
 [[socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/instantiator"
-
-[[socialIcons]]
-icon = "fab fa-github"
+icon = "github"
 title = "GitHub"
 url = "https://github.com/instantiator"
 
 [[socialIcons]]
-icon = "fab fa-linkedin"
+icon = "linkedin"
 title = "LinkedIn"
 url = "https://www.linkedin.com/in/lewiswestbury"
 
-# [[socialIcons]]
-# icon = "fas fa-chess-pawn"
-# title = "chess.com"
-# url = "https://www.chess.com/member/instantiator"
-
 [[socialIcons]]
-icon = "fas fa-dungeon"
+icon = "crosshair"
 title = "Escape the Review"
 url = "https://www.escapethereview.co.uk/profile/?user_id=11"
 
 [[socialIcons]]
-icon = "fas fa-chess-knight"
+icon = "target"
 title = "International Consensus Games"
 url = "https://icgames.net"
 
 [[socialIcons]]
-icon = "fas fa-rss"
+icon = "rss"
 title = "RSS"
 url = "https://instantiator.dev/index.xml"
