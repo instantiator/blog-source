@@ -1,0 +1,7 @@
+[services]
+  [services.googleAnalytics]
+    ID = 'G-SHE42ZWKEN'
+
+# Google Analytics gtag
+gtagId = "G-SHE42ZWKEN"
+googleAnalytics = "G-SHE42ZWKEN"

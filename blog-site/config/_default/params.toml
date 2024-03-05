@@ -16,14 +16,6 @@ doNotLoadAnimations = false
 # Google Site Verify
 # googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-[services]
-  [services.googleAnalytics]
-    ID = 'G-SHE42ZWKEN'
-
-# Google Analytics gtag
-gtagId = "G-SHE42ZWKEN"
-googleAnalytics = "G-SHE42ZWKEN"
-
 singleDateFormat = "2006-01-02"
 indexDateFormat = "2006-01-02"
 listDateFormat = "2006-01-02"
