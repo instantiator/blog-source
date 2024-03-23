@@ -44,7 +44,7 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
 
 [[socialIcons]]
-icon = "user"
+icon = "mastodon"
 title = "Mastodon"
 url = "https://mastodon.social/@instantiator"
 
@@ -59,16 +59,14 @@ title = "LinkedIn"
 url = "https://www.linkedin.com/in/lewiswestbury"
 
 [[socialIcons]]
-icon = "crosshair"
-title = "Escape the Review"
-url = "https://www.escapethereview.co.uk/profile/?user_id=11"
-
-[[socialIcons]]
-icon = "target"
-title = "International Consensus Games"
-url = "https://icgames.net"
-
-[[socialIcons]]
 icon = "rss"
 title = "RSS"
 url = "https://instantiator.dev/index.xml"
+
+[[socialLinks]]
+title = "International Consensus Games"
+url = "https://icgames.net"
+
+[[socialLinks]]
+title = "Escape the Review profile"
+url = "https://www.escapethereview.co.uk/profile/?user_id=11"
