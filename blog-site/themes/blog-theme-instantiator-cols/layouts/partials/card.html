@@ -18,6 +18,22 @@
                         <!-- <i data-feather="calendar"></i> -->
                         <time datetime="{{ $dateTime }}">{{ $dateTime }}</time></small></p>
                     <p class="card-text">{{ .Summary }}</p>
+
+                    {{- /* If it is part of a series, link to related articles */}}
+                    {{- $permalink := .Permalink }}
+                    {{- $siteSeries := .Site.Taxonomies.series }}
+                    {{ with .Params.series }}{{- range $name := . }}
+                      {{- $series := index $siteSeries ($name | urlize) }}
+                      <p>
+                        See also:
+                        <ul>
+                        {{- range $page := first 6 $series.Pages }}
+                            {{- if ne $page.Permalink $permalink }}<li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>{{ end }}
+                        {{- end }}
+                        </ul>
+                      </p>
+                    {{ end }}{{ end }}
+    
             </div>
         </div>
     </div>
