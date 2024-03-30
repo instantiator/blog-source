@@ -6,7 +6,13 @@
     </div>
     <div class="col-lg" style="overflow-x: hidden;">
         <div id="post-content">
-            <h2>{{ .Title }}</h2>
+            <h2 style="display: inline-block;">{{ .Title }}</h2>
+                {{ with .Params.categories }}
+                    {{ range . }}
+                        {{ $href := print (absURL "categories/") (urlize .) }}
+                        <a class="badge bg-primary" href="{{ $href }}">{{ . }}</a>
+                    {{ end }}
+                {{ end }}
             <div class="mt-2">
                 {{ partial "metadata.html" . }}
             </div>
