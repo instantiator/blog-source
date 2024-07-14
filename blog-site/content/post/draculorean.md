@@ -8,16 +8,15 @@ images: ["/epistolorean/draculorean-poster.png"]
 thumbnail: "/epistolorean/draculorean-poster.png"
 ---
 
-What is the Epistolorean, and what has it got to do with Count Dracula?
+What is **[The Epistolorean](https://epistolorean.club/)**, and what has it got to do with Count Dracula?
 
 # The Epistolorean
 
 Epistolary books are written as letters or journals. They tell a story through the eyes of one or more characters, capturing their thoughts, feelings, and events as and when they are recorded. [Dracula](https://www.gutenberg.org/ebooks/345), by Bram Stoker, is a great example of this.
 
-I recently completed building The Epistolorean, a service that breaks up epistolary books by entry, so that you can subscribe to them by email over time, receiving entries from the characters as they write them in the story. That's an email for each journal entry, or letter in the book - and sent as and when they would have been sent if the story were happening in real time.
+I recently completed building **[The Epistolorean](https://epistolorean.club/)**, a service that breaks up epistolary books by entry, so that you can subscribe to them by email over time, receiving entries from the characters as they write them in the story. That's an email for each journal entry, or letter in the book - and sent as and when they would have been sent if the story were happening in real time.
 
-If you'd like to know more about the project, and find out when it's ready for new subscriptions, fill out this form:
-* [Epistolorean](https://forms.gle/gNdG8V199XhDtB3Y7) (form)
+If you'd like to know more about the project, and find out when it's ready for you to try, **[visit the site](https://epistolorean.club/)** and sign up to hear more.
 
 ## The Draculorean
 
@@ -41,7 +40,7 @@ The book tells each story individually, but the Draculorean delivers them all _a
 
 ## A library of epistolary books
 
-The Epistolorean doesn't just have to serve Dracula, of course. I'm on the look out for some other _good reads_ that fit the bill to convert for subscription.
+**[The Epistolorean](https://epistolorean.club/)** doesn't just have to serve Dracula, of course. I'm on the look out for some other _good reads_ that fit the bill to convert for subscription.
 
 I initially started by converting Anne Frank's Diary (as found [in the Internet Archive](https://archive.org/stream/in.ernet.dli.2015.201940/2015.201940.Anne-Frank_djvu.txt)). The copyright on this work is unclear, and it's probably not legal to distribute for at least a few more years, so I won't be able to include that in the library for now. (It's a shame, I think that this is a format that could really bring the book into focus.)
 
@@ -49,7 +48,7 @@ If you have suggestions or ideas for books that could be adapted for the Epistol
 
 ## Technical ambitions
 
-The Episolorean is a containerised .NET Background Service, running in [Docker](https://www.docker.com/) on a [Raspberry Pi](https://www.raspberrypi.org/). It's tiny, consumes very few resources, and sits quite happily on my shelf.
+**[The Episolorean](https://epistolorean.club/)** is a containerised .NET Background Service, running in [Docker](https://www.docker.com/) on a [Raspberry Pi](https://www.raspberrypi.org/). It's tiny, consumes very few resources, and sits quite happily on my shelf.
 
 The service itself is built and deployed using [Docker Compose](https://docs.docker.com/compose/), and shares a composition with its [postgresql](https://www.postgresql.org/) database. It has a connection to an external [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) service to send email, and a command-line interface (CLI) on the server can manage the service by altering the contents of the database.
 
@@ -63,4 +62,4 @@ Without a static IP, it'll need a dynamic DNS service like [noip](https://www.no
 
 All of this is yet to come! Sign up to hear when it's ready:
 
-* [Epistolorean](https://forms.gle/gNdG8V199XhDtB3Y7) (form)
+* **[The Epistolorean](https://epistolorean.club/)**
