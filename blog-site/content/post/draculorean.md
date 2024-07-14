@@ -2,7 +2,7 @@
 title: "Dracula and the Epistolorean"
 date: 2024-07-14T12:00:00Z
 draft: false
-tags: ["project", "c#", ".net", "dotnet", "pi", "rpi", "raspberry-pi", "books", "literature", "epistolary", "epistolorean", "dracula", "count dracula", "bram", "stoker", "subscription", "service"]
+tags: ["project", "c#", ".net", "dotnet", "pi", "rpi", "raspberry-pi", "books", "literature", "epistolary", "epistolorean", "dracula", "count dracula", "bram", "stoker", "subscription", "service", "vampire", "library", "subscription"]
 categories: ["article"]
 images: ["/epistolorean/draculorean-poster.png"]
 thumbnail: "/epistolorean/draculorean-poster.png"
