@@ -45,7 +45,7 @@ The Epistolorean doesn't just have to serve Dracula, of course. I'm on the look 
 
 I initially started by converting Anne Frank's Diary (as found [in the Internet Archive](https://archive.org/stream/in.ernet.dli.2015.201940/2015.201940.Anne-Frank_djvu.txt)). The copyright on this work is unclear, and it's probably not legal to distribute for at least a few more years, so I won't be able to include that in the library for now. (It's a shame, I think that this is a format that could really bring the book into focus.)
 
-If you have suggestions or ideas for books that could be adapted for the Epistolorean, I'd love to hear more about them.
+If you have suggestions or ideas for books that could be adapted for the Epistolorean, [I'd love to hear about them](https://forms.gle/gNdG8V199XhDtB3Y7).
 
 ## Technical ambitions
 
