@@ -16,12 +16,12 @@ Epistolary books are written as letters or journals. They tell a story through t
 
 I recently completed building The Epistolorean, a service that breaks up epistolary books by entry, so that you can subscribe to them by email over time, receiving entries from the characters as they write them in the story. That's an email for each journal entry, or letter in the book - and sent as and when they would have been sent if the story were happening in real time.
 
-![The Draculorean](/epistolorean/draculorean-poster.png "A Delorean about to time travel, leaving trails of fire behind it, along a dark gothic street lit by old iron street lamps. Books lie by the side of the road, lit by candles. Castle dracula looms over the background, and bats in the sky are silhouetted in front of the moon... It's a real mood piece!")
-
 If you'd like to know more about the project, and find out when it's ready for new subscriptions, fill out this form:
 * [Epistolorean](https://forms.gle/gNdG8V199XhDtB3Y7) (form)
 
 ## The Draculorean
+
+![The Draculorean](/epistolorean/draculorean-poster.png "A Delorean about to time travel, leaving trails of fire behind it, along a dark gothic street lit by old iron street lamps. Books lie by the side of the road, lit by candles. Castle dracula looms over the background, and bats in the sky are silhouetted in front of the moon... It's a real mood piece!")
 
 Dracula, for instance, begins in early May and (nearly) ends in November (if you don't include the final entry, dated 7 years later). Although Bram doesn't state the year, it's thought to be a contemporary writing, and the events of the book can be placed in the year 1897 without too many contradictions.
 
