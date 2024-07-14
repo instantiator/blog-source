@@ -14,7 +14,7 @@ What is the Epistolorean, and what has it got to do with Count Dracula?
 
 Epistolary books are written as letters or journals. They tell a story through the eyes of one or more characters, capturing their thoughts, feelings, and events as and when they are recorded. [Dracula](https://www.gutenberg.org/ebooks/345), by Bram Stoker, is a great example of this.
 
-I recently completed building The Epistolorean, a service that can break up an epistolary book by entry, so that you can subscribe to it and receive it, by email and over time, as it happens in the story. That's an email for each journal entry, or letter in the book - and sent as and when they would have been sent if the story were happening in real time.
+I recently completed building The Epistolorean, a service that breaks up epistolary books by entry, so that you can subscribe to them by email over time, receiving entries from the characters as they write them in the story. That's an email for each journal entry, or letter in the book - and sent as and when they would have been sent if the story were happening in real time.
 
 ![The Draculorean](/epistolorean/draculorean-poster.png "A Delorean about to time travel, leaving trails of fire behind it, along a dark gothic street lit by old iron street lamps. Books lie by the side of the road, lit by candles. Castle dracula looms over the background, and bats in the sky are silhouetted in front of the moon... It's a real mood piece!")
 
