@@ -64,6 +64,10 @@ title = "RSS"
 url = "https://instantiator.dev/index.xml"
 
 [[socialLinks]]
+title = "The Epistolorean"
+url = "https://epistolorean.club"
+
+[[socialLinks]]
 title = "International Consensus Games"
 url = "https://icgames.net"
 
