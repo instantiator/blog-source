@@ -3,7 +3,8 @@ title: "In this house we celebrate..."
 date: 2024-08-24T12:00:00Z
 Tags: [ "calendar", "celebration", "reminder", "event", "nerd", "geek", "geeky", "fun", "sci-fi" ]
 Categories: [ "article" ]
-Images: [  ]
+Images: [ "/calendar/in-this-house-calendar-icon-pixelated.png" ]
+thumbnail: "/calendar/in-this-house-calendar-icon-pixelated.png"
 ---
 
 _An alternative calendar for the geek in your heart..._
