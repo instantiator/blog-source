@@ -59,6 +59,11 @@ title = "LinkedIn"
 url = "https://www.linkedin.com/in/lewiswestbury"
 
 [[socialIcons]]
+icon = "calendar"
+title = "Celebrations calendar"
+url = "https://calendar.google.com/calendar/embed?src=ad7606dfb0580dc089629dff9be0d9fc0db19d296a7d72864c1b338f4dd896a4%40group.calendar.google.com&ctz=Europe%2FLondon"
+
+[[socialIcons]]
 icon = "rss"
 title = "RSS"
 url = "https://instantiator.dev/index.xml"
@@ -74,3 +79,7 @@ url = "https://icgames.net"
 [[socialLinks]]
 title = "Escape the Review profile"
 url = "https://www.escapethereview.co.uk/profile/?user_id=11"
+
+[[socialLinks]]
+title = "In this house we celebrate"
+url = "https://calendar.google.com/calendar/embed?src=ad7606dfb0580dc089629dff9be0d9fc0db19d296a7d72864c1b338f4dd896a4%40group.calendar.google.com&ctz=Europe%2FLondon"
