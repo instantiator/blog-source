@@ -2,6 +2,3 @@
 	path = blog-site/public
 	url = https://github.com/instantiator/instantiator.github.io.git
 	branch = main
-[submodule "blog-site/themes/blog-theme-anatole-instantiator"]
-	path = blog-site/themes/blog-theme-anatole-instantiator
-	url = https://github.com/instantiator/blog-theme-anatole-instantiator.git
