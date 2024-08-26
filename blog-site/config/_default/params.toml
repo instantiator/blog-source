@@ -45,18 +45,23 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 [[socialIcons]]
 icon = "mastodon"
-title = "Mastodon"
+title = "Mastodon account"
 url = "https://mastodon.social/@instantiator"
 
 [[socialIcons]]
 icon = "github"
-title = "GitHub"
+title = "GitHub account"
 url = "https://github.com/instantiator"
 
 [[socialIcons]]
 icon = "linkedin"
-title = "LinkedIn"
+title = "LinkedIn account"
 url = "https://www.linkedin.com/in/lewiswestbury"
+
+[[socialIcons]]
+icon = "user"
+title = "BlueSky account"
+url = "https://bsky.app/profile/instantiator.bsky.social"
 
 [[socialIcons]]
 icon = "calendar"
