@@ -49,6 +49,11 @@ title = "Mastodon account"
 url = "https://mastodon.social/@instantiator"
 
 [[socialIcons]]
+icon = "bluesky"
+title = "BlueSky account"
+url = "https://bsky.app/profile/instantiator.bsky.social"
+
+[[socialIcons]]
 icon = "github"
 title = "GitHub account"
 url = "https://github.com/instantiator"
@@ -57,11 +62,6 @@ url = "https://github.com/instantiator"
 icon = "linkedin"
 title = "LinkedIn account"
 url = "https://www.linkedin.com/in/lewiswestbury"
-
-[[socialIcons]]
-icon = "user"
-title = "BlueSky account"
-url = "https://bsky.app/profile/instantiator.bsky.social"
 
 [[socialIcons]]
 icon = "calendar"
