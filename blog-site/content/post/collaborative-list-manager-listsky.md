@@ -16,7 +16,7 @@ ListSky is a tool that lives on GitHub and manages lists of social media account
 * [ListSky](https://instantiator.dev/listsky) (web pages)
 * [ListSky](https://bsky.app/profile/listsky.bsky.social) (BlueSky account)
 
-It works primarily with BlueSky lists, although there's no reason it couldn't extend into the rest of the social sphere (as and when there's time to improve the app).
+It works primarily with BlueSky lists, although there's no reason it couldn't extend into the rest of the social sphere (as and when there's time to build again).
 
 ## What lists?
 
