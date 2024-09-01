@@ -2,8 +2,8 @@
 title: "Managing lists on BlueSky collaboratively"
 date: 2024-09-01T12:00:00Z
 tags: [ "List", "ListSky", "Communities", "Collaborative", "Collective Intelligence", "Data", "People", "Organise", "Open", "CI", ".NET", "Repository", "GitHub", "App", "Tool", "Actions", "GHA" ]
-images: [ "/listsky/listsky-poster-1.png", "/listsky/listsky-poster-2.png" ]
-thumbnail: "/listsky/listsky-poster-1.png"
+images: [ "/listsky-img/listsky-poster-1.png", "/listsky-img/listsky-poster-2.png" ]
+thumbnail: "/listsky-img/listsky-poster-1.png"
 categories: [ "article", "tool" ]
 ---
 
@@ -26,7 +26,7 @@ I'm currently using it to seed a list of accounts working in Collective Intellig
 
 | An overview of lists | Collective Intelligentsia |
 |-|-|
-| ![](/listsky/01-overview.png) | ![](/listsky/02-ci-list.png) |
+| ![](/listsky-img/01-overview.png) | ![](/listsky-img/02-ci-list.png) |
 
 ## How is it collective?
 
