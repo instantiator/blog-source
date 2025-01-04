@@ -1,19 +1,19 @@
 {{ $dateTime := .PublishDate.Format "2006-01-02" }} {{ $hrDateFormat := "Jan 2, 2006" }}
 
-<div class="card mb-4">
-    <div class="card-header">
+<div class="card">
+    <div class="card-header p-2">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </div>
-    <div class="card-body">
-        <div class="row g-0">
+    <div class="card-body p-2">
+        <div class="row g-2">
             {{ if ( isset .Params "thumbnail" ) }}
-            <div class="col-4 mb-3">
+            <div class="col-4">
                 <a href="{{ .RelPermalink }}">
                     <img class="img-fluid img-thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
                 </a>
             </div>
             {{ end }}
-            <div class="col" style="padding-left: 16px;">
+            <div class="col">
                     <p class="card-text"><small class="text-muted">
                         <!-- <i data-feather="calendar"></i> -->
                         <time datetime="{{ $dateTime }}">{{ $dateTime }}</time></small></p>
@@ -37,7 +37,7 @@
             </div>
         </div>
     </div>
-    <div class="card-footer">
+    <div class="card-footer p-2">
         {{ with .Params.categories }}
             {{ range . }}
                 {{ $href := print (absURL "categories/") (urlize .) }}

@@ -1,26 +1,29 @@
+{{ with .Param "mastodon"}}
 <div class="card mb-2">
-    <div class="card-header">
-            <a href="https://mastodon.social/@instantiator" target="_blank">instantiator@mastodon.social</a>
+    <div class="card-header p-2">
+            <a href="https://{{ .instanceDomain }}/@{{ .profileName }}" target="_blank">{{ .profileName }}@{{ .instanceDomain }}</a>
     </div>
-    <div class="card-body">
+    <div class="card-body p-2" style="overflow-x: scroll;">
         <div id="mt-container" class="mt-container">
-            <div class="mt-body" role="feed">
+            <style>div.mt-body article { padding: 0 !important; padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }</style>
+            <div class="mt-body" role="feed" style="padding: 0 !important;">
                 <div class="mt-loading-spinner"></div>
             </div>
         </div>
     </div>
 </div>
 
-{{ with .Param "mastodon"}}
 <script>
 window.addEventListener("load", () => {
   const myTimeline = new MastodonTimeline.Init({
-      timelineType: "profile",
-    instanceUrl: '{{ .instanceUrl }}',
-    userId: '{{ .userId}}',
-    profileName: '{{ .profileName }}',
-    hidePinnedPosts: true,
-    hideReplies: true
+    timelineType: "profile",
+    instanceUrl: 'https://{{ .instanceDomain }}',
+    userId: '{{ .userId }}',
+    profileName: '@{{ .profileName }}',
+    hidePinnedPosts: false,
+    hideReplies: true,
+    maxNbPostFetch: 20,
+    maxNbPostShow: 10
   });
 });
 </script>

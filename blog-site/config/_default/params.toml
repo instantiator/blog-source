@@ -27,9 +27,12 @@ listDateFormat = "2006-01-02"
 # postSectionName = "blog"
 
 [mastodon]
-instanceUrl = 'https://mastodon.social'
+instanceDomain = 'mastodon.social'
 userId = '109251512180800842'
-profileName = '@instantiator'
+profileName = 'instantiator'
+
+[bluesky]
+accountName = 'instantiator.bsky.social'
 
 [simpleAnalytics]
 # enable = true
