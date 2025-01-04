@@ -74,6 +74,10 @@ title = "RSS"
 url = "https://instantiator.dev/index.xml"
 
 [[socialLinks]]
+title = "Presence library"
+url = "https://instantiator.dev/presence"
+
+[[socialLinks]]
 title = "The Epistolorean"
 url = "https://epistolorean.club"
 
