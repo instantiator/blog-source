@@ -1,20 +1,20 @@
 {{ with .Param "bluesky"}}
 <div class="card mb-2">
-    <div class="card-header p-2">
-        <a href="https://bsky.app/profile/{{ .accountName }}" target="_blank">{{ .accountName }}</a>
-    </div>
-    <div class="card-body p-2" style="overflow-x: scroll;">
-        <bsky-embed
-            username="{{ .accountName }}"
-            limit="10"
-            link-target="_blank"
-            link-image="true"
-            load-more="true"
-            disable-styles="false"
-            custom-styles="article { padding-left: 0.25rem !important; padding-right: 0.25rem !important; padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }"
-            >
+  <div class="card-header p-2">
+    <a href="https://bsky.app/profile/{{ .accountName }}" target="_blank">{{ .accountName }}</a>
+  </div>
+  <div class="card-body p-2">
+      <bsky-embed
+        username="{{ .accountName }}"
+        limit="10"
+        link-target="_blank"
+        link-image="true"
+        load-more="true"
+        disable-styles="false"
+        custom-styles="div.w-full { font-size: 0.95em; overflow-wrap: break-word; width: '100%'; overflow-x: hidden; } article { padding-left: 0.25rem !important; padding-right: 0.25rem !important; padding-top: 0.5rem !important; padding-bottom: 0.5rem !important; }"
+      >
       </bsky-embed>
-    </div>
+  </div>
 </div>
 
 <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>

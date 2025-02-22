@@ -8,11 +8,11 @@ images: ["/bucket-list/bucket-list-graphic.png"]
 thumbnail: "/bucket-list/bucket-list-graphic.png"
 ---
 
-_In which I present a short 3-act play about emptying a bucket, and a handy script to make it easy._
+_When the time comes to delete an S3 bucket, it's important to know that they can't be deleted while they contain content. Here's what you can do about it..._
 
 # Simple job, right?
 
-When the time comes to delete your bucket, it's important to know that S3 buckets can't be deleted while they contain content. This is a sensible precaution, I guess, but it's frustrating at times. Especially when working with the AWS command line tools. The issue is compounded when the bucket is versioned - and we'll get into that.
+This is a sensible precaution, I guess, but it's frustrating at times. Especially when working with the AWS command line tools. The issue is compounded when the bucket is versioned - and we'll get into that.
 
 Before we get started, though, if you just want a script that makes it easy to empty a versioned S3 bucket, see:
 
