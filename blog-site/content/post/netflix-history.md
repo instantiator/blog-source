@@ -4,21 +4,23 @@ date: 2023-04-20T17:30:00Z
 draft: false
 tags: ["netflix", "tv", "watch", "data","dump","download","csv","visualisation", "jupyter", "python", "pandas"]
 categories: ["tutorial"]
-images: ["/netflix/netflix-wallpaper.jpg"]
+images: ["/netflix/netflix-wallpaper.jpg", "/netflix/netflix-visualisation.png"]
 thumbnail: "/netflix/netflix-wallpaper.jpg"
 ---
 
 _Exploring your personal Netflix viewing history..._
-
-![A visualisation of my Netflix viewing for the past decade. Cells are filled if I watched a show in a given month.](/netflix/netflix-visualisation.png)
-
-What you see is a visualisation of everything I'ved watched since 2012. If you'd like to explore my data, I've embedded a copy of my processed monthly viewing at the bottom. If you want to find out how to generate this for yourself, read on!
 
 ## TLDR
 
 If you'd like to generate your own Netflix data visualisation, feel free to make use of this Jupyter notebook:
 
 * **[netflix-viewing-activity-processor.ipynb](https://colab.research.google.com/drive/1VbYt0abbyCSMGgXd9wrCy2He2rC5D1r3?usp=sharing)**
+
+## What does it look like?
+
+What you see is a visualisation of everything I'ved watched since 2012. If you'd like to explore my data, I've embedded a copy of my processed monthly viewing at the bottom. If you want to find out how to generate this for yourself, read on!
+
+![A visualisation of my Netflix viewing for the past decade. Cells are filled if I watched a show in a given month.](/netflix/netflix-visualisation.png)
 
 # Let's get into it...
 

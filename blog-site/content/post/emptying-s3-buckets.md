@@ -8,7 +8,7 @@ images: ["/bucket-list/bucket-list-graphic.png"]
 thumbnail: "/bucket-list/bucket-list-graphic.png"
 ---
 
-_When the time comes to delete an S3 bucket, it's important to know that they can't be deleted while they contain content. Here's what you can do about it..._
+_When the time comes to delete an old S3 bucket, it's important to know that they can't be deleted while they contain content. Here's what you can do about it from the CLI..._
 
 # Simple job, right?
 
