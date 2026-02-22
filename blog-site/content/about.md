@@ -8,11 +8,17 @@ author = "Lewis Westbury"
 
 I am a tech lead and senior software developer. My career reflects my passion for public service and volunteerism.
 
-I'm proud of my contribution to One Login for Government as a part of the Digital Identity team at [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service).
+I'm proud of my work across public service including...
 
-I currently work at the [Centre for Collective Intelligence Design](https://www.nesta.org.uk/project/centre-collective-intelligence-design) at [Nesta](https://www.nesta.org.uk), where we're building some exciting new tools to help communities and groups of people devise solutions together.
+* time I volunteered to found, build, and maintaining [Police Rewired](https://policerewired.org), an open community of technologists focussed on solving problems in public safety.
 
-I'm a volunteer and founder of [Police Rewired](https://policerewired.org), and keen [puzzle gamer](https://escapethereview.co.uk/profile/?user_id=11).
+* my contributions to One Login for Government as a part of the Digital Identity team at [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service).
+
+* my work at the [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence-design) (CCI) at [Nesta](https://www.nesta.org.uk), where I've been leading the development of Zeitgeist - an application to deliver deliberation workshops both remotely and in-person. 
+
+CCI are developing exciting new techniques and supporting tools to enable communities and groups of people of any size to devise solutions together.
+
+I'm also a keen [puzzle gamer](https://escapethereview.co.uk/profile/?user_id=11).
 
 This is a personal blog, and a place to share articles and ideas.
 
