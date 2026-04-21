@@ -413,4 +413,4 @@ Thanks so much for reading to the end\! I hope this post has been helpful to you
 
 At Nesta’s [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence/), we have used these techniques to develop [Zeitgeist](https://zg-app.com), an application to deliver deliberative workshops at scale. We’ve worked hard to elevate the user experience, and in doing so it seems right to share back what we’ve learned.
 
-If you’d like to learn more about how deliberative workshops can help you get to the heart of what matters most, reach out to us at: [collective.intelligence@nesta.org.uk](mailto:collective.intelligence@nesta.org.uk) 
+**Find out how deliberative workshops can help you get to the heart of what matters most. Reach out to us at: [collective.intelligence@nesta.org.uk](mailto:collective.intelligence@nesta.org.uk)**
