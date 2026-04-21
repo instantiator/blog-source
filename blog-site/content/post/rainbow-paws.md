@@ -19,7 +19,7 @@ Since it was first launched, I've made a few little bits and pieces with the [@B
 
 Here's one I created called **Rainbow Paws**, inspired by a childrens book I loved once - [The Cat with Rainbow Coloured Paws](https://www.amazon.co.uk/Rainbow-Coloured-Paws-Maggie-Scott/dp/0859850099). (Apologies for the Amazon link - I couldn't find it on [bookshop.org](bookshop.org).)
 
-{{< tweet id="1409566005861441536" user="BBCMicroBot" >}}
+{{< x id="1409566005861441536" user="BBCMicroBot" >}}
 
 The constraints are what makes this a fun challenge. The computer itself has just 32k of RAM (1/32 of a Mb) to work with (although you'd never fill it up with just a Tweet's worth of code), and runs incredibly slowly by modern standards. The default language is BBC BASIC. It's an interpreted language (so it runs even slower). The bot starts your program, runs for 30 seconds, and then records a short clip. (If nothing moves, it makes a PNG, otherwise an animated GIF.)
 
@@ -154,4 +154,4 @@ _**And that's it!** I made a cute little picture, squeezed the instructions into
 
 The internet is a fun place where people can iterate on each others' work. I would be remiss not to point out the cool improvements [@rheolism](https://twitter.com/rheolism) made to the original tweet. Here:
 
-{{< tweet id="1409734588348436480" user="BBCMicroBot" >}}
+{{< x id="1409734588348436480" user="BBCMicroBot" >}}

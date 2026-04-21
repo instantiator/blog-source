@@ -1,22 +1,22 @@
 +++
 title = "About"
 description = "About me"
-date = "2022-11-23"
-aliases = ["about-us", "about-me"]
+date = "2026-04-21"
+aliases = ["about-us", "about-me", "about"]
 author = "Lewis Westbury"
 +++
 
 I am a tech lead and senior software developer. My career reflects my passion for public service and volunteerism.
 
-I'm proud of my work, including
+I'm proud of my work:
 
-* ...time I've volunteered founding, building, and maintaining [Police Rewired](https://policerewired.org), an open[^1] community of technologists focussed on solving problems in public safety.
+I volunteered, founded, built, and maintained [Police Rewired](https://policerewired.org), an open[^1] community of technologists focussed on solving problems in public safety.
 
 [^1]: Police Rewired was open to anyone that wished to join. For clarity, the community is now closed.
 
-* ...my contributions to One Login for Government as a part of the Digital Identity team at [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service).
+I worked on One Login for Government as a part of the Digital Identity team at [Government Digital Service](https://www.gov.uk/government/organisations/government-digital-service).
 
-* ...my work at the [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence-design) (CCI) at [Nesta](https://www.nesta.org.uk), where I've been leading the development of [Zeitgeist](https://zg-app.com) - an application to deliver deliberation workshops both remotely and in-person. 
+I've worked at the [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence-design) (CCI) at [Nesta](https://www.nesta.org.uk), where I've been leading the development of [Zeitgeist](https://zg-app.com) - an application to deliver deliberation workshops both remotely and in-person. 
 
 I'm also a keen [puzzle gamer](https://escapethereview.co.uk/profile/?user_id=11).
 

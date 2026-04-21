@@ -39,8 +39,16 @@
   pageRef = "categories/article"
 
   [[main]]
-  name = "About"
+  name = "Discounts"
   weight = 600
+  identifier = "discounts"
+  url = "/discounts/"
+  pre = "coins"
+  pageRef = "discounts"
+
+  [[main]]
+  name = "About"
+  weight = 700
   identifier = "about"
   url = "/about/"
   pre = "info"
