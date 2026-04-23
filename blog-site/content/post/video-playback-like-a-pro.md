@@ -14,6 +14,8 @@ _Browsers rule with an iron fist when it comes to the things your web app is all
 
 Developing web apps with embedded video content means you can offer your users a rich experience, and HTML5’s `<video>` element offers a lot of capabilities that used to be very difficult to implement.
 
+<img src="/cci/play-button.png" alt="A small poster for this article showing a play button on an abstract background" style="float: left; margin-right: 2em; margin-bottom: 2em; max-width: 25%;" />
+
 There are still some aspects that are complex for developers, though - particularly in cases where video playback must be triggered by a remote event, or automatically played, rather than in response to a user’s click:
 
 * How to understand if the browser will permit the video to play
@@ -22,9 +24,13 @@ There are still some aspects that are complex for developers, though - particula
 * How to manage resources when you have a lot of videos to play
 * How to synchronise video playback across multiple devices
 
-At Nesta’s [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence/), we needed to address all of these problems as we built [Zeitgeist](https://zg-app.com), our application to deliver [deliberative workshops](https://instantiator.dev/post/cci-zg-deliberation-at-scale/) at scale. The stimuli for these workshops (often in the form of videos) is a core part of the user experience, and a key reason why our workshops are reported so enjoyable by participants.
+<div style="clear: left;"></div>
 
-[![Zeitgeist - scalable public deliberation, data-driven insights, and more engaging public participation](/cci/zg-card.jpeg "A small poster for Zeitgeist - a digital product that delivers scalable public engagements")](https://zg-app.com)
+## Our challenge
+
+<a href="https://zg-app.com" target="_blank"><img src="/cci/zg-card.jpeg" alt="A small poster for Zeitgeist - a digital product that delivers scalable public engagements" style="float: right; margin-left: 2em; margin-bottom: 2em; max-width: 25%;" ></a>
+
+At Nesta’s [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence/), we needed to address all of these problems as we built [Zeitgeist](https://zg-app.com), our application to deliver [deliberative workshops](https://instantiator.dev/post/cci-zg-deliberation-at-scale/) at scale. The stimuli for these workshops (often in the form of videos) is a core part of the user experience, and a key reason why our workshops are reported so enjoyable by participants.
 
 It’s important to get video implementation right, and there are a surprising number of pitfalls.
 
