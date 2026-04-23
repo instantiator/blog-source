@@ -71,17 +71,16 @@ Each browser has its own definition of user gestures, activation requirements, a
 
 ### Testing for autoplay
 
-There’s no guarantee that playback will succeed. The best advice seems to be, when programmatically playing video, to catch any errors thrown. If the **`play`** function throws, your code should fail gracefully.
+There’s no guarantee that playback will succeed. The best advice seems to be, when programmatically playing video, to catch any errors thrown. The `play()` function on a `<video>` element returns a promise, and if that promise rejects, then your code should fail gracefully.
 
 ```ts
-const promise = videoRef.current.play();
-if (promise !== undefined) {
-  promise.catch(error => {
+videoRef.current.play()
+  .then(() => {
     // Playback has started
-  }).then(() => {
+  })
+  .catch((error: any) => {
     // Playback has failed
   });
-}
 ```
 
 or, asynchronously:
