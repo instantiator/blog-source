@@ -8,7 +8,13 @@ author = "Lewis Westbury"
 
 I am a tech lead and senior software developer. My career reflects my passion for public service and volunteerism.
 
-I'm proud of my work:
+## A little experiment
+
+Let's chat about software development, collective intelligence, volunteering, AI, your career as a developer...
+
+> [A chat with Lewis](https://calendar.app.google/9wYSR1cjEEdcS2zo7)
+
+## I'm proud of my work
 
 I volunteered, founded, built, and maintained [Police Rewired](https://policerewired.org), an open[^1] community of technologists focussed on solving problems in public safety.
 
