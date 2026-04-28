@@ -2,7 +2,7 @@
 title = "Discounts"
 description = "Referral codes from products I don't dislike"
 date = "2026-04-21"
-aliases = ["discounts", "discount-codes", "referrals"]
+aliases = ["discounts", "discount-codes", "discount codes", "referrals", "vouchers"]
 author = "Lewis Westbury"
 +++
 
@@ -17,8 +17,15 @@ author = "Lewis Westbury"
 
   <a href="http://rwrd.io/2z6jzcl?c" target="_blank">
     <div style="border: solid 1px #808080; background: #efefef; border-radius: 1em; padding: 1em; font-weight: bold;height: 100%">
-      €50 off your first Fairphone
+      €50 off your first Fairphone <br/>
       or Fairbuds XL
+    </div>
+  </a>
+
+  <a href="https://share.octopus.energy/fun-dove-691" target="_blank">
+    <div style="border: solid 1px #808080; background: #efefef; border-radius: 1em; padding: 1em; font-weight: bold;height: 100%">
+      Share £100 with me <br/>
+      and join Octopus Energy
     </div>
   </a>
 
