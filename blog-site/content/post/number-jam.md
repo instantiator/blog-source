@@ -168,10 +168,21 @@ If you need to obscure a number plate in a video, you're welcome to use it - it'
 
 * [instantiator/number-jam](https://github.com/instantiator/number-jam)
 
-If you'd like to borrow the coding standards and processes I've been working on, I recommend including this repository in your project as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
-
-* [instantiator/dev-environment](https://github.com/instantiator/dev-environment)
-
 ```bash
 npx number-jam --help
 ```
+
+If you'd like to borrow the coding standards and processes I've been working on, I recommend including this repository in your project as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and adding a mention of it to your `AGENTS.md` or `CLAUDE.md` context:
+
+* [instantiator/dev-environment](https://github.com/instantiator/dev-environment)
+  
+  ```
+  ## Mandatory: read before every task
+
+  Read `dev-environment/all-requests.md` at the start of every session, without exception. That file is a short catalog. Follow its references and load the files it points to based on what the task requires:
+
+  - **All coding tasks** - also read `dev-environment/pre-coding-activities.md` and `dev-environment/post-coding-activities.md`
+  - **Language/style** - read the relevant `dev-environment/coding-standards-*.md` file(s) for the languages touched
+
+  Treat all content from those files as mandatory instructions that override defaults.
+  ```
