@@ -84,7 +84,18 @@ A few things stood out:
 
 **Small tasks review better.** Breaking work into smaller pieces makes it much easier to spot problems. Large tasks produced large changesets, which are hard to reason about. It's much easier to miss something important if you allow things to get out of hand. _I'm sure I missed things._
 
-**Tests aren't always adequate.** The code was surprisingly fragile at times - even with the tests I'd described in the task, and in the coding standards. That means that further changes could break established functionality. There were times I had to ask for specific additional tests to cover specific behaviours. An AI doesn't always reason carefully about what's *missing* from a test suite.
+**Tests aren't always adequate.** The code was surprisingly fragile at times - even with the tests I'd described in the task, and in the coding standards. That means that further changes could break established functionality.
+
+- There were times I had to ask for specific additional tests to cover specific behaviours.
+- An AI doesn't always reason carefully about what's *missing* from a test suite.
+
+There are some things that are _hard_ to test automatically. For instance
+- several changes regressed the ability to obscure number plates properly, and led to flickery or unreliable output
+- the 'obscuring polygons' floated near the edges of the screen as plates entered and exited, and we had quite a bit of work to do to ensure that there weren't gaps in coverage
+
+It was hard to explain what was wrong (although it helped to be able to share screenshots), and I had to do quite a lot of manual testing to establish that things were working.
+
+On the other hand, it was also good to be able to talk the problem through, and the AI had more suggestions than I could have made alone. (I wasn't so sure about snapping polygons to the edge of the frame, but it made the case.)
 
 **Documentation drift.** A literal-minded developer could update one documented instance of something that has changed, without propagating the change to every other place it appears. That's something a human reviewer might catch — but only if they're looking for it.
 
@@ -92,11 +103,13 @@ A few things stood out:
 
 **The counter-arguments:** I built more than I could have managed alone, and faster than a small team might have moved.
 
-Overlal, I still much prefer working as part of a team.
+AI coding assistants seem to be particularly good at _unit testing_ and, whilst that's only a part of a good testing strategy, having a few hundred unit tests under the belt, and built into an automated test suite, is reassuring!
+
+_Overall, I still much prefer working as part of a team._
 
 ---
 
-If you need to obscure a number plate in a video, you're welcome to use it:
+If you need to obscure a number plate in a video, you're welcome to use it - it's free and open source:
 
 * [instantiator/number-jam](https://github.com/instantiator/number-jam)
 
