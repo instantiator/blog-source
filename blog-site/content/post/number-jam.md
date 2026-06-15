@@ -168,9 +168,9 @@ If you need to obscure a number plate in a video, you're welcome to use it - it'
 
 * [instantiator/number-jam](https://github.com/instantiator/number-jam)
 
-```bash
-npx number-jam --help
-```
+  ```bash
+  npx number-jam --help
+  ```
 
 If you'd like to borrow the coding standards and processes I've been working on, I recommend including this repository in your project as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and adding a mention of it to your `AGENTS.md` or `CLAUDE.md` context:
 
