@@ -20,7 +20,7 @@ We wanted to share this as a warning to other cat owners, neighbours, and friend
 
 > **⚠️ Always check the wheel arches before you drive.**
 
-Before posting the video, though, we needed to obscure the number plate.
+Before posting the video, though, we needed to obscure our number plate. Privacy first!
 
 I asked Gemini to do it. Gemini, fairly enough, pointed out that this would require a subscription. That seemed a lot for one video. There didn't seem to be anything freely available or open source that could do this... _How hard could it be?_
 
