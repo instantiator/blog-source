@@ -16,15 +16,13 @@ This is Momo, our cute little black cat, climbing into the wheel arch of our car
 
 {{< youtube cXMizTx0x60 >}}
 
-We wanted to share this as a warning to other cat owners.
+We wanted to share this as a warning to other cat owners, neighbours, and friends.
 
 > **⚠️ Always check the wheel arches before you drive.**
 
-Before posting the video, though, we needed to obscure the number plate...
+Before posting the video, though, we needed to obscure the number plate.
 
-I asked Gemini to do it. Gemini, fairly enough, pointed out that this would require a subscription. That seemed a lot for one video.
-
-_How hard could it be?_
+I asked Gemini to do it. Gemini, fairly enough, pointed out that this would require a subscription. That seemed a lot for one video. There didn't seem to be anything freely available or open source that could do this... _How hard could it be?_
 
 # Building `number-jam`
 
