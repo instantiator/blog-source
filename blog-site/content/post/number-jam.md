@@ -243,7 +243,7 @@ If you'd like to borrow the coding standards and processes I've been working on,
 
 * [instantiator/dev-environment](https://github.com/instantiator/dev-environment)
   
-  ```
+  ```text
   ## Mandatory: read before every task
 
   Read `dev-environment/all-requests.md` at the start of every session, without exception. That file is a short catalog. Follow its references and load the files it points to based on what the task requires:
