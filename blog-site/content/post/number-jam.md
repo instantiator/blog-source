@@ -8,7 +8,7 @@ images: [ "https://img.youtube.com/vi/cXMizTx0x60/0.jpg" ]
 thumbnail: "https://img.youtube.com/vi/cXMizTx0x60/0.jpg"
 ---
 
-_`number-jam` detects, tracks, and obscures vehicle number plates in video clips — and was an experiment in AI-assisted development._
+_`number-jam` detects, tracks, and obscures vehicle number plates in video clips - and was an experiment in AI-assisted development._
 
 # Momo's PSA
 
@@ -49,10 +49,10 @@ I found that its per-frame detection rate is patchy: a plate visible for ten sec
 
 So I explored ways to supplement it with other techniques:
 
-- **Character scanning** — Tesseract OCR[^ocr] runs in a region around each detected plate, catching any characters that OpenALPR missed
-- **IOU[^iou] tracking and gap interpolation** — links detections across frames and fills short gaps
-- **SAD[^sad] visual tracking** — template matching tracks motion, to extends plate coverage before and after the ANPR detection window
-- **Velocity extrapolation** — when visual tracking ends, the tool extrapolates a little more motion using the plate's recent velocity
+- **Character scanning** - Tesseract OCR[^ocr] runs in a region around each detected plate, catching any characters that OpenALPR missed
+- **IOU[^iou] tracking and gap interpolation** - links detections across frames and fills short gaps
+- **SAD[^sad] visual tracking** - template matching tracks motion, to extends plate coverage before and after the ANPR detection window
+- **Velocity extrapolation** - when visual tracking ends, the tool extrapolates a little more motion using the plate's recent velocity
 
 [^ocr]: Optical Character Recognition
 [^iou]: Intersection over Union
@@ -68,7 +68,7 @@ This project was also an experiment. I wanted to explore working with an AI codi
 - review and manually test the output
 - accept it or send it back with notes
 
-The development standards and rules live in [`dev-environment/`](https://github.com/instantiator/number-jam/tree/main/dev-environment) — a set of markdown files specifying coding standards, pre- and post-coding activities, and working style. `CLAUDE.md` points Claude Code to these at the start of every session.
+The development standards and rules live in [`dev-environment/`](https://github.com/instantiator/number-jam/tree/main/dev-environment) - a set of markdown files specifying coding standards, pre- and post-coding activities, and working style. `CLAUDE.md` points Claude Code to these at the start of every session.
 
 ## Progress
 
@@ -124,7 +124,7 @@ npx number-jam --help
 
 For solo devs, or people using coding assistants, it's difficult to manage a consistent process. A lot of GitHub pull-request code review workflows assume you're working in a team, and they are great for that environment. When you are the repository owner, branch protections and code review requirements can start to feel like overheads. They're not - and they can protect you from silly mistakes, especially when you gate your changes on passing tests.
 
-My [coding standards](https://github.com/instantiator/dev-environment) aren't perfect — and that's useful information. If you don't specify something clearly enough, cutting a corner is a perfectly reasonable response for a developer, or an AI. I steadily amended the rules as we worked to try to address this.
+My [coding standards](https://github.com/instantiator/dev-environment) aren't perfect - and that's useful information. If you don't specify something clearly enough, cutting a corner is a perfectly reasonable response for a developer, or an AI. I steadily amended the rules as we worked to try to address this.
 
 A few things stood out:
 
@@ -152,7 +152,7 @@ Although this felt like a shortcoming of the approach, it was good to be able to
 
 AI coding assistants seem to be particularly good at _unit testing_ and, whilst that's only a part of a good testing strategy, having a few hundred unit tests under the belt, and built into an automated test suite, is reassuring!
 
-**Documentation drift.** A literal-minded developer could update one documented instance of something that has changed, without propagating the change to every other place it appears. That's something a human reviewer might catch — but only if they're looking for it.
+**Documentation drift.** A literal-minded developer could update one documented instance of something that has changed, without propagating the change to every other place it appears. That's something a human reviewer might catch - but only if they're looking for it.
 
 **It's a bit lonely.** Working in a small team is a more social experience, and leads to fewer omissions. Talking things through is good for the project, and good for me. Being able to go faster is a bit of a double-edged sword, for the reasons I've already mentioned.
 
