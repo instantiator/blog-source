@@ -22,7 +22,13 @@ Still, though, it shouldn't cost you money. You've already paid for the screen.
 
 I put together [frame-55-art](https://github.com/instantiator/frame-55-art) to address this gap. It's a couple of tools and some scripts to help you search through publicly avaialble art, published under a permissive license through Wikimedia Commons, download it, and reformat it for your screen dimensions.
 
-It's very much a "here are some scripts, enjoy!" project - but I learned a bit about querying wikimedia as I progressed.
+It's very much a "here are some scripts, enjoy!" project. I may return to it in future and build a friendlier interface. For now, it's good enough for me.
+
+I learned a bit about querying wikimedia as I progressed, but much less about SPARQL than I might have liked.
+
+* [Wikidata](https://en.wikipedia.org/wiki/Wikidata) (wikipedia article)
+* [SPARQL](https://en.wikipedia.org/wiki/SPARQL) (wikipedia article)
+* [Wikidata query service](https://query.wikidata.org/) (interactive prompt)
 
 ## Get started
 
