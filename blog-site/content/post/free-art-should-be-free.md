@@ -49,11 +49,11 @@ git clone https://github.com/instantiator/frame-55-art.git
 
 * Install Homebrew: [brew.sh](https://brew.sh/)
 * Install Node:
-  ```
+  ```bash
   brew install node
   ```
 * Install `imagemagick`, `jq`:
-  ```
+  ```bash
   brew install imagemagick jq
   ```
 
