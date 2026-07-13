@@ -64,7 +64,7 @@ div.offer span.headline {
 
 ## Do something wholesome
 
-<div style="display: flex; flex-direction: row; gap: 1em; align-items: stretch; flex-wrap: wrap;">
+<div style="display: flex; flex-direction: row; gap: 1em; align-items: stretch; flex-wrap: wrap; margin-bottom: 2rem;">
 
   <a href="https://libro.fm/referral?rf_code=lfm802175" target="_blank">
     <div class="offer">
@@ -75,3 +75,22 @@ div.offer span.headline {
   </a>
 
 </div>
+
+## Looking for work?
+
+This is a personal recommendation[^jj].
+
+<div style="display: flex; flex-direction: row; gap: 1em; align-items: stretch; flex-wrap: wrap; margin-bottom: 1rem;">
+
+  <a href="https://jackandjill.ai/refer/lewis_westbury" target="_blank">
+    <div class="offer">
+      <span class="headline">Meet Jack</span><br/>
+      Jack &amp; Jill recruitment service
+    </div>
+  </a>
+
+</div>
+
+> The folks at Jack &amp; Jill have built a genuinely impressive and helpful tool that supports applicants and people looking for work. It finds roles that are a good match for your skills, far better than keyword matches, and they offer an end-to-end service to support all your applications. I found the interview preparation tools particularly helpful. It researched organisations and roles, held mock interviews, and discussed my answers - pointing out where they matched each organisation's expectations. The tool also offered good, actionable, career advice.
+
+[^jj]: NB. If Jack and Jill are able to find you work, I'll also receive a proportion of the hiring fee. I would have recommended them anyway, and have done before to friends looking for new roles.
