@@ -155,7 +155,7 @@ If you have an API key from OpenAI, Anthropic, or Google, you can use it with Op
 | --- | --- | --- |
 | VS Code | Code editor | Where you write and edit your code |
 | OpenCode | AI coding assistant | Helps you write, understand, and debug code |
-| Python extension | VS Code plugin | Makes working with Python files easier |
-| A model (e.g. Big Pickle) | AI brain | Powers OpenCode's ability to help you |
+| A model (e.g. Big Pickle) | Reasoning and language | Used by OpenCode to perform tasks and answer questions |
+| Python extension | VS Code plugin | Improves your experience working with Python |
 
 Great - hopefully you've got VS Code and OpenCode working together. In the next tutorial, we'll look at **git** and how to use it to work on your project safely, track your changes, and collaborate with others...
