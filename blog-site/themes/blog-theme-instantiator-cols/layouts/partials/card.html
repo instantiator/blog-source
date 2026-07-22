@@ -9,7 +9,12 @@
             {{ if ( isset .Params "thumbnail" ) }}
             <div class="col-4">
                 <a href="{{ .RelPermalink }}">
-                    <img class="img-fluid img-thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="Thumbnail image" loading="lazy" />
+                    {{- $thumb := .Resources.Get .Params.thumbnail -}}
+                    {{- if $thumb -}}
+                    <img class="img-fluid img-thumbnail" src="{{ $thumb.RelPermalink }}" alt="" loading="lazy" />
+                    {{- else -}}
+                    <img class="img-fluid img-thumbnail" src="{{ .Params.thumbnail | relURL }}" alt="" loading="lazy" />
+                    {{- end -}}
                 </a>
             </div>
             {{ end }}

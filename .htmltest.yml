@@ -1,0 +1,6 @@
+DirectoryPath: "blog-site/public/"
+CheckExternal: false
+CheckMailto: false
+CheckTel: false
+IgnoreInternalEmptyHash: true
+IgnoreAltEmpty: true
