@@ -1,3 +1,4 @@
 .vscode
 .DS_Store
 drafts/
+node_modules/
