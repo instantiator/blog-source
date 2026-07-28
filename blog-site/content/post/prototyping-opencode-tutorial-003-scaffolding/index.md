@@ -1,7 +1,7 @@
 ---
 title: "Free AI-assisted coding tools 3: A basic prototype with Streamlit"
 date: 2026-07-28T12:00:00Z
-draft: false
+draft: true
 tags: ["tutorial", "streamlit", "python", "data-science", "scaffolding", "prototyping", "prototype", "ui"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
