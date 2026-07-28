@@ -5,7 +5,7 @@ draft: false
 tags: ["tutorial", "streamlit", "python", "data-science", "scaffolding", "prototyping", "prototype", "ui"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
-thumbnail: "new-app-browser.png"
+thumbnail: "new-app-vs-code.png"
 images: ["new-app-vs-code.png","new-app-browser.png"]
 ---
 
