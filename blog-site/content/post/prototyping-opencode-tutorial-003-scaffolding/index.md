@@ -24,7 +24,7 @@ In earlier posts we set up a dev environment and a Git repository. Now we'll cre
 
 <img src="./streamlit-logo.svg" alt="The streamlit logo is a crown constructed from 3 triangles." style="height: 20vh; background: #ffffffaa; border-radius: 5px;" />
 
-**[Streamlit](https://streamlit.io)** is an open-source Python framework for building data apps. It is:
+**[Streamlit](https://streamlit.io)** is an open-source Python framework for building web apps. It is:
 
 - **Simple** — you can just write plain Python, you don't need other languages like HTML, CSS, or javasript
 - **Popular** — there's a large user community
