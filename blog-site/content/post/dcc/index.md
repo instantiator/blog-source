@@ -8,7 +8,7 @@ thumbnail: "dcc-01.png"
 images: ["dcc-01.png", "dcc-02.png", "dcc-03.png", "dcc-04.png", "dcc-05.png", "dcc-06.png", "dcc-07.png", "dcc-08.png"]
 ---
 
-_TLDR: I'm enjoying Dungeon Crawler Carl. It's amusing and poignant. It has several themes, they're layered, and it takes a while for them all to warm up._
+_TLDR: I'm enjoying Dungeon Crawler Carl. It's amusing and poignant. It has several themes, they're layered, and it takes a while for them all to warm up, but it's worth it._
 
 # Dungeon Crawler Carl
 
