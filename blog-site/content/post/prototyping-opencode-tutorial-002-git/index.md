@@ -303,14 +303,15 @@ Most developers keep all their code repositories inside a folder called `src`. I
 2. Navigate to the new repository folder, and select it
 3. Click **Open**
 
-<img src="./git-branch.svg" alt="The branch icon: It looks like two lines that join at a node, one leaves vertically upwards, the other curves to the right suggesting an alternate path." style="width: auto; height: 10vh; background: #ffffffdd; padding: 2vw; border-radius: 5px; float: left; margin-right: 10px; margin-bottom: 10px;" />
+<img src="./git-branch.svg" alt="The branch icon: It looks like two lines that join at a node, one leaves vertically upwards, the other curves to the right suggesting an alternate path." style="width: auto; height: 10vh; background: #ffffffdd; padding: 2vw; border-radius: 5px; float: left; margin-right: 10px;" />
 
 VS Code knows this is a Git repository, and you'll see a Source Control icon in the sidebar (it looks like a branching line) where you can view changes, stage files, and commit through the UI, as an alternative to working in the terminal.
 
-
-> 💡 The next time you open a terminal, it'll start in the folder that VS Code is currently working in.
+The instructions in this tutorial will refer to the terminal commands, because it is helpful to understand what is happening - but it's nice to have a visual tool to help you see and understand what's going on, or to make it easier to take a little more control over the process.
 
 <div style="clear: both;" />
+
+> 💡 The next time you open a terminal, it'll start in the folder that VS Code is currently working in.
 
 ## How Git fits into your workflow
 
