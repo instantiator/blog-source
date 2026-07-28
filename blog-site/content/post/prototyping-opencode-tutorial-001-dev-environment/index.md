@@ -2,14 +2,14 @@
 title: "Free AI-assisted coding tools 1: Getting started"
 date: 2026-07-17T00:00:00Z
 draft: false
-tags: ["tutorial", "data-science", "setup", "vscode", "opencode"]
+tags: ["tutorial", "data-science", "setup", "vscode", "opencode", "ai", "ai-assisted", "ai-assisted-coding", "coding", "coding-tools"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
-thumbnail: "/opencode-tutorial/opencode-interface.png"
-images: ["/opencode-tutorial/opencode-interface.png"]
+thumbnail: "opencode-interface.png"
+images: ["opencode-interface.png"]
 ---
 
-_A short tutorial to help you set up a lightweight AI assisted coding environment, with free tools. It's a modest solution but, if you have a computer, you can get started for nothing._
+_A short tutorial to help you set up a lightweight AI assisted-coding environment, with free tools. It's a modest solution but, if you have a computer, you can get started for nothing._
 
 ## Free tools
 
