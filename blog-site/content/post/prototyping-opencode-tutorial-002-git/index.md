@@ -240,14 +240,29 @@ git --version
 
 You should see something like `git version 2.x.x`.
 
+## First-time setup
+
+There are few more things to do. Once you have git installed, you'll need to make sure it knows who you are, so that your changes can be attributed to you.
+
+### Create an account on GitHub
+
+If you don't already have an account, create one now: Visit [github.com](https://github.com) and create a free account if you don't have one.
+
+### Set up git
+
+```bash
+git config --global user.name "your name"
+git config --global user.email "your email address"
+```
+
 ## Creating a repository on GitHub
 
-1. Go to [https://github.com](https://github.com) and sign in (create a free account if you don't have one)
-2. Click the **`+`** icon in the top right corner and select **New repository**
-3. Give your repository a name (e.g. `my-data-prototype`)
-4. Leave it **Public** if you don't mind that it's free and shareable, or choose **Private** (you can change this later if you need)
-5. Consider the templating options[^templating], or the option to create a `README.md` file when creating the repository
-6. Click **Create repository**
+0. Sign in to [github.com](https://github.com)
+1. Click the **`+`** icon in the top right corner and select **New repository**
+2. Give your repository a name (e.g. `my-data-prototype`)
+3. Leave it **Public** if you don't mind that it's free and shareable, or choose **Private** (you can change this later if you need)
+4. Consider the templating options[^templating], or the option to create a `README.md` file when creating the repository
+5. Click **Create repository**
 
 [^templating]: If you _aleady have_ a local repository that you want to link to the repository on GitHub, create a blank repository with no templating. Otherwise, you're starting fresh - so explore the options, as there may be something to help you get going.
 
@@ -339,14 +354,13 @@ Here are some simple commands to help you get started using `git` with your new 
 
 > 💡 Of course, you could ask an AI coding assistant to do all of these things for you. I don't recommend that until you've used it so much you're over-familiar with it. Although an assistant can take away these minutiae, you must understand what it is doing if you want to be responsible for the code that's committed. That comes from hands-on experience.
 
-## Summary
+## Resources
 
-| Concept | What it is |
-| --- | --- |
-| Git | Local version control — tracks changes on your machine |
-| GitHub | Online hosting — stores your repository in the cloud |
-| Clone | Downloading a repository from GitHub to your computer |
-| Commit | Saving a snapshot of your changes |
-| Push | Uploading commits to GitHub |
+If you'd like to get more familiar with git, here are some further resources.
 
-You now have a repository on GitHub, a local copy on your machine, and the tools to track every change. In the next tutorial, we'll create a data science project scaffold and make our first commit.
+- [Set up git](https://docs.github.com/en/get-started/git-basics/set-up-git) (GitHub tutorial)
+- [Think like (a) git](https://think-like-a-git.net/) (advanced git tutorial "Git shouldn't be so hard to learn")
+
+## Great!
+
+You now have a repository on GitHub, a local copy on your machine, and the tools to track your changes. In the next tutorial, we'll scaffold a prototype project, and make our first commit.
