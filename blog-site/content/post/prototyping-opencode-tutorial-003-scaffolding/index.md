@@ -1,10 +1,12 @@
 ---
 title: "Free AI-assisted coding tools 3: A basic prototype with Streamlit"
 date: 2026-07-28T12:00:00Z
-draft: true
+draft: false
 tags: ["tutorial", "streamlit", "python", "data-science", "scaffolding", "prototyping", "prototype", "ui"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
+thumbnail: "new-app-browser.png"
+images: ["new-app-vs-code.png","new-app-browser.png"]
 ---
 
 In earlier posts we set up a dev environment and a Git repository. Now we'll create a small prototype from scratch using [Streamlit](https://streamlit.io).
@@ -125,6 +127,8 @@ You'll know it's active because your terminal prompt will show `(.venv)` at the 
 pip install streamlit
 ```
 
+> [pip](https://en.wikipedia.org/wiki/Pip_(package_manager)) is the Python package manager, and the word `pip` itself stands for "pip installs packages". That's a recursive acronym, and... you're going to have to get used to them! They're everywhere in software development.
+
 This installs Streamlit and its dependencies into your virtual environment.
 
 | Package | What it does |
@@ -176,7 +180,9 @@ import streamlit as st
 
 </td>
 <td>
-  This tells the application to use streamlit from the virtual environment, and to refer to it as `st` (making your code a little more concise!)
+  This tells the application to use the `streamlit` package from the virtual environment, and to refer to it as `st` (making your code a little more concise!)
+
+  Everywhere you write `st.function_name` in later lines, you're referring to functions provided by the `streamlit` package.
 </td>
 </tr>
 
@@ -189,7 +195,7 @@ st.title("My Data Prototype")
 
 </td>
 <td>
-  Sets the title of the page to "My Data Prototype".
+  Sets the title of the page to "My Data Prototype" by calling the `streamlit.title` function with a single argument: the new title of the page.
 </td>
 </tr>
 
@@ -202,9 +208,9 @@ st.write("Hello! This is a blank starter app.")
 
 </td>
 <td>
-  This prints some wording to the page for the user to read:
+  Prints some wording to the page for the user to read, by calling the `streamlit.write` function with a single argument: the wording to display.
 
-  > "Hello! This is a blank starter app.
+  > Hello! This is a blank starter app.
 </td>
 </tr>
 
@@ -217,11 +223,13 @@ name = st.text_input("Enter your name")
 
 </td>
 <td>
-  Streamlit shows a simple prompt for the user to fill in with text:
+  Calls the `streamlit.text_input` function to shows a simple prompt for the user to fill in with text. Here the single argument is the text to show the user, relating to the prompt:
   
   > Enter your name
 
   When the user enters a value, this is put into the `name` variable, which is used in subsequent lines.
+
+  On first run, the `name` variable is empty.
 </td>
 </tr>
 
@@ -235,15 +243,17 @@ if name:
 
 </td>
 <td>
-  This is a call to the `write` function (just as we saw above), but it's wrapped in an `if` statement, and it uses the `name` variable.
+  This is a call to the `streamlit.write` function again, but it's in a block that's governed by an `if` statement, which tests the  `name` variable.
 
   Here's why:
 
-  - Before the user has provided a value for `name`, there's nothing in it - so showing `"Welcome, {name}!"` on the page would actually show:
+  - Before the user has provided a value for `name`, there's nothing in it (Python calls this `None`) - so showing `"Welcome, {name}!"` on the page would actually show:
 
     > Welcome, !
 
-  - To avoid this, we use an if-statement. The call to `st.write` only happens if there's a value for `name` - so if the user has provided anything, _then_ the `write` function will be called.
+  - To avoid this, we've used an `if`-statement. - The call to `st.write` only happens if there's a value for `name`.
+  - For a block in an `if`-statement to run, the test must evaluate to `True`. Because an empty variable does not evaluate to `True`, the block doesn't run - and `st.write` is not called.
+  - If the user has provided anything in the `name` variable, _then_ the test will evaluate to `True`, the block will be run, and the `write` function will be called.
   
     eg. with `Lewis` in `name`:
 
@@ -255,15 +265,15 @@ if name:
 
 There's plenty more to learn about Streamlit, but for now, it's helpful to understand what it's doing at a basic level.
 
-<details>
+### What if the user changes the name they provide?
 
-<summary> <b>What if the user changes the name they provide?</b> </summary>
+When an input changes, Streamlit re-runs the application from the start. This means that the new value for `name` is picked up on the line that assigns it:
 
-When a value changes, Streamlit re-runs the application from the start. This means that the new value for `name` is picked up and used to update what's shown to the user in the UI.
+```python
+name = st.text_input("Enter your name")
+```
 
-It's worth understanding this as there may be times when you don't wish to fully re-run everything (ie. if you have a complex calculation to perform).
-
-</details>
+That new value then evalutes to `True` in the `if`-statement, the block runs, and the UI shows the welcome message.
 
 ### 4. Run the application
 
@@ -273,17 +283,21 @@ streamlit run app.py
 
 A new tab will open in your browser showing your app at `http://localhost:8501`. (Streamlit will use port `8501` by default, but you can change that if you need.) Any changes you save to `app.py` will automatically be refreshed in the browser.
 
+| VS Code | Your application |
+|-|-|
+| ![New app in VS Code](./new-app-vs-code.png "The new application, after you've launched it in a VS Code terminal.") | ![New app in browser](./new-app-browser.png "The new application, running in a Firefox browser. It shows 'My Data Prototype' followed by 'Hello! This is a blank starter app.', and 'Enter your name'. Below that is an input box where I've filled out: 'Lewis', and below that are the words 'Welcome, Lewis!'") |
+
 ### 5. Stop the application
 
 Go back to the terminal where the app is running and press `Ctrl+C`. The app will stop.
 
-## Saving the virtual environment from Git
+## Excluding the virtual environment from Git
 
 Your `.venv` folder contains thousands of files that Git shouldn't track. Whenever anybody else uses your project, they can initialise their own virtual environment, and this means you won't end up paying to store volumes of open source code in your git repository that anybody could retrieve for themselves.
 
 Create a `.gitignore` file to exclude it.
 
-You could create the file youeself, with a single line in it:
+You could create the file yourself, with a single line in it:
 
 ```
 .venv/
@@ -329,7 +343,9 @@ Reload the page for your repository on GitHub, and you should see `app.py` and `
 
 ## What, no AI?
 
-You're right - we've gone 2 whole tutorials without using the AI coding assistant you set up in the first tutorial. That's intentional. Once you're familiar with the core tools you'll be using, it'll be much easier to give an AI assistant clear directions, and to review the code it creates.
+You're absolutely right, buddy! We've gone 2 whole tutorials without using the AI coding assistant you set up in the first tutorial. That's intentional.
+
+Once you're familiar with the core tools, it'll be much easier to give an AI assistant clear directions, and to review the code it creates. It's important to have an idea about what you're making so you can be responsible for it.
 
 ### This is your code, and you are responsible for it
 
