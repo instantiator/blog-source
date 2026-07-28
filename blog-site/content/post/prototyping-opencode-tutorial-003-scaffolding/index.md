@@ -343,7 +343,7 @@ Reload the page for your repository on GitHub, and you should see `app.py` and `
 
 ## What, no AI?
 
-You're absolutely right, buddy! We've gone 2 whole tutorials without using the AI coding assistant you set up in the first tutorial. That's intentional.
+**You're absolutely right, buddy!** We _have_ gone 2 whole tutorials without using the AI coding assistant you set up in the first. That's intentional.
 
 Once you're familiar with the core tools, it'll be much easier to give an AI assistant clear directions, and to review the code it creates. It's important to have an idea about what you're making so you can be responsible for it.
 
