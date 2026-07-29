@@ -1,5 +1,5 @@
 ---
-title: "🆓 AI-assisted coding 2: Managing your code"
+title: "Free AI-assisted coding 2: Managing your code"
 date: 2026-07-27T00:00:00Z
 draft: false
 tags: ["tutorial", "git", "github", "version-control"]

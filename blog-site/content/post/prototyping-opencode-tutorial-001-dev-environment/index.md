@@ -1,5 +1,5 @@
 ---
-title: "🆓 AI-assisted coding 1: Getting started"
+title: "Free AI-assisted coding 1: Getting started"
 date: 2026-07-17T00:00:00Z
 draft: false
 tags: ["tutorial", "data-science", "setup", "vscode", "opencode", "ai", "ai-assisted", "ai-assisted-coding", "coding", "coding-tools"]

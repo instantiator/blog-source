@@ -1,5 +1,5 @@
 ---
-title: "🆓 AI-assisted coding 3: A basic prototype with Streamlit"
+title: "Free AI-assisted coding 3: A basic prototype with Streamlit"
 date: 2026-07-28T12:00:00Z
 draft: false
 tags: ["tutorial", "streamlit", "python", "data-science", "scaffolding", "prototyping", "prototype", "ui"]
