@@ -8,9 +8,11 @@ thumbnail: "zg-laptop.png"
 
 ---
 
-*Reproduced from a recently published [LinkedIn article](https://www.linkedin.com/pulse/conversational-deliberation-scale-lewis-westbury-4uk6e/?trackingId=lQdZf5QJS42DfdPBKXhJaQ%3D%3D).*
+*Conversational deliberation is hard to get right, and even harder to scale. Here's how we've been lowering the barriers to both...*
 
-# Conversational deliberation, at scale
+(Reproduced from a recently published [LinkedIn article](https://www.linkedin.com/pulse/conversational-deliberation-scale-lewis-westbury-4uk6e/?trackingId=lQdZf5QJS42DfdPBKXhJaQ%3D%3D).)
+
+## Conversational deliberation, at scale
 
 I've been leading a software development team at the [Centre for Collective Intelligence](https://www.nesta.org.uk/project/centre-collective-intelligence/) at [Nesta](https://www.nesta.org.uk) for a couple of years now, and I'm lucky enough to work with, and have worked with, some brilliant people. Amongst the things we're good at is the process of designing and running deliberative workshops.
 

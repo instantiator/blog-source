@@ -8,9 +8,9 @@ images: [ "you-took-a-perfectly-good-statistical-model.png" ]
 thumbnail: "you-took-a-perfectly-good-statistical-model.png"
 ---
 
-_An unintentionally hilarious one-act play by Google's Gemma 4._
+_Google's Gemma 4 wrote an unintentionally hilarious one-act play, given a very simple prompt. It would have been wrong not to publish it here..._
 
-# Say Hello World and Nothing Else
+## Say Hello World and Nothing Else
 
 Honestly, it's a marvel that technology and statistical methods have come so far. It's still quite amusing to see their internal monologues...
 
