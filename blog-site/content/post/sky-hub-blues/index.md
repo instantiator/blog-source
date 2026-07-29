@@ -38,7 +38,7 @@ Experimentally I've spotted problems with:
 
 I'm sure there are other issues. It seems to relate to creating or modifying objects in the configuration.
 
-<div style="width: 50vw; float: right; margin-left: 10px;">
+<div style="max-width: 50vw; float: right; margin-left: 10px;">
 {{< bluesky link="https://bsky.app/profile/instantiator.bsky.social/post/3mrnynrvlbk2h" >}}
 </div>
 
