@@ -33,7 +33,7 @@
                         See also:
                         <ul>
                         {{- range $page := first 6 $series.Pages }}
-                            {{- if ne $page.Permalink $permalink }}<li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>{{ end }}
+                            {{- if ne $page.Permalink $permalink }}<li style="font-size: 0.8em;"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>{{ end }}
                         {{- end }}
                         </ul>
                       </p>
