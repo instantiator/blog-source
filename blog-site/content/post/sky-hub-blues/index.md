@@ -14,15 +14,21 @@ _There's a bug in the Sky Hub that stops you from changing a whole bunch of sett
 
 The `SR203` Sky Hub has a problem. On the latest firmware[^firmware], a bug prevents you from from changing several key parts of the configuration...
 
+I'm using DDNS (dynamic DNS) to remotely communicate with some services that I host at home. To do that, I need to be able to forward internet traffic that arrives at certain ports, and to give some of the devices on my home network (a couple of Raspberry Pis) fixed IP addresses. This is all _possible_ but the Sky Hub's poor interface has bugs that get in the way.
+
+**💀 It seems like this is a long-standing known issue, and that Sky aren't likely to fix it any time soon.**
+
 | Sky's `SR203` Hub | Some cartoon Gemini cooked up |
 |-|-|
-| <img src="./sr203-evil.png" alt="The Sky Hub SR203. It's a black box with 4 LEDs on the front, that can light up as green or red." style="height: 40vh;" /> | <img src="./sr203.jpg" alt="The Sky Hub SR203. It's a black box with 4 LEDs on the front, that can light up as green or red." style="height: 40vh;" /> |
-
-I'm using DDNS (dynamic DNS) to remotely communicate with some services that I host at home. To do that, I need to be able to forward internet traffic that arrives at certain ports, and to give some of the devices on my home network (a couple of Raspberry Pis) fixed IP addresses. This is all _possible_ but the Sky Hub's poor interface has bugs that get in the way.
+| <img src="./sr203-evil.png" alt="The Sky Hub SR203. It's a black box with 4 LEDs on the front, that can light up as green or red." style="max-height: 50vh;" /> | <img src="./sr203.jpg" alt="The Sky Hub SR203. It's a black box with 4 LEDs on the front, that can light up as green or red." style="max-height: 50vh;" /> |
 
 [^firmware]: 2026-07-29: The latest firmware version at time of writing is: `7.04.0207.R`
 
-**💀 It seems like this is a long-standing known issue, and that Sky aren't likely to fix it any time soon.**
+<div style="max-width: 50vw; float: right; margin-left: 10px;">
+{{< bluesky link="https://bsky.app/profile/instantiator.bsky.social/post/3mqolzsr24k2z" >}}
+<br/>
+{{< bluesky link="https://bsky.app/profile/instantiator.bsky.social/post/3mrnynrvlbk2h" >}}
+</div>
 
 ### The symptoms
 
@@ -37,10 +43,6 @@ Experimentally I've spotted problems with:
 - Reserving IP addresses
 
 I'm sure there are other issues. It seems to relate to creating or modifying objects in the configuration.
-
-<div style="max-width: 50vw; float: right; margin-left: 10px;">
-{{< bluesky link="https://bsky.app/profile/instantiator.bsky.social/post/3mrnynrvlbk2h" >}}
-</div>
 
 ## Workarounds
 
