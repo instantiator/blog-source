@@ -1,7 +1,7 @@
 ---
 title: "Free AI-assisted coding 5: Defeating slop with good practice"
 date: 2026-08-06T00:00:00Z
-draft: false
+draft: true
 tags: ["tutorial", "prototyping", "experiment", "ai", "coding assistant", "opencode", "claude", "quality", "good practice", "coding", "development", "standards", "safety", "readability", "coding conventions"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
