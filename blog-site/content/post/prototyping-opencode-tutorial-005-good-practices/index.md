@@ -1,17 +1,34 @@
 ---
 title: "Free AI-assisted coding 5: Defeating slop with good practice"
 date: 2026-08-06T00:00:00Z
-draft: true
+draft: false
 tags: ["tutorial", "prototyping", "experiment", "ai", "coding assistant", "opencode", "claude", "quality", "good practice", "coding", "development", "standards", "safety", "readability", "coding conventions"]
 categories: ["tutorial"]
 series: ["prototyping-opencode-tutorial"]
-thumbnail: ""
-images: []
+thumbnail: "good-practice-illustration.jpg"
+images: ["good-practice-illustration.jpg"]
 ---
 
 _In previous tutorials you've set up an AI assisted development environment, and created your first project. Now it's time to think about how to ensure you produce good code that's reliable. The good news is that the software development industry has done a lot of thinking about this..._
 
 ## Good practice
+
+<table style="float: right; max-width: 33%; margin-left: 10px;">
+<tr>
+<td>
+
+![Good practice](good-practice-illustration.jpg "")
+
+</td>
+</tr>
+<tr>
+<td>
+
+**Attribution:** <a href="https://www.vecteezy.com/free-vector/best-practice">Best Practice Vectors by Vecteezy</a>. This particular image by [Taufiq Anwar](https://www.vecteezy.com/members/taufiqanwar).
+
+</td>
+</tr>
+</table>
 
 **You have responsibilities.** When you write code for others to use, and before you commit to holding or processing data that's important to anyone else, you should be able to show that it will run correctly and handle data sensitively.
 
