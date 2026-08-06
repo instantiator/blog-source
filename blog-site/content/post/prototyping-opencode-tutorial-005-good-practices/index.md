@@ -17,7 +17,7 @@ _In previous tutorials you've set up an AI assisted development environment, and
 <tr>
 <td>
 
-![Good practice](good-practice-illustration.jpg "")
+![Good practice](good-practice-illustration.jpg "A woman sits, working at her laptop. She is sitting on a quality measurement dial. Near her floats a tick.")
 
 </td>
 </tr>
