@@ -9,7 +9,7 @@ thumbnail: "004-upload-button.png"
 images: ["004-upload-button.png"]
 ---
 
-Most people learn by doing. In earlier posts we set up a dev environment and and a small [Streamlit](https://streamlit.io) prototype. Now let's use [opencode](https://opencode.ai/) to add a new feature.
+_Most people learn by doing. In earlier posts we set up a dev environment and and a small [Streamlit](https://streamlit.io) prototype. Now let's use [opencode](https://opencode.ai/) to add a new feature._
 
 ## A simple data processing experiment
 

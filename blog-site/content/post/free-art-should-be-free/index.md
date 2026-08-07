@@ -8,7 +8,7 @@ images: [ "/shared/art/water-lillies-and-japanese-bridge.jpg" ]
 thumbnail: "/shared/art/water-lillies-and-japanese-bridge.jpg"
 ---
 
-When it's not being a television with a very awkward user interface, the Samsung Frame 55" is touted as being optimised for art. Imagine spending money on it, just to learn that if you want to access the art itself you need to buy a subscription.
+_When it's not being a television with a very awkward user interface, the Samsung Frame 55" is touted as being optimised for art. Imagine spending money on it, just to learn that if you want to access the art itself you need to buy a subscription._
 
 # Free art is already free
 

@@ -9,7 +9,7 @@ thumbnail: "new-app-vs-code.png"
 images: ["new-app-vs-code.png","new-app-browser.png"]
 ---
 
-In earlier posts we set up a dev environment and a Git repository. Now we'll create a small prototype from scratch using [Streamlit](https://streamlit.io).
+_In earlier posts we set up a dev environment and a Git repository. Now we'll create a small prototype from scratch using [Streamlit](https://streamlit.io)._
 
 ## Why Streamlit?
 
