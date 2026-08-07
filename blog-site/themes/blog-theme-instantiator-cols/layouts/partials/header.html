@@ -1,4 +1,4 @@
-<nav id="nav" class="navbar sticky-top justify-content-start navbar-expand-md frosted-white shadow mb-4">
+<nav id="nav" class="navbar {{ if .IsHome }}fixed-top{{ else }}sticky-top{{ end }} justify-content-start navbar-expand-md frosted-white shadow mb-4">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
     <button

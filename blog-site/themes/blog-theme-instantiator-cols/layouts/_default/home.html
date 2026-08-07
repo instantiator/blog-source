@@ -1,24 +1,32 @@
 {{ define "main" }}
-<div class="row align-items-start gx-2">
-  <div class="col-xl-2 col-lg-4">
+<div class="row home-dashboard align-items-start gx-2">
+  <div class="col-12 col-lg-4 col-xl-2 home-dashboard-col">
     {{ partial "persona.html" . }}
   </div>
-  <div class="col-xl-4 col-lg-8">
-    <div class="d-flex flex-column gap-2">
-      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-      {{ range $paginator.Pages }}
-      <div>
-        {{ partial "card.html" . }}
+  <div class="col-12 col-lg-8 col-xl-10 home-dashboard-col home-main-col">
+    <div class="row gx-2 home-dashboard-inner align-items-start">
+      <div class="col-12 col-lg-12 col-xl-4 home-dashboard-col-inner home-posts">
+        <div class="d-flex flex-column gap-2">
+          {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+          {{ range $paginator.Pages }}
+          <div>
+            {{ partial "card.html" . }}
+          </div>
+          {{ end }}
+          {{ partial "pagination-footer.html" . }}
+        </div>
       </div>
-      {{ end }}
-      {{ partial "pagination-footer.html" . }}
+      <div class="col-12 col-lg-12 col-xl-6 home-dashboard-col-inner home-socials-wrap">
+        <div class="row gx-2 home-dashboard-socials align-items-start">
+          <div class="col-12 col-lg-6 home-dashboard-col-inner">
+            {{ partial "bluesky.html" . }}
+          </div>
+          <div class="col-12 col-lg-6 home-dashboard-col-inner">
+            {{ partial "mastodon.html" . }}
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="col-xl-3 col-lg-6 col-sm-12">
-    {{ partial "bluesky.html" . }}
-  </div>
-  <div class="col-xl-3 col-lg-6 col-sm-12">
-      {{ partial "mastodon.html" . }}
   </div>
 </div>
 {{ end }}
