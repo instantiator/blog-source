@@ -241,11 +241,38 @@ Software development is a discipline - and has developed some common ways of wor
 
 Here are a helpful subset of these guidelines:
 
+0. Code comments and clarity
 1. DRY (Don't Repeat Yourself)
 2. KISS (Keep It Simple Stupid)
 3. YAGNI (You Ain't Gonna Need It)
 4. SOLID (principles for object oriented development)
 5. Separation of concerns (a precursor to the Single Responsibility Principle)
+
+#### Code comments and clarity
+
+A lot of code quality is about making code easier to understand. Nearly all programming languages offer _some_ way to leave notes (comments) in the code for others to read. The best approach to this is the subject of some debate - and you'll find each organisation has its own approach.
+
+Keep at the forefront of your mind that when you write code, you aren't just writing it for a computer to run, you are writing for other developers and agents to read, and for yourself in the future. You _will_ forget what you wrote even a week or so ago. Leave yourself the best clues you can.
+
+**Commenting code divides developer communities.** Everyone agrees that code that **must** remain complex (difficult to interpret, and that **cannot** be simplified or further broken down), should have some comments in the code file to help developers understand it.
+
+Some schools of thought take this further, and comment a lot more of the code. This can increase accessibility - by making it clearer what functions, classes, and modules are for. It can certainly help in specialist domains or were the reader is not familiar with **every** concept required to understand the code.
+
+**Structured comments** can be picked up by auto-completion and tool-tip tools in IDEs (eg. so that you can hover your cursor/mouse over a function and the comment explaining what it does and how to use it will be shown). This is especially useful if you are using third party libraries with code you didn't write and (usually) don't want to read in depth, just to learn how it works. It's also useful for developers who aren't familiar with your code base for similar reasons. Most developers won't read the full code of every function before making use of it. Understanding the contract, or interface, the function presents, and what it's for, is usually enough.
+
+**The counter-position to this is drawn from _clean code_ ideals:** Code should be easy to read, and if it's not then it should be refined and simplified until it is. Variable names, function names, class names, and module names should make it clear what things do. **Ponytail** takes this position.
+
+It can also be argued that writing comments is a way to express what the code should do, but that the best way to express what code should do is to write the code itself. Doing the same exercise twice (but first, not as well, because English is never as precise as code) can be interpreted as wasteful.
+
+An interesting way to think about writing comments is as a step between the initial idea, requirements, and specification, and the code itself. Each step on the way gets **closer** to code, which is the final form - so writing comments can help the process of translating specification to code. It's an opportunity to refine the concept, catch mistakes and misconceptions, and ensure that the code to write is well understood. It's a nice idea, but I've not fully explored it yet. As LLMs and qualitative methods become more prominent in software development it may become an important consideration.
+
+There's no absolute truth here. When evaluating other peoples' work, some developers prefer to look at comments, others prefer to read the code. Nobody's wrong and you may feel differently, or have your own take on what's useful.
+
+> **My personal take: Code comments should represent intent**. If you write your intent for a function as that function's comment. A comparison between the code and the intent can then help to make some bugs visible by inspection and testing. This is the approach taken by `dev-qual`, my aggregation of code quality tooling, which mandates commenting of intent on everything except the most trivial of entities.
+>
+> I also **believe** (but haven't confirmed) that writing intent before writing code helps[^helps-llms] an LLM or developer to write code that does what it should (and no more).
+
+[^helps-llms]: If code quality was easy to measure, we could experiment with the effect of writing comments before writing code.
 
 #### DRY (Don't Repeat Yourself)
 
@@ -362,6 +389,12 @@ It's called `dev-qual`, and it's available at:
 
 #### Installing `dev-qual`
 
+> NB. Make sure you have activated your virtual environment before beginning:
+>
+> ```bash
+> source .venv/bin/activate
+> ```
+
 1. Add `dev-qual` as a git sub-module[^gsm] in your repository.
 
    ```bash
@@ -384,6 +417,148 @@ Two third-party tools that `dev-qual` installs, that are worth a mention:
 | [ponytail](https://github.com/DietrichGebert/ponytail) | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. | [MIT](https://github.com/DietrichGebert/ponytail?tab=MIT-1-ov-file) |
 
 Both offer excellent and complementary quality assurances.
+
+### Let's try it
+
+The sample above shows the rather long `app.py` created by our first experiment in the previous tutorial.
+
+Let's tidy it up now. Some things we might like to do:
+
+- break out a couple of functions that manage the CSV files, eg. one to read the file, one to write the new file
+- add comments to code and functions to explain the intent behind them
+- 
+
+Open up your project in VS Code, and install `dev-qual` as described above.
+
+0. First, activate your virtual environment
+
+   ```bash
+   source .venv/bin/activate
+   ```
+
+1. Add `dev-qual` as a git sub-module[^gsm] in your repository.
+
+   ```bash
+   git submodule add https://github.com/instantiator/dev-qual.git
+   ```
+
+2. Run the installation script, which will guide you through the process of building these quality controls into your repository.
+
+   ```bash
+   dev-qual/install.sh
+   ```
+
+3. Follow the guidance after the install - ie. to install any other required tools.
+
+   ```bash
+   dev-qual/scripts/check-prereqs.sh --project . --install
+   ```
+
+4. Run the `check.sh` script once, to see the output.
+
+   ```bash
+   dev-qual/scripts/check.sh --project . 
+   ```
+
+   This will probably look like a success because there are no tests yet.
+   
+5. Armed with `dev-qual`, ask opencode to improve the code quality. Try a prompt like this:
+
+   > Using the code quality guidelines discoverable through `AGENTS.md`, and any common standards for Python, update the code for this application. When done, give a summary of everything you changed. Please focus on: readability and simplicity of the code. Please break out functions as needed. Please ensure there are tests for as much of the code as possible.
+
+| Working on code quality... | Code quality changes complete |
+|-|-|
+| ![Working on code quality](./working-on-code-quality.png "A screenshot of Visual Studio code. app.py is open, and the OpenCode agent is asking for some guidance around how it should approach the problem of improving the code quality in response to the request.") | ![Changes complete](./code-quality-complete.png "Another screenshot of Visual Studio code. The changes are complete. Several functions are defined at the top of app.py and the application also imports functions from a new file: csv_processor.py") |
+
+Your agent will start by reading through what's already there - guidelines, tools, and the code itself. It may ask to install some tools, and it will create new files including some shared functions, and some tests.
+
+NB. For this first run, the agent asks to install a number of tools that will support code quality management (linting, and testing). It should then work through the code, break out what's needed, and improve code quality.
+
+Tools like ponytail and aislop will be invoked to constrain the code further, and the `check.sh` code script will be used to evaluate everything.
+
+Once complete, you can run `check.sh` yourself to confirm that the code is compliant with your new standards:
+
+```bash
+dev-qual/scripts/check.sh
+```
+
+<details>
+
+<summary> <b>Detail...</b> </summary>
+
+```text
+check.sh — stacks: python (full mode)
+
+-- format: ruff format --check .
+76 files already formatted
+
+-- lint: ruff check .
+All checks passed!
+
+-- typecheck: mypy .
+Success: no issues found in 4 source files
+
+-- unit-tests: pytest
+================================================================================================== test session starts ===================================================================================================
+platform darwin -- Python 3.14.6, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/lewiswestbury/src/streamlit-test
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.14.2
+collected 23 items                                                                                                                                                                                                       
+
+tests/test_app.py ......                                                                                                                                                                                           [ 26%]
+tests/test_csv_processor.py .................                                                                                                                                                                      [100%]
+
+=================================================================================================== 23 passed in 1.53s ===================================================================================================
+
+-- shellcheck: shellcheck ./scripts/run-all-tests.sh ./scripts/run-integration-tests.sh ./scripts/run-unit-tests.sh ./dev-qual/install.sh ./dev-qual/adapters/claude-code/install.sh ./dev-qual/adapters/opencode/install.sh ./dev-qual/scripts/check-prereqs.sh ./dev-qual/scripts/run-tests.sh ./dev-qual/scripts/setup-hooks.sh ./dev-qual/scripts/lint-docs.sh ./dev-qual/scripts/lib/common.sh ./dev-qual/scripts/check.sh ./dev-qual/scripts/check-install.sh ./dev-qual/skills/adr/scripts/adr-new.sh ./dev-qual/skills/testing-setup/scripts/run-suite-template.sh
+
+-- markdownlint: markdownlint --config /Users/lewiswestbury/src/streamlit-test/dev-qual/scripts/../configs/markdownlint.json ./.pytest_cache/README.md ./docs/outstanding-issues.md ./docs/index.md ./AGENTS.md ./dev-qual/guidance/infra/aws-sam-cloudformation.md ./dev-qual/guidance/infra/gcp.md ./dev-qual/guidance/infra/terraform.md ./dev-qual/guidance/infra/verification.md ./dev-qual/guidance/infra/index.md ./dev-qual/guidance/infra/choosing-components.md ./dev-qual/guidance/infra/aws-cdk.md ./dev-qual/guidance/infra/azure.md ./dev-qual/guidance/ci/gitea.md ./dev-qual/guidance/ci/index.md ./dev-qual/guidance/ci/gitlab-ci.md ./dev-qual/guidance/ci/github-actions.md ./dev-qual/guidance/languages/markdown.md ./dev-qual/guidance/languages/python.md ./dev-qual/guidance/languages/csharp.md ./dev-qual/guidance/languages/node-scripting.md ./dev-qual/guidance/languages/index.md ./dev-qual/guidance/languages/cli-tools.md ./dev-qual/guidance/languages/typescript.md ./dev-qual/guidance/languages/shell.md ./dev-qual/guidance/index.md ./dev-qual/guidance/frameworks/express.md ./dev-qual/guidance/frameworks/aspnet-core.md ./dev-qual/guidance/frameworks/index.md ./dev-qual/guidance/frameworks/react.md ./dev-qual/guidance/frameworks/docker-compose.md ./dev-qual/guidance/frameworks/docker.md ./dev-qual/guidance/frameworks/nestjs.md ./dev-qual/guidance/process/fixing-issues.md ./dev-qual/guidance/process/outstanding-work.md ./dev-qual/guidance/process/model-allocation.md ./dev-qual/guidance/process/before-coding.md ./dev-qual/guidance/process/index.md ./dev-qual/guidance/process/testing-loop.md ./dev-qual/guidance/process/after-coding.md ./dev-qual/guidance/standards/principles.md ./dev-qual/guidance/standards/pitfalls.md ./dev-qual/guidance/standards/common.md ./dev-qual/guidance/standards/dependencies.md ./dev-qual/guidance/standards/testing.md ./dev-qual/guidance/standards/readability.md ./dev-qual/guidance/standards/index.md ./dev-qual/guidance/standards/databases.md ./dev-qual/guidance/standards/documentation.md ./dev-qual/agents-files/local/AGENTS.md ./dev-qual/agents-files/remote/AGENTS.md ./dev-qual/agents-files/remote/CLAUDE.md ./dev-qual/docs/outstanding-issues.md ./dev-qual/docs/index.md ./dev-qual/README.md ./dev-qual/all-requests.md ./dev-qual/prompts/002.1 - usage review improvements.md ./dev-qual/prompts/002.2 - usage improvement plan.md ./dev-qual/prompts/001.2 - quality and reliability enhancements plan.md ./dev-qual/prompts/001.1 - quality and reliability enhancements.md ./dev-qual/skills/adr/SKILL.md ./dev-qual/skills/deploy/SKILL.md ./dev-qual/skills/update-latest/SKILL.md ./dev-qual/skills/prereqs/SKILL.md ./dev-qual/skills/essential-behaviours/SKILL.md ./dev-qual/skills/project-setup/SKILL.md ./dev-qual/skills/docs-review/SKILL.md ./dev-qual/skills/toolchain-setup/SKILL.md ./dev-qual/skills/index.md ./dev-qual/skills/quality-review/SKILL.md ./dev-qual/skills/testing-setup/SKILL.md ./dev-qual/skills/deps-audit/SKILL.md ./dev-qual/skills/ci-setup/SKILL.md ./dev-qual/AGENTS.md
+
+-- aislop: npx --yes aislop@latest scan
+ aislop 0.14.0  ·  the quality gate for agentic coding
+
+ Scan result  ·  streamlit-test  ·  python  ·  4 files
+
+ Scope  4 file(s) after exclusions
+
+ ✓ Clean run  ·  100 / 100  ·  Healthy  ·  no issues  ·  70ms
+
+ ★ Found this useful? Star us at https://github.com/scanaislop/aislop
+```
+
+</details>
+
+**Final result:**
+
+```text
+== Results ==
+PASS format
+PASS lint
+PASS typecheck
+PASS unit-tests
+PASS shellcheck
+PASS markdownlint
+PASS aislop
+```
+
+Great! Take a look around. You'll find that your `app.py` is significantly simpler and, hopefully, easier to read.
+
+You'll also find supporting files with shared functions and tests (and those should be pretty easy to read, too). In my case:
+
+- `csv_processor.py` now contains all the code that handles CSV files
+- the `tests/` folder contains several test files
+  - `test_app.py` - puts `app.py` through its paces
+  - `test_csv_processor.py` - similarly, tests `csv_processor.py`
+
+There are also new scripts in a `scripts/` folder, including:
+
+- `scripts/run-all-tests.sh` - runs all tests in the system
+- `scripts/run-unit-tests.sh` - runs all unit tests
+- `scripts/run-integration-tests.sh` - runs all integration tests
+
+> We'll talk more about different types of tests, and how you'd use them to exercise your application at different levels of detail in the next tutorial.
 
 ## Summary
 
