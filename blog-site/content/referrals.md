@@ -6,7 +6,7 @@ aliases = ["discount-codes", "discount codes", "discounts", "savings", "vouchers
 author = "Lewis Westbury"
 +++
 
-## Discounts
+## Discounts and rewards
 
 <style>
 div.offer {
@@ -59,6 +59,14 @@ div.offer span.headline {
       Code: <code>instantiator</code>
     </div>
   </a>
+
+<a href="https://clk.omgt1.com/?PID=32478&AID=2353495&UID=5076047b-1da6-45bb-9b9b-1bef1b92425b" target="_blank">
+    <div class="offer">
+      <span class="headline">Get a £20 Amazon gift card</span><br/>
+      with Agria Pet Insurance
+    </div>
+  </a>
+  
 
 </div>
 
