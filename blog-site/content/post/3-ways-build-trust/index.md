@@ -3,7 +3,7 @@ title: "3 excellent ways to build trust with your users"
 date: 2017-10-11T00:00:00Z
 Tags: [ "trust" ]
 Categories: [ "article" ]
-Images: [ "/shared/necro-images/game-of-dice.jpg", "/shared/necro-images/up-goer-five.png", "/shared/necro-images/something-happened-click-ok.jpg" ]
+Images: [ "game-of-dice.jpg", "up-goer-five.png", "something-happened-click-ok.jpg" ]
 ---
 
 *This article was originally posted to Medium.*
@@ -22,7 +22,7 @@ For instance, this screengrab from a game demonstrates a fear response to a regu
 
 > Quickest way to get your app deleted
 
-{{< figure src="/shared/necro-images/game-of-dice.jpg" alt="Quickest way to get your app deleted" attr="posted by u/Ctstiffler2871" attrlink="https://www.reddit.com/r/gaming/comments/74nh9m/quickest_way_to_get_your_app_deleted/" >}}
+{{< figure src="game-of-dice.jpg" alt="Quickest way to get your app deleted" attr="posted by u/Ctstiffler2871" attrlink="https://www.reddit.com/r/gaming/comments/74nh9m/quickest_way_to_get_your_app_deleted/" >}}
 
 The app is asking for a permission called “make and manage phone calls”. When the poster attempts to find out more, he reports that “it went to a screen that said the reason that needed this type of access was to provide me with rewards and perks”. He didn’t believe it, because for him it didn’t seem plausible that those two things could be linked.
 
@@ -48,7 +48,7 @@ Because of this, it becomes clear pretty quickly that quietly creating a GUID is
 
 ## 2. Explain yourself clearly
 
-{{< figure src="/shared/necro-images/up-goer-five.png" alt="Up-goer five" attr="Up-goer five, by xkcd" attrlink="https://xkcd.com/1133/" width="300px" class="left-image" >}}
+{{< figure src="up-goer-five.png" alt="Up-goer five" attr="Up-goer five, by xkcd" attrlink="https://xkcd.com/1133/" width="300px" class="left-image" >}}
 
 I recommend visiting the xkcd post [Up-goer Five](https://xkcd.com/1133/) to see that blueprint in full.
 
@@ -74,7 +74,7 @@ It’s impressive that the developers of the Android permissions API foresaw thi
 
 At current time, this method returns true if a user refuses to grant a specific permission. I’d argue that this method should always return true, although the counterargument to that is that if we swamp our users with text, they’ll simply learn not to read it — as we’ve seen with the classic example:
 
-![Something happened and you need to click OK](/shared/necro-images/something-happened-click-ok.jpg)
+![Something happened and you need to click OK](something-happened-click-ok.jpg)
 
 If you’re ever at a loss for words to describe a permission, first think hard about what you need it for. I’d also recommend referring to [Gizmodo’s field-guide to what app permissions really mean](https://fieldguide.gizmodo.com/what-app-permissions-really-mean-1584767124), as an example of just how you can explain those permissions.
 

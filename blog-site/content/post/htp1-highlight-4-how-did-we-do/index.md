@@ -22,7 +22,7 @@ Rory's solution is much better suited to scaling quickly and much easier for mem
 
 His hack, aptly entitled **How Did We Do?** does just that. It's an app that can be used by police officers or members of the public to take or give feedback. It collates that data, and makes it available to the appropriate teams.
 
-![How did we do? Feedback welcome](/shared/necro-images/htp1-how-did-we-do-1.jpeg)
+![How did we do? Feedback welcome](htp1-how-did-we-do-1.jpeg)
 
 ## Challenges
 

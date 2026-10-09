@@ -3,8 +3,8 @@ title: "Look for the helpers"
 date: 2020-04-23T00:00:00Z
 tags: ["covid-19", "volunteering", "community", "aid", "MutualAid", "OpenData", "DataScience", "research"]
 categories: ["article", "research" ]
-images: [ "/shared/covid-19/map-1.png", "/shared/covid-19/map-2.png", "/shared/covid-19/map-3.png" ]
-thumbnail: "/shared/covid-19/map-1.png"
+images: [ "map-1.png", "map-2.png", "map-3.png" ]
+thumbnail: "map-1.png"
 series: [ "covid-19" ]
 ---
 
@@ -14,7 +14,7 @@ What can we learn about grass-roots COVID-19 volunteer groups from open data?
 
 Thousands of volunteer groups across the country have formed in the wake of COVID-19. Some have formed specifically to help those in self-isolation, others were already community groups that have taken up the call.
 
-{{< figure src="/shared/covid-19/london.png" alt="London" width="300px" class="left-image" >}}
+{{< figure src="london.png" alt="London" width="300px" class="left-image" >}}
 
 I’ve been volunteering in London with the Metropolitan Police since 2009. More than a year ago I took a career break from that, to build a community called [Police Rewired](https://policerewired.org) for volunteers who wanted to contribute their tech skills to public safety.
 
@@ -38,9 +38,9 @@ Interested folks have started creating new tools with the data...
 * 📌 [The Community Policing Dashboard](https://www.policerewired.org/home/shared/covid-19/community-policing), is a collaboration between staff and volunteers from [ESRI UK](https://www.esriuk.com/en-gb/home) and [Police Rewired](https://policerewired.org/).
 * 📌 The COVID-19 combined volunteer groups data set is being made ready to be shared through ESRI’s [Living Atlas](https://www.esriuk.com/en-gb/content/living-atlas), making the information available for other services to build on.
 
-{{< figure src="/shared/covid-19/map-1.png" alt="London" width="300px" class="inline-image" attr="helpisavailable.org.uk" attrlink="https://helpisavailable.org.uk" >}}
-{{< figure src="/shared/covid-19/map-2.png" alt="London" width="300px" class="inline-image" attr="support groups and areas of deprivation" attrlink="https://fryford.github.io/coronasupport/index.html" >}}
-{{< figure src="/shared/covid-19/map-3.png" alt="London" width="300px" class="inline-image" attr="community policing support dashboard" attrlink="https://www.policerewired.org/home/shared/covid-19/community-policing" >}}
+{{< figure src="map-1.png" alt="London" width="300px" class="inline-image" attr="helpisavailable.org.uk" attrlink="https://helpisavailable.org.uk" >}}
+{{< figure src="map-2.png" alt="London" width="300px" class="inline-image" attr="support groups and areas of deprivation" attrlink="https://fryford.github.io/coronasupport/index.html" >}}
+{{< figure src="map-3.png" alt="London" width="300px" class="inline-image" attr="community policing support dashboard" attrlink="https://www.policerewired.org/home/shared/covid-19/community-policing" >}}
 
 Here’s what we know about the data we have...
 
@@ -68,7 +68,7 @@ Support from popular online figures such as [Helen O’Rahilly](https://twitter.
 
 The service was withdrawn on 27 March 2020 — the date that the Irish ‘lockdown’ was introduced, and at that point over 8000 people had offered to volunteer, and made new connections through the site.
 
-![randall.ie/help closed on March 27th in response to lockdown](/shared/covid-19/randall-ie.png)
+![randall.ie/help closed on March 27th in response to lockdown](randall-ie.png)
 
 The data shows an early burst of activity, starting on the 14th March and trailing off towards the 25th when the site was switched off.
 
@@ -82,7 +82,7 @@ As we’ll see, by this time many people had moved towards working together in g
 
 They registered their domain on 15th March, and almost immediately began to match requests and offers. Their functionality is connected helpers offering specific skills or tasks to those in need...
 
-{{< figure src="/shared/covid-19/local-helpers.png" alt="Local Helpers" caption="LocalHelpers are currently showing 2500 registered helpers in a number of categories." >}}
+{{< figure src="local-helpers.png" alt="Local Helpers" caption="LocalHelpers are currently showing 2500 registered helpers in a number of categories." >}}
 
 [Nick Bailey](https://www.linkedin.com/in/ngcbailey/) (LocalHelpers tech lead) has observed a change in the landscape of needs since their service launched, commenting on this in mid-April.
 
@@ -90,7 +90,7 @@ They registered their domain on 15th March, and almost immediately began to matc
 
 The local helpers volunteering data shows an initial burst of activity, followed by some core people maintaining their effort over time…
 
-![LocalHelper volunteer offers](/shared/covid-19/localhelper-volunteer-offers.png)
+![LocalHelper volunteer offers](localhelper-volunteer-offers.png)
 
 From his first-hand experience, Nick describes 3 phases of the volunteering story so far:
 
@@ -122,7 +122,7 @@ Covid-19 Mutual Aid UK don’t state when they started collating data about grou
 
 Over the course of about a month, a little over 3800 groups registered. At their peak, more than 400 groups joined in a day, tailing off over the weeks as groups have stabilised and people have joined existing groups rather than start more…
 
-![Mutual Aid registrations](/shared/covid-19/mutual-aid-registrations.png)
+![Mutual Aid registrations](mutual-aid-registrations.png)
 
 Not all of these are mutual aid groups (defined by their horizontal structure and ideologies), but nearly all are volunteer groups looking after the vulnerable in their communities.
 
@@ -134,13 +134,13 @@ Each registration with Covid-19 Mutual Aid UK contains a group name, a location 
 
 _The data below also includes from 216 local councils, and 580 halo communities created specifically for coronavirus support._
 
-![Group organisation tools](/shared/covid-19/group-organisation-tools.png)
+![Group organisation tools](group-organisation-tools.png)
 
 It’s pretty clear that facebook groups are taking the lion’s share of this, and there’s some supporting reasoning for that: They’re well understood, easy to find, easy to administer, and most people already have an account. Low friction is key to building communities quickly...
 
 Looking at registrations over time, we see a similar pattern to total registrations, reflected in the facebook groups:
 
-![Registrations by tool](/shared/covid-19/registrations-by-tool.png)
+![Registrations by tool](registrations-by-tool.png)
 
 Council and halo categories here are special cases. They’re drawn from datasets that were imported on specific days.
 
@@ -192,19 +192,19 @@ So, having skipped the duplicates, applied the updates, and added all the new re
 
 The volunteer groups map at helpisavailable.org.uk showed our full data set of volunteer groups operating across the UK, helping those in isolation or who could not otherwise get what they need...
 
-![HelpIsAvailable.org.uk volunteer groups map](/shared/covid-19/help-is-available-map.png)
+![HelpIsAvailable.org.uk volunteer groups map](help-is-available-map.png)
 
 As mentioned earlier, [Rob Fryford](https://twitter.com/fryford)’s map merges our source with data showing areas of deprivation, to help guide volunteer and relief efforts.
 
 * 📌 [Volunteer groups and areas of deprivation](https://fryford.github.io/coronasupport/index.html)
 
-![Volunteer groups and areas of deprivation](/shared/covid-19/rob-fryford-map.png)
+![Volunteer groups and areas of deprivation](rob-fryford-map.png)
 
 [Police Rewired](https://policerewired.org/) and [ESRI](https://www.esriuk.com/en-gb/home) are collaboratively building a dashboard to help connect local policing teams with volunteer groups in their policing area.
 
 * 📌 [Community policing dashboard](https://www.policerewired.org/home/shared/covid-19/community-policing)
 
-![Community policing dashboard](/shared/covid-19/esri-dashboard-map.png)
+![Community policing dashboard](esri-dashboard-map.png)
 
 The full data set is available to explore through [Police Rewired](https://policerewired.org), and you are more than welcome to make use of it:
 

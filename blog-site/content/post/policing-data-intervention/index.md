@@ -2,7 +2,7 @@
 title: "Policing data interventions"
 date: 2019-03-05T00:00:00Z
 Tags: [ "data", "c#", "policing", "DataScience", "conversion" ]
-Images: ["/shared/police-rewired/ipscj.png"]
+Images: ["ipscj.png"]
 Categories: [ "necropost", "article", "police rewired", "hack" ]
 ---
 
@@ -14,7 +14,7 @@ Categories: [ "necropost", "article", "police rewired", "hack" ]
 
 Across the crime fighting community, data is collected in any number of different forms. It’s found in spreadsheets, databases, custom build applications, plain text, CSV, emails and more.
 
-{{< figure src="/shared/police-rewired/ipscj.png" alt="IPSCJ logo" >}}
+{{< figure src="ipscj.png" alt="IPSCJ logo" >}}
 
 **The Institute for Public Safety, Crime and Justice** (IPSCJ) undertake research and evaluation work with agencies and services across policing, local authorities and justice. The IPSCJ are currently examining an intervention model designed to improve outcomes for vulnerable people, and need to be able to bring case file data from different agencies together.
 

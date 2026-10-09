@@ -16,7 +16,7 @@ That may seem obvious to you.
 
 This hack was mine - and it's something I've been trying to put together for a while now. As I was running the event, I didn't have all the time in the world for coding - so I stuck to what I know best: Maps
 
-![Police stations and defibrillators](/shared/necro-images/htp1-aroundmet-1.png)
+![Police stations and defibrillators](htp1-aroundmet-1.png)
 
 I deliberately kept my goals modest, and the product simple. It's a map. It shows you where you are, and it shows you what you're trying to find - whether that's police stations, custody suites, defibrillators, or other locations of interest to police officers on the front line.
 

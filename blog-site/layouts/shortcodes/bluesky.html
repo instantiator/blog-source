@@ -7,7 +7,7 @@
 {{- $jsonOHTML := $jsonOembed.html -}}
 {{- $jsonOHTML | safeHTML -}}
 
-{{ $url := .Get 0 }}
+{{ $url := or (.Get 0) (.Get "link") }}
 <div class="bluesky-embed">
   <div class="bluesky-post" data-bluesky-uri="{{ $url }}" style="text-align: center;">
     <a href="{{ $url }}" target="_blank">View post on Bluesky</a>

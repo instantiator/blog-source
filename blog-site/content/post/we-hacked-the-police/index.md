@@ -12,7 +12,7 @@ Series: [ "hack the police 1" ]
 
 Over the weekend of the 27th and 28th, the Metropolitan Police hosted the first UK policing hackathon, Hack the Police! at Google's [Campus London](https://www.campus.co/london/).
 
-![Hack the Police](/shared/necro-images/htp1-tshirt.jpeg)
+![Hack the Police](htp1-tshirt.jpeg)
 
 In my capacity as special constable and software developer, I was privileged enough to be co-running the event with some extraordinary people from a group called the [Commissioner's 100](http://c-100.org): A/Sgt Neil Beet, A/Sgt Dave Weir, PC Rory Geoghegan, and Insp Tor Garnett - all of whom put themselves on the line for this event. Neil invested a staggering amount of his personal time to make it happen, and it was worth it!
 
@@ -61,7 +61,7 @@ The first couple of hours of the event was a buzzing series of discussions as de
 
 As you can see below, each project addressed a real need and has the potential to lead to a real increase in productivity.
 
-![Hack the Police 1 projects](/shared/necro-images/htp1-projects.png)
+![Hack the Police 1 projects](htp1-projects.png)
 
 Everyone was impressed by the quality of the hacks in the presentations - and the judges spent some time in discussion before they reached their verdicts:
 
@@ -70,7 +70,7 @@ Everyone was impressed by the quality of the hacks in the presentations - and th
 * **Best Regard for the Public Purse** was for the property processing app.
 * **Best Crime Reduction Tool** was awarded for a CCTV coverage app (I seem to have missed it out from above!)
 
-![Tim Perry, winner of best in show, receives his award from the Commissioner, Lord Bernard Hogan-Howe](/shared/necro-images/htp1-tp-bhh.jpeg)
+![Tim Perry, winner of best in show, receives his award from the Commissioner, Lord Bernard Hogan-Howe](htp1-tp-bhh.jpeg)
 
 ## What next?
 

@@ -3,7 +3,7 @@ title: "Let's hack the police, part 3"
 date: 2018-11-07T00:00:00Z
 Tags: [ "Hack the Police", "hackathon", "policing", "civic tech" ]
 Categories: [ "article", "police rewired", "hack" ]
-Images: [ "/shared/police-rewired/police-rewired-poster.png", "/shared/police-rewired/last-night-a-dj.jpg" ]
+Images: [ "police-rewired-poster.png", "last-night-a-dj.jpg" ]
 ---
 
 *To find out more about Hack the Police events, civic tech, and policing technology, visit: [Police Rewired](https://policerewired.org)*
@@ -34,7 +34,7 @@ In December we’re holding Hack the Police. It’s our annual hackathon and it�
 
 ## Who am I?
 
-{{< figure src="/shared/police-rewired/last-night-a-dj.jpg" alt="Last night a DJ saved my life" width="300px" class="left-image" >}}
+{{< figure src="last-night-a-dj.jpg" alt="Last night a DJ saved my life" width="300px" class="left-image" >}}
 
 I’m Lewis Westbury. I’m a mobile apps developer, and I’ve been a volunteer police officer for nearly a decade.
 

@@ -3,7 +3,7 @@ title: "Why are some projects so expensive?"
 date: 2017-09-22T00:00:00Z
 Tags: [ "costs", "estimates", "expenses", "ANPR", "app", "developer" ]
 Categories: [ "necropost", "article" ]
-Images: [ "/shared/necro-images/project-costs-anpr-1.jpeg" ]
+Images: [ "project-costs-anpr-1.jpeg" ]
 ---
 
 *This article was originally posted to Medium.*
@@ -14,7 +14,7 @@ Images: [ "/shared/necro-images/project-costs-anpr-1.jpeg" ]
 
 Tait’s article demonstrates an [ANPR](https://en.wikipedia.org/wiki/Automatic_number-plate_recognition_in_the_United_Kingdom) app that can read number plates and compare them against an internally held database.
 
-![the ANPR app looks impressive](/shared/necro-images/project-costs-anpr-1.jpeg)
+![the ANPR app looks impressive](project-costs-anpr-1.jpeg)
 
 The app itself works with a video feed from the phone’s camera to process a video stream in real time. It’s impressive to look at — and all the more so, as he comments that he wrote it in 57 lines of code.
 

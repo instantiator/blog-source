@@ -24,7 +24,7 @@ Of course, nothing is smooth, so the mapping system uses an arcane and counter-i
 
 Haje's solution was to do away with the clunky PC built into each car - and to replace it with a mobile device: a tablet or phone would do. Having something truly mobile would free the officers up to take them to the scene of an incident, and free the force up to replace them quickly and easily. Forces are no longer tied to one provider and a single device - they can use what they need to get the job done to the best of their abilities. Modern tablets and phones are also a darn sight easier to charge from a car battery!
 
-![MDT 2.0](/shared/necro-images/htp1-mdt2-1.jpeg)
+![MDT 2.0](htp1-mdt2-1.jpeg)
 
 What Haje built was a proof-of-concept app. It showed just what's possible, and how quick and easy it can be to perform important policing actions through good design, visual indicators, and taking advantage of technologies that are now well understood, such as OCR, to save time.
 

@@ -3,8 +3,8 @@ title: "Wriggler"
 date: 2018-04-23T00:00:00Z
 draft: false
 tags: ["coding", "qbasic", "game", "wriggler", "1998", "amstrad", "nostalgia", "retro" ]
-images: ["/shared/necro-images/qbasic-wriggler-01.png", "/shared/necro-images/qbasic-wriggler-02.png", "/shared/necro-images/qbasic-wriggler-03.png"]
-thumbnail: "/shared/necro-images/qbasic-wriggler-01.png"
+images: ["qbasic-wriggler-01.png", "qbasic-wriggler-02.png", "qbasic-wriggler-03.png"]
+thumbnail: "qbasic-wriggler-01.png"
 categories: ["article", "necropost"]
 ---
 
@@ -18,9 +18,9 @@ The original Wriggler is a race game through a maze of bugs and creepy crawlies,
 
 Instead it pits you, a plucky young worm (4 lines and a blob), against an army of anatomically incorrect spiders in your mission to see a duck and solve a single puzzle. Also there are some chocolate bars.
 
-{{< figure src="/shared/necro-images/qbasic-wriggler-01.png" alt="Anatomically incorrect spiders!" width="300px" class="inline-image" caption="Anatomically incorrect spiders!" >}}
-{{< figure src="/shared/necro-images/qbasic-wriggler-02.png" alt="One whole puzzle!" width="300px" class="inline-image" caption="One whole puzzle!" >}}
-{{< figure src="/shared/necro-images/qbasic-wriggler-03.png" alt="A duck!" width="300px" class="inline-image" caption="A duck!" >}}
+{{< figure src="qbasic-wriggler-01.png" alt="Anatomically incorrect spiders!" width="300px" class="inline-image" caption="Anatomically incorrect spiders!" >}}
+{{< figure src="qbasic-wriggler-02.png" alt="One whole puzzle!" width="300px" class="inline-image" caption="One whole puzzle!" >}}
+{{< figure src="qbasic-wriggler-03.png" alt="A duck!" width="300px" class="inline-image" caption="A duck!" >}}
 
 I fired it up once again to make a playthrough video. The game features some pretty old-school beep/boop sound effects, which really hit me right in the nostalgias!
 
@@ -42,4 +42,4 @@ _I'm hoping I'll be able to find some more amongst the dusty old floppies I've d
 
 You can [find out more about the original Wriggler](https://en.wikipedia.org/wiki/Wriggler_(video_game)) at Wikipedia, and [see it in action in this video](https://www.youtube.com/watch?v=02Kh076wja8).
 
-![Amstrad CPC screenshot of Wriggler game](/shared/necro-images/amstrad-wriggler-00.png){ width="300px" }
+![Amstrad CPC screenshot of Wriggler game](amstrad-wriggler-00.png){ width="300px" }

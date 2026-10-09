@@ -3,8 +3,8 @@ title: "Rainbow paws"
 date: 2021-11-13T00:00:00Z
 tags: ["Retro Computing", "Graphics", "BASIC", "BBC Micro", "Geometry", "Rotation", "Point", "Vector", "Sample Code"]
 categories: ["article"]
-images: ["/shared/bbcmicrobot/rainbow-paws.png"]
-thumbnail: "/shared/bbcmicrobot/rainbow-paws.png"
+images: ["rainbow-paws.png"]
+thumbnail: "rainbow-paws.png"
 ---
 
 _Art is fun and hard and messy and complicated and like every other trade it's full of people who are earnestly showing you what they created (sprinkled with [a few jokers](https://en.wikipedia.org/wiki/Take_the_Money_and_Run_(artwork))).\_
@@ -31,7 +31,7 @@ So what am I doing here? Rainbow Paws barely scratches the surface of code golfi
 
 Each paw is created from 5 circles, representing half of the main pad and two toes, mirrored to make a complete paw (saving vital space in the tweet for the rest of the code).
 
-![Each paw from the example above - but the circles are just outlines so you can see where they lay](/shared/bbcmicrobot/raw-paws.png)
+![Each paw from the example above - but the circles are just outlines so you can see where they lay](raw-paws.png)
 
 And each paw is drawn at a slight angle. So how do you rotate things? This is ~~geometry~~ computer graphics 101...
 

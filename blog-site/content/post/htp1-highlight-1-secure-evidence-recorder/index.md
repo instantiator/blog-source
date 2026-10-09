@@ -16,8 +16,8 @@ Tim Perry came to the hack with an open mind. He asked many people about where t
 
 Tim's app is a lightweight software alternative to taking paper notes, and waiting for a physical camera to arrive on scene to take photographs. It allows an officer to take their notes, photographs and video evidence with a mobile device - such as a smart-phone.
 
-{{< figure src="/shared/necro-images/htp1-secure-evidence-1.png" alt="Secure evidence recorder screen 1" width="300px" class="inline-image" >}}
-{{< figure src="/shared/necro-images/htp1-secure-evidence-2.png" alt="Secure evidence recorder screen 2" width="300px" class="inline-image" >}}
+{{< figure src="htp1-secure-evidence-1.png" alt="Secure evidence recorder screen 1" width="300px" class="inline-image" >}}
+{{< figure src="htp1-secure-evidence-2.png" alt="Secure evidence recorder screen 2" width="300px" class="inline-image" >}}
 
 Some of the challenges of secure evidence recording are:
 * Where do you store the data once it has been recorded?
@@ -38,7 +38,7 @@ Tim won **Best in Show** for his secure evidence recorder, and has made the code
 
 He's used HTML5 and Apache Cordova (also known as phonegap) to build the app which means it can be used across a range of devices.
 
-![Tim receives his prize from Metropolitan Police Commissioner Sir Bernard Hogan-Howe](/shared/necro-images/htp1-tp-bhh.jpeg)
+![Tim receives his prize from Metropolitan Police Commissioner Sir Bernard Hogan-Howe](htp1-tp-bhh.jpeg)
 
 ## So what next?
 

@@ -47,7 +47,7 @@ Every time an AI agent does anything, you'll get a different result - so it's im
 
 If you don't already have it open from our previous work, open Visual Studio Code and open your project folder.
 
-There should be a little opencode icon button that automatically starts it for you: <img src="./opencode.png" style="background: #FFFFFFAA; height: 1rem;" />
+There should be a little opencode icon button that automatically starts it for you: <img src="./opencode.png" alt="The opencode icon in the Visual Studio Code toolbar" style="background: #FFFFFFAA; height: 1rem;" />
 
 If you've not spotted the button, you can:
 

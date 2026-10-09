@@ -3,7 +3,7 @@ title: "5 reasons refactoring your project can give you back your competitive ed
 date: 2017-10-05T00:00:00Z
 Tags: [ "refactoring", "technical debt", "agility", "software development", "requirements" ]
 Categories: [ "article" ]
-Images: [ "/shared/necro-images/bonkers-world-software.jpg", "/shared/necro-images/xkcd-good-code.png", "/shared/necro-images/the-refactoring.png" ]
+Images: [ "bonkers-world-software.jpg", "xkcd-good-code.png", "the-refactoring.png" ]
 ---
 
 *This article was originally posted to Medium.*
@@ -20,7 +20,7 @@ Images: [ "/shared/necro-images/bonkers-world-software.jpg", "/shared/necro-imag
 
 **It’s time you learned about technical debt...**
 
-{{< figure src="/shared/necro-images/bonkers-world-software.jpg" alt="I've done it again" attr="Bonkers World" attrlink="https://tapas.io/episode/21002" >}}
+{{< figure src="bonkers-world-software.jpg" alt="I've done it again" attr="Bonkers World" attrlink="https://tapas.io/episode/21002" >}}
 
 ## 1. All projects have technical debt
 
@@ -46,7 +46,7 @@ Perhaps this is the most difficult lesson of all. During the course of a project
 
 > Why can’t I just avoid technical debt in the first place?
 
-{{< figure src="/shared/necro-images/xkcd-good-code.png" alt="How to write good code" attr="xkcd: good code" attrlink="https://xkcd.com/844/" >}}
+{{< figure src="xkcd-good-code.png" alt="How to write good code" attr="xkcd: good code" attrlink="https://xkcd.com/844/" >}}
 
 It’s important to understand that no matter how good your developers are, there will always be _some_ technical debt in the project, and it will always increase at _some rate._
 
@@ -62,7 +62,7 @@ It’s important to remember that nobody is perfect, and nobody can predict the 
 
 Refactoring is an opportunity for your project to breathe. It allows your developers to go back into the code and fix some of the issues that have been nagging at them since they started. It’s an opportunity for you, too, to hint at the places your application is going to go in future. An idea of the features in your future gives your developers an idea of which parts of the project are going to be serving different purposes in future.
 
-{{< figure src="/shared/necro-images/the-refactoring.png" alt="How to write good code" attr="toggl" attrlink="https://blog.toggl.com/life-of-a-programmer/" >}}
+{{< figure src="the-refactoring.png" alt="How to write good code" attr="toggl" attrlink="https://blog.toggl.com/life-of-a-programmer/" >}}
 
 In the practical example above, your developers would instinctively want to refactor those two copies of the library method back into one — with a few more configurable options.
 

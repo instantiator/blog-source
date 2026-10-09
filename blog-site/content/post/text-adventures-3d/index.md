@@ -17,7 +17,7 @@ It was 2005(-ish), I was fresh out of uni and I had my first job. It was a part-
 
 To that end, I decided I would write a new interpreter, focussed entirely around the UI. Enter OpenBook! I wrote the first iteration in C to prove to myself it was possible.
 
-![Openbook v1](/shared/necro-images/openbook-v1.png)
+![Openbook v1](openbook-v1.png)
 
 The results weren't awful, but I knew I wanted to do more with it.
 
@@ -41,7 +41,7 @@ As you can imagine, OpenBook v1 reached a level of complexity that meant it was 
 
 This time I carefully planned, bearing in mind all the things I wanted to improve about the project: adding smooth animations (the book opens onto the first page, and the pages turn as you progress, you can turn back the pages to view your history, open and close the book, and the letters gently fall onto the page), and the possibility of future enhancements and features.
 
-![Openbook v2](/shared/necro-images/openbook-v2.png)
+![Openbook v2](openbook-v2.png)
 
 OpenBook v2 was actually nearly a viable product. I was pleased enough with it and still interested by the project (after having spent an age on it) that I could have completed it. And then... I got a [real full time job](https://www.softwire.com/) that was actually able to pay the bills and I let that particular dream slide a bit...
 

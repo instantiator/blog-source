@@ -3,8 +3,8 @@ title: "A friendly face for the victims of burglary"
 date: 2019-02-23T00:00:00Z
 draft: false
 tags: ["policing", "burglary", "crime", "reporting", "bot", "technology", "c#", "developer", "project", "Police Rewired" ]
-images: ["/shared/police-rewired/friendly-police-bot.png"]
-thumbnail: "/shared/police-rewired/friendly-police-bot.png"
+images: ["friendly-police-bot.png"]
+thumbnail: "friendly-police-bot.png"
 categories: ["article", "police rewired"]
 ---
 
@@ -12,7 +12,7 @@ categories: ["article", "police rewired"]
 
 # A friendly face for victims of burglary
 
-![Here to help!](/shared/police-rewired/here-to-help-bot.png)
+![Here to help!](here-to-help-bot.png)
 
 From Oct 2016 to Sep 2017, there were [664,000 burglaries](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/crimeinenglandandwales/yearendingseptember2017#overview-of-crime) in the UK. Burglary affects [2 out of every 100 households](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/overviewofburglaryandotherhouseholdtheft/englandandwales), and it can be devastating for the victims.
 

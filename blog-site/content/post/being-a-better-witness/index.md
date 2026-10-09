@@ -3,8 +3,8 @@ title: "Being a better witness"
 date: 2019-03-28T00:00:00Z
 draft: false
 tags: ["policing", "witness", "video", "crime", "phone", "android", "999", "emergency", "civic tech" ]
-images: ["/shared/police-rewired/emergency-recorder.png"]
-thumbnail: "/shared/police-rewired/emergency-recorder.png"
+images: ["emergency-recorder.png"]
+thumbnail: "emergency-recorder.png"
 categories: [ "article", "police rewired" ]
 ---
 
@@ -28,7 +28,7 @@ I’m Lewis Westbury. I’ve been a volunteer police officer with the Met Police
 
 ## The Emergency Recorder
 
-{{< figure src="/shared/police-rewired/emergency-recorder.png" alt="The Emergency Recorder" width="400px" class="left-image" >}}
+{{< figure src="emergency-recorder.png" alt="The Emergency Recorder" width="400px" class="left-image" >}}
 
 **The Emergency Recorder is an app for Android phones.** When it detects that you’ve made an emergency call, it immediately opens the camera in a bubble that floats over your call, and starts recording. You don’t need to do anything — it takes care of that for you.
 

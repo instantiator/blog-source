@@ -3,7 +3,7 @@ title: "Hacking the Police, part 2"
 date: 2017-11-20T00:00:00Z
 Tags: [ "Hack the Police", "policing", "hackathon", "crime", "innovation", "civic tech" ]
 Categories: [ "article", "police rewired", "hack" ]
-Images: [ "/shared/police-rewired/2017-poster-htp2.jpg" ]
+Images: [ "2017-poster-htp2.jpg" ]
 ---
 
 # Hacking the Police
@@ -20,7 +20,7 @@ Coding is one of my passions, and in early December, I’ll be running Hack the 
 
 I couldn’t be more excited!
 
-![Our beautiful poster, created by HappyToast](/shared/police-rewired/2017-poster-htp2.jpg)
+![Our beautiful poster, created by HappyToast](2017-poster-htp2.jpg)
 
 When we first ran the original Hack the Police in 2013 for the Metropolitan Police, I wasn’t sure what interest there would be from police officers. The story goes that police officers are dinosaurs and would prefer to do everything on paper (and very slowly).
 
@@ -34,7 +34,7 @@ The ideas were then used at the hack to help spark teams and inspire the coders 
 
 In the end, we came out of the hack with a dozen excellent projects, each addressing a unique problem in policing in a way that hadn’t been tried before.
 
-![Hack the Police projects from 2013](/shared/necro-images/htp1-projects.png)
+![Hack the Police projects from 2013](htp1-projects.png)
 
 The then Commissioner of the Metropolitan Police, Mr Hogan-Howe awarded the prizes and I have to admit I welled up a little bit during our closing ceremony. It was thrilling for everybody who worked on it, as we had no idea how the event would even be received, or what the outcomes would be.
 
@@ -44,4 +44,4 @@ I’m still roughly where I was — a volunteer police officer, trying to make L
 
 **Hack the Police runs from 9th-10th December 2017, in London. It’s a free and open event. Tickets are available through our website. If you’re a coder, designer or psychologist and you’d like to be a part of it, you are welcome to apply.**
 
-![Hack the Police 2](/shared/police-rewired/htp2-cover-image.png)
+![Hack the Police 2](htp2-cover-image.png)

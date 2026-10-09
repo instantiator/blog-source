@@ -80,7 +80,7 @@ To check it's installed, open OpenCode inside VS Code:
 
 You should see the OpenCode interface. By default, it's ready to use - with the (free) Big Pickle model provided by OpenCode Zen selected.
 
-![OpenCode interface](/opencode-tutorial/opencode-interface.png "A screenshot of the OpenCode interface. It shows the words 'open code' and a prompt where you can type. The hint text says 'Ask anything... Fix broken tests.'")
+![OpenCode interface](opencode-interface.png "A screenshot of the OpenCode interface. It shows the words 'open code' and a prompt where you can type. The hint text says 'Ask anything... Fix broken tests.'")
 
 ### Picking a model
 

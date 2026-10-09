@@ -2,8 +2,8 @@
 title: "How to donate your laptop safely"
 date: 2020-02-01T00:00:00Z
 tags: ["laptop", "recycling", "reuse", "ubuntu", "wipe", "nwipe" ]
-images: [ "/shared/necro-images/donate-laptop-finished.jpeg" ]
-thumbnail: "/shared/necro-images/donate-laptop-finished.jpeg"
+images: [ "donate-laptop-finished.jpeg" ]
+thumbnail: "donate-laptop-finished.jpeg"
 categories: ["article", "tutorial"]
 ---
 
@@ -43,13 +43,13 @@ The Ubuntu CD image (ISO) works when run from a CD or a USB pen drive. These ins
 * Connect the pen drive
 * Run balenaEtcher, select the ISO you downloaded, the pen drive, and choose Flash!
 
-![BalenaEtcher, ready to flash!](/shared/necro-images/donate-laptop-balena-etcher.png)
+![BalenaEtcher, ready to flash!](donate-laptop-balena-etcher.png)
 
 ## Launch Ubuntu
 
 Once the drive is flashed and verified, you can connect it to your old laptop. When you turn your laptop on, for a few seconds you’ll see some info about how to select a boot device. It’s often a function key, such as F11 or F12.
 
-![Dell BIOS](/shared/necro-images/donate-laptop-dell-boot.jpeg)
+![Dell BIOS](donate-laptop-dell-boot.jpeg)
 
 Press this key to tell the BIOS that you’d like to use something other than the main disk to start up.
 
@@ -57,7 +57,7 @@ You should be presented with a list that includes an option called USB Device or
 
 Ubuntu will start, and after it has you can choose whether to install or trial it. Choose **Trial** — you’re going to use it to wipe the disk on your laptop before we install it fully.
 
-![Ubuntu as a "Live CD"](/shared/necro-images/donate-laptop-try-ubuntu.jpeg)
+![Ubuntu as a "Live CD"](donate-laptop-try-ubuntu.jpeg)
 
 ## Wipe the disk
 
@@ -111,7 +111,7 @@ This will also take a while...
 
 Once done, you’ll be able to restart the computer and Ubuntu will be the main operating system. Now it’s ready to donate!
 
-![Here's one we prepared earlier!](/shared/necro-images/donate-laptop-finished.jpeg)
+![Here's one we prepared earlier!](donate-laptop-finished.jpeg)
 
 ## Thanks for reading!
 

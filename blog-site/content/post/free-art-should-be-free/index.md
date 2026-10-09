@@ -4,8 +4,8 @@ date: 2026-06-21T00:00:00Z
 draft: false
 tags: [ "art", "scripts", "download", "scrappy", "free", "free-art", "Wikimedia", "Wikipedia" ]
 categories: [ "tool", "hack" ]
-images: [ "/shared/art/water-lillies-and-japanese-bridge.jpg" ]
-thumbnail: "/shared/art/water-lillies-and-japanese-bridge.jpg"
+images: [ "water-lillies-and-japanese-bridge.jpg" ]
+thumbnail: "water-lillies-and-japanese-bridge.jpg"
 ---
 
 _When it's not being a television with a very awkward user interface, the Samsung Frame 55" is touted as being optimised for art. Imagine spending money on it, just to learn that if you want to access the art itself you need to buy a subscription._

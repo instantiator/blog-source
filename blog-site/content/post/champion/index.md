@@ -15,7 +15,7 @@ Hack days (this was a weekender) are popular amongst data geeks, design geeks, a
 
 Working with a few folks (we called ourselves Team Whip), we settled on a project: Champion - a service that parses debates from parliament and using that data allows you to search for MPs that care about the things you do. The data we settled on was a pre-parsed set of XML representing the [Hansard data](http://www.theyworkforyou.com/search-hansard/), and a few other supplimentary sources.
 
-![Champion - who's fighting your cause?](/shared/necro-images/champion.jpg)
+![Champion - who's fighting your cause?](champion.jpg)
 
 ## Analysing MPs
 
@@ -37,7 +37,7 @@ Colleague and friend [Giuseppe](https://puntofisso.net) worked hard on this whil
 
 The UI was the typical HTML/css/javascript combo using [Bootstrap](https://getbootstrap.com/) and [jQuery](https://jquery.com/) to spruce it up, and stitch it together. Why? Because it's fast and easy to knock out prototypes that interact well with standard services. We wanted to build some very clear, straightforward interactions as quickly as possible, and this was an opportunity to really focus on the user.
 
-![Champion screenshot](/shared/necro-images/champion-screenshot-1.png)
+![Champion screenshot](champion-screenshot-1.png)
 
 The UI evolved pretty fast - and iterative development is the key here if you want something attractive and easy to use. We worked with colleagues producing copy (Hadley - data geek), designs (Sharon - design geek), and tea (Mark - team geek) - and integrating all those disparate skills gave us a real edge (and the capacity to achieve what we needed very quickly).
 

@@ -12,6 +12,12 @@ git submodule update --init blog-site/public
 # generate the site
 printf "\033[0;32mGenerating site...\033[0m\n"
 pushd blog-site
+# remove stale rendered files before regenerating, preserving git metadata
+# and non-generated files (CNAME is now also generated from static/CNAME)
+printf "\033[0;32mCleaning previous build...\033[0m\n"
+find public -mindepth 1 -maxdepth 1 \
+	! -name '.git' ! -name 'README.md' ! -name 'CNAME' \
+	-exec rm -rf {} +
 hugo
 
 # push content changes to source repo

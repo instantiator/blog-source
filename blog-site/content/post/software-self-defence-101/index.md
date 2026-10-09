@@ -3,7 +3,7 @@ title: "Software Self Defence 101"
 date: 2018-04-12T00:00:00Z
 Tags: [ "Software Self Defence", "security", "infosec", "talk" ]
 Categories: [ "necropost", "article", "police rewired" ]
-Images: [ "/shared/police-rewired/software-self-defence.png" ]
+Images: [ "software-self-defence.png" ]
 ---
 
 # Software Self-Defence 101
@@ -14,7 +14,7 @@ I don’t remember exactly what I said, but it was one of those sentences that s
 
 Glyn was explaining (with glee, I might add!) how what sounded like a simple attack on a system could evade detection. It all seemed so straightforward to mitigate, but of course I was wrong to assume that meant the right protections were actually in place!
 
-![I am serious, and don't call me Shirley](/shared/memes/i-am-serious.jpeg)
+![I am serious, and don't call me Shirley](i-am-serious.jpeg)
 
 **Software and Systems Security** is a field where your best assumptions can be turned on their head... It’s hard to do well, and nobody knows that better than the people who attack your systems. Glyn is a penetration tester, and one of the most competent people I know.
 
@@ -42,4 +42,4 @@ Come and hear from an expert about how you can protect your users, and some spec
 
 _If you’re a developer, designer, software architect, maker, and you’re ready to take the first step towards learning how to keep your users safe, this is for you!_
 
-![Software Self Defence 101](/shared/police-rewired/software-self-defence.png)
+![Software Self Defence 101](software-self-defence.png)

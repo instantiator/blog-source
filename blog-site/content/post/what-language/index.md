@@ -4,8 +4,8 @@ date: 2021-01-03T15:00:00Z
 draft: false
 tags: ["coding", "programming", "beginner", "101"]
 categories: ["tutorial"]
-thumbnail: "/memes/anyone-can-code.jpg"
-images: ["/memes/anyone-can-code.jpg"]
+thumbnail: "anyone-can-code.jpg"
+images: ["anyone-can-code.jpg"]
 ---
 
 _A short guide to picking a development language._
@@ -13,7 +13,7 @@ _A short guide to picking a development language._
 <table style="max-width: 50%; float: right; margin-left: 10px;">
 <tr><td>
 
-![anyone can code](/memes/anyone-can-code.jpg)
+![anyone can code](anyone-can-code.jpg)
 
 </td><tr>
 <tr><td>

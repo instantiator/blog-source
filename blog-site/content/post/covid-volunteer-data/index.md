@@ -3,8 +3,8 @@ title: "We're only human"
 date: 2020-04-24T00:00:00Z
 tags: ["covid-19", "volunteering", "community", "aid", "mutual aid", "open data", "research"]
 categories: ["article"]
-images: [ "/shared/covid-19/covid-groups-map.png" ]
-thumbnail: "/shared/covid-19/covid-groups-map.png"
+images: [ "covid-groups-map.png" ]
+thumbnail: "covid-groups-map.png"
 series: [ "covid-19" ]
 ---
 
@@ -16,7 +16,7 @@ In the previous post, we took a tour of the open data available that tells the s
 
 Since the beginning of the year, thousands of groups have registered, and an order of magnitude more individual volunteers have carried out acts of kindness for people in self-isolation.
 
-![Covid groups map](/shared/covid-19/covid-groups-map.png)
+![Covid groups map](covid-groups-map.png)
 
 Volunteers and organisers are, quite frankly, inspirational. Driven by any number of different value systems, they are helping people for little or no recognition or reward.
 
@@ -63,7 +63,7 @@ It is possible to extract some meaningful information about the dates we have, u
 
 The process applied (and shown below) would not have been anywhere near as simple without the kind help of a good friend called Sam. The _no future dates_ constraint is far more helpful than I had assumed!
 
-![Reasoning about dates](/shared/covid-19/date-reasoning.png)
+![Reasoning about dates](date-reasoning.png)
 
 Having completed our initial round of interpretation, only a few hundred dates remain ambiguous. Good enough! We can now plot the unambiguous data we have…
 
@@ -132,7 +132,7 @@ Having run these processes what we are left with is almost a clean data set. The
 
 In the previous post, we explored the URLs provided for each volunteer group — matching on aspects of them to determine which tools they represented.
 
-![Groups by tool](/shared/covid-19/group-organisation-tools.png)
+![Groups by tool](group-organisation-tools.png)
 
 A group of links worth filtering through manually are the organisations that appear on facebook (perhaps churches, schools, community centres, etc.) — many of which will be legitimately taking part in local volunteering efforts.
 
